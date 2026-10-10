@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+downloads/
+desktop_work/
+deliverables/desktop_handoff_*/
+deliverables/github_handoff_*/

@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-04T05:29:48.925381+00:00",
+  "checkpointed": 138,
+  "expected": 156,
+  "remaining": [
+    "2013_q2bfsm",
+    "2014_q3fsm",
+    "circuit10",
+    "count_clock",
+    "countbcd",
+    "ece241_2013_q4",
+    "ece241_2014_q4",
+    "fsm_hdlc",
+    "fsm_onehot",
+    "fsm_serial",
+    "fsm_serialdata",
+    "gshare",
+    "lemmings2",
+    "lemmings4",
+    "lfsr5",
+    "review2015_fancytimer",
+    "review2015_fsm",
+    "vector100r"
+  ],
+  "active": false,
+  "collection_pending": false
+}

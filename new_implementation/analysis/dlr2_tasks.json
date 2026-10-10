@@ -1,0 +1,93 @@
+{
+ "targets": [
+  "ece241_2014_q4",
+  "circuit8",
+  "ece241_2013_q4",
+  "edgecapture",
+  "fsm_ps2",
+  "counter_2bc"
+ ],
+ "controls": [
+  "2013_q2afsm",
+  "fsm2",
+  "ece241_2014_q5b",
+  "fsm_serial",
+  "circuit9",
+  "countbcd"
+ ],
+ "per_task": {
+  "circuit7": {
+   "unanimous-correct": 2,
+   "total": 108,
+   "majority-correct": 39,
+   "select-recoverable": 67
+  },
+  "ece241_2014_q4": {
+   "shared-misreading": 186,
+   "total": 273,
+   "unanimous-correct": 87
+  },
+  "edgecapture": {
+   "unanimous-correct": 77,
+   "total": 84,
+   "shared-misreading": 7
+  },
+  "counter_2bc": {
+   "unanimous-correct": 74,
+   "total": 75,
+   "shared-misreading": 1
+  },
+  "circuit9": {
+   "unanimous-correct": 29,
+   "total": 105,
+   "select-recoverable": 62,
+   "majority-correct": 14
+  },
+  "2013_q2afsm": {
+   "unanimous-correct": 231,
+   "total": 231
+  },
+  "fsm_ps2": {
+   "unanimous-correct": 81,
+   "total": 109,
+   "select-recoverable": 20,
+   "shared-misreading": 6,
+   "none-correct": 2
+  },
+  "circuit8": {
+   "unanimous-correct": 82,
+   "total": 262,
+   "shared-misreading": 180
+  },
+  "fsm2": {
+   "unanimous-correct": 46,
+   "total": 50,
+   "majority-correct": 1,
+   "select-recoverable": 3
+  },
+  "ece241_2014_q5b": {
+   "unanimous-correct": 77,
+   "total": 86,
+   "select-recoverable": 9
+  },
+  "ece241_2013_q4": {
+   "unanimous-correct": 16,
+   "total": 269,
+   "none-correct": 204,
+   "shared-misreading": 34,
+   "select-recoverable": 15
+  },
+  "fsm_serial": {
+   "select-recoverable": 7,
+   "total": 91,
+   "majority-correct": 49,
+   "unanimous-correct": 28,
+   "none-correct": 7
+  },
+  "countbcd": {
+   "majority-correct": 222,
+   "total": 235,
+   "unanimous-correct": 13
+  }
+ }
+}

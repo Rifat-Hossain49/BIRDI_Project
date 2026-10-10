@@ -1,0 +1,132 @@
+{
+  "tasks": [
+    {
+      "task": "ece241_2014_q4",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "ece241_2013_q4",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "fsm_onehot",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "fsm_serial",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "lfsr5",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "fsm_serialdata",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "gshare",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "2013_q2bfsm",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "lemmings4",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "2014_q3fsm",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "review2015_fsm",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "vector100r",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "circuit10",
+      "iteration": 2,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 1
+    },
+    {
+      "task": "count_clock",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "fsm_hdlc",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "lemmings2",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "review2015_fancytimer",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    },
+    {
+      "task": "countbcd",
+      "iteration": 1,
+      "real_prompt_stages_replayed": 4,
+      "fresh_model_calls": 0,
+      "earlier_missing_iterations": 0
+    }
+  ],
+  "simulation_verified": false,
+  "gpu_jobs_launched": 0
+}

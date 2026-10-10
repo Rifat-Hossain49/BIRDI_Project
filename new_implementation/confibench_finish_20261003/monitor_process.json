@@ -1,0 +1,7 @@
+{
+  "pid": 5604,
+  "started_on": "2026-10-03",
+  "script": "new_implementation/monitor_finish_20261003.py",
+  "stdout": "new_implementation/confibench_finish_20261003/monitor.log",
+  "stderr": "new_implementation/confibench_finish_20261003/monitor_error.log"
+}

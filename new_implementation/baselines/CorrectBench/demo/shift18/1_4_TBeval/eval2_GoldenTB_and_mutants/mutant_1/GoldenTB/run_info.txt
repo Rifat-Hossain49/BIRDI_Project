@@ -1,0 +1,21 @@
+iverilog simulation passed!
+
+iverilog cmd 1:
+~/bin/bin/iverilog -g2012 -o run.vvp shift18_tb.v shift18.v 
+iverilog cmd 1 output:
+
+iverilog cmd 1 error:
+
+iverilog cmd 2:
+~/bin/bin/vvp run.vvp
+iverilog cmd 2 output:
+VCD info: dumpfile wave.vcd opened for output.
+shift18_tb.v:96: $finish called at 20206 (1ps)
+Hint: Output 'q' has 2424 mismatches. First mismatch occurred at time 80.
+Hint: Total mismatched samples is 2424 out of 4041 samples
+
+Simulation finished at 20206 ps
+Mismatches: 2424 in 4041 samples
+
+iverilog cmd 2 error:
+

@@ -1,0 +1,15 @@
+iverilog simulation passed!
+
+iverilog cmd 1:
+~/bin/bin/iverilog -g2012 -o run.vvp driver.v DUT.v 
+iverilog cmd 1 output:
+
+iverilog cmd 1 error:
+
+iverilog cmd 2:
+~/bin/bin/vvp run.vvp
+iverilog cmd 2 output:
+driver.v:139: $finish called at 290000 (1ps)
+
+iverilog cmd 2 error:
+

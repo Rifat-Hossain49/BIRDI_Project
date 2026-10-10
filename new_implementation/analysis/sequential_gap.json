@@ -1,0 +1,1689 @@
+{
+  "sequential_tasks": [
+    "2012_q2fsm",
+    "2013_q2afsm",
+    "2013_q2bfsm",
+    "2014_q3bfsm",
+    "2014_q3c",
+    "2014_q3fsm",
+    "2014_q4a",
+    "alwaysblock2",
+    "circuit10",
+    "circuit7",
+    "circuit8",
+    "circuit9",
+    "conwaylife",
+    "count10",
+    "count15",
+    "count1to10",
+    "count_clock",
+    "countbcd",
+    "counter_2bc",
+    "countslow",
+    "dff",
+    "dff16e",
+    "dff8",
+    "dff8ar",
+    "dff8p",
+    "dff8r",
+    "dualedge",
+    "ece241_2013_q12",
+    "ece241_2013_q4",
+    "ece241_2013_q7",
+    "ece241_2013_q8",
+    "ece241_2014_q4",
+    "ece241_2014_q5a",
+    "ece241_2014_q5b",
+    "edgecapture",
+    "edgedetect",
+    "edgedetect2",
+    "fsm1",
+    "fsm1s",
+    "fsm2",
+    "fsm2s",
+    "fsm3",
+    "fsm3s",
+    "fsm_hdlc",
+    "fsm_ps2",
+    "fsm_ps2data",
+    "fsm_serial",
+    "fsm_serialdata",
+    "gshare",
+    "history_shift",
+    "lemmings1",
+    "lemmings2",
+    "lemmings3",
+    "lemmings4",
+    "lfsr32",
+    "lfsr5",
+    "m2014_q4a",
+    "m2014_q4b",
+    "m2014_q4c",
+    "m2014_q4d",
+    "m2014_q4k",
+    "m2014_q6",
+    "mt2015_muxdff",
+    "review2015_count1k",
+    "review2015_fancytimer",
+    "review2015_fsm",
+    "review2015_fsmseq",
+    "review2015_fsmshift",
+    "review2015_shiftcount",
+    "rotate100",
+    "rule110",
+    "rule90",
+    "shift18",
+    "shift4",
+    "timer"
+  ],
+  "family": {
+    "2012_q2fsm": "fsm",
+    "2013_q2afsm": "fsm",
+    "2013_q2bfsm": "fsm",
+    "2014_q3bfsm": "fsm",
+    "2014_q3c": "fsm",
+    "2014_q3fsm": "fsm",
+    "2014_q4a": "lfsr_shift",
+    "alwaysblock2": "dff_register",
+    "circuit10": "dff_register",
+    "circuit7": "other_sequential",
+    "circuit8": "other_sequential",
+    "circuit9": "other_sequential",
+    "conwaylife": "counter",
+    "count10": "counter",
+    "count15": "counter",
+    "count1to10": "counter",
+    "count_clock": "other_sequential",
+    "countbcd": "counter",
+    "counter_2bc": "counter",
+    "countslow": "counter",
+    "dff": "dff_register",
+    "dff16e": "other_sequential",
+    "dff8": "other_sequential",
+    "dff8ar": "other_sequential",
+    "dff8p": "other_sequential",
+    "dff8r": "other_sequential",
+    "dualedge": "dff_register",
+    "ece241_2013_q12": "lfsr_shift",
+    "ece241_2013_q4": "fsm",
+    "ece241_2013_q7": "dff_register",
+    "ece241_2013_q8": "fsm",
+    "ece241_2014_q4": "fsm",
+    "ece241_2014_q5a": "fsm",
+    "ece241_2014_q5b": "fsm",
+    "edgecapture": "dff_register",
+    "edgedetect": "other_sequential",
+    "edgedetect2": "other_sequential",
+    "fsm1": "fsm",
+    "fsm1s": "fsm",
+    "fsm2": "fsm",
+    "fsm2s": "fsm",
+    "fsm3": "fsm",
+    "fsm3s": "fsm",
+    "fsm_hdlc": "fsm",
+    "fsm_ps2": "fsm",
+    "fsm_ps2data": "fsm",
+    "fsm_serial": "fsm",
+    "fsm_serialdata": "fsm",
+    "gshare": "dff_register",
+    "history_shift": "lfsr_shift",
+    "lemmings1": "fsm",
+    "lemmings2": "fsm",
+    "lemmings3": "fsm",
+    "lemmings4": "fsm",
+    "lfsr32": "lfsr_shift",
+    "lfsr5": "lfsr_shift",
+    "m2014_q4a": "dff_register",
+    "m2014_q4b": "other_sequential",
+    "m2014_q4c": "other_sequential",
+    "m2014_q4d": "dff_register",
+    "m2014_q4k": "lfsr_shift",
+    "m2014_q6": "fsm",
+    "mt2015_muxdff": "dff_register",
+    "review2015_count1k": "counter",
+    "review2015_fancytimer": "lfsr_shift",
+    "review2015_fsm": "fsm",
+    "review2015_fsmseq": "fsm",
+    "review2015_fsmshift": "lfsr_shift",
+    "review2015_shiftcount": "lfsr_shift",
+    "rotate100": "lfsr_shift",
+    "rule110": "fsm",
+    "rule90": "fsm",
+    "shift18": "lfsr_shift",
+    "shift4": "lfsr_shift",
+    "timer": "counter"
+  },
+  "never_solved": [
+    "2012_q2fsm",
+    "2013_q2bfsm",
+    "2014_q3bfsm",
+    "circuit10",
+    "circuit7",
+    "circuit8",
+    "count10",
+    "count15",
+    "count1to10",
+    "count_clock",
+    "countbcd",
+    "dff",
+    "dff16e",
+    "dff8",
+    "dff8ar",
+    "dff8p",
+    "dff8r",
+    "dualedge",
+    "ece241_2013_q12",
+    "ece241_2013_q4",
+    "ece241_2013_q8",
+    "ece241_2014_q5a",
+    "ece241_2014_q5b",
+    "edgedetect2",
+    "fsm1",
+    "fsm3",
+    "fsm3s",
+    "fsm_hdlc",
+    "fsm_ps2data",
+    "fsm_serial",
+    "fsm_serialdata",
+    "gshare",
+    "history_shift",
+    "lemmings3",
+    "lemmings4",
+    "lfsr32",
+    "lfsr5",
+    "m2014_q4b",
+    "m2014_q4c",
+    "m2014_q4d",
+    "m2014_q4k",
+    "m2014_q6",
+    "mt2015_muxdff",
+    "review2015_fsm",
+    "review2015_fsmseq",
+    "review2015_shiftcount",
+    "shift4",
+    "timer"
+  ],
+  "by_family": {
+    "counter": {
+      "n": 9,
+      "ab_eval1": 0.35555555555555557,
+      "ab_eval2": 0.16666666666666666,
+      "cb_eval1": 0.8666666666666667,
+      "cb_eval2": 0.3777777777777778,
+      "never_solved": 5,
+      "tasks": [
+        "conwaylife",
+        "count10",
+        "count15",
+        "count1to10",
+        "countbcd",
+        "counter_2bc",
+        "countslow",
+        "review2015_count1k",
+        "timer"
+      ]
+    },
+    "dff_register": {
+      "n": 10,
+      "ab_eval1": 0.37,
+      "ab_eval2": 0.14,
+      "cb_eval1": 0.62,
+      "cb_eval2": 0.24,
+      "never_solved": 6,
+      "tasks": [
+        "alwaysblock2",
+        "circuit10",
+        "dff",
+        "dualedge",
+        "ece241_2013_q7",
+        "edgecapture",
+        "gshare",
+        "m2014_q4a",
+        "m2014_q4d",
+        "mt2015_muxdff"
+      ]
+    },
+    "fsm": {
+      "n": 31,
+      "ab_eval1": 0.3225806451612903,
+      "ab_eval2": 0.0935483870967742,
+      "cb_eval1": 0.6903225806451613,
+      "cb_eval2": 0.25161290322580643,
+      "never_solved": 19,
+      "tasks": [
+        "2012_q2fsm",
+        "2013_q2afsm",
+        "2013_q2bfsm",
+        "2014_q3bfsm",
+        "2014_q3c",
+        "2014_q3fsm",
+        "ece241_2013_q4",
+        "ece241_2013_q8",
+        "ece241_2014_q4",
+        "ece241_2014_q5a",
+        "ece241_2014_q5b",
+        "fsm1",
+        "fsm1s",
+        "fsm2",
+        "fsm2s",
+        "fsm3",
+        "fsm3s",
+        "fsm_hdlc",
+        "fsm_ps2",
+        "fsm_ps2data",
+        "fsm_serial",
+        "fsm_serialdata",
+        "lemmings1",
+        "lemmings2",
+        "lemmings3",
+        "lemmings4",
+        "m2014_q6",
+        "review2015_fsm",
+        "review2015_fsmseq",
+        "rule110",
+        "rule90"
+      ]
+    },
+    "lfsr_shift": {
+      "n": 12,
+      "ab_eval1": 0.35833333333333334,
+      "ab_eval2": 0.16666666666666666,
+      "cb_eval1": 0.7000000000000001,
+      "cb_eval2": 0.35000000000000003,
+      "never_solved": 7,
+      "tasks": [
+        "2014_q4a",
+        "ece241_2013_q12",
+        "history_shift",
+        "lfsr32",
+        "lfsr5",
+        "m2014_q4k",
+        "review2015_fancytimer",
+        "review2015_fsmshift",
+        "review2015_shiftcount",
+        "rotate100",
+        "shift18",
+        "shift4"
+      ]
+    },
+    "other_sequential": {
+      "n": 13,
+      "ab_eval1": 0.5076923076923078,
+      "ab_eval2": 0.03076923076923077,
+      "cb_eval1": 0.7692307692307693,
+      "cb_eval2": 0.15384615384615385,
+      "never_solved": 11,
+      "tasks": [
+        "circuit7",
+        "circuit8",
+        "circuit9",
+        "count_clock",
+        "dff16e",
+        "dff8",
+        "dff8ar",
+        "dff8p",
+        "dff8r",
+        "edgedetect",
+        "edgedetect2",
+        "m2014_q4b",
+        "m2014_q4c"
+      ]
+    }
+  },
+  "applicability": {
+    "2012_q2fsm": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "2013_q2afsm": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "2013_q2bfsm": {
+      "out_bits": 2,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "2014_q3bfsm": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "2014_q3c": {
+      "out_bits": 2,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "2014_q3fsm": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "2014_q4a": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "alwaysblock2": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "circuit10": {
+      "out_bits": 2,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "circuit7": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "circuit8": {
+      "out_bits": 2,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "circuit9": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "conwaylife": {
+      "out_bits": 256,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "count10": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "count15": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "count1to10": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "count_clock": {
+      "out_bits": 25,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": false
+    },
+    "countbcd": {
+      "out_bits": 19,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": false
+    },
+    "counter_2bc": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "countslow": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "dff": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "dff16e": {
+      "out_bits": 16,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "dff8": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "dff8ar": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "dff8p": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "dff8r": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "dualedge": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2013_q12": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2013_q4": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "ece241_2013_q7": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2013_q8": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2014_q4": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2014_q5a": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "ece241_2014_q5b": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "edgecapture": {
+      "out_bits": 32,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": false
+    },
+    "edgedetect": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "edgedetect2": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "fsm1": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "fsm1s": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm2": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "fsm2s": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm3": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "fsm3s": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm_hdlc": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm_ps2": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm_ps2data": {
+      "out_bits": 25,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": false
+    },
+    "fsm_serial": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "fsm_serialdata": {
+      "out_bits": 9,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "gshare": {
+      "out_bits": 8,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "history_shift": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "lemmings1": {
+      "out_bits": 2,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "lemmings2": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "lemmings3": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "lemmings4": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "lfsr32": {
+      "out_bits": 32,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": false
+    },
+    "lfsr5": {
+      "out_bits": 5,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "m2014_q4a": {
+      "out_bits": 1,
+      "has_clk": false,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "m2014_q4b": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "m2014_q4c": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "m2014_q4d": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "m2014_q4k": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "m2014_q6": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "mt2015_muxdff": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "review2015_count1k": {
+      "out_bits": 10,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "review2015_fancytimer": {
+      "out_bits": 6,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "review2015_fsm": {
+      "out_bits": 3,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "review2015_fsmseq": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "review2015_fsmshift": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": true,
+      "bmc_tractable": true
+    },
+    "review2015_shiftcount": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "rotate100": {
+      "out_bits": 100,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "rule110": {
+      "out_bits": 512,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "rule90": {
+      "out_bits": 512,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "shift18": {
+      "out_bits": 64,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": false
+    },
+    "shift4": {
+      "out_bits": 4,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    },
+    "timer": {
+      "out_bits": 1,
+      "has_clk": true,
+      "has_reset": false,
+      "bmc_tractable": true
+    }
+  },
+  "autobench": {
+    "2012_q2fsm": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.6333333333333333
+    },
+    "2013_q2afsm": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.2,
+      "kill": 0.9666666666666667
+    },
+    "2013_q2bfsm": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.6
+    },
+    "2014_q3bfsm": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.75
+    },
+    "2014_q3c": {
+      "runs": 10,
+      "eval1": 0.8,
+      "eval2": 0.7,
+      "kill": 0.9125
+    },
+    "2014_q3fsm": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.1,
+      "kill": 1.0
+    },
+    "2014_q4a": {
+      "runs": 10,
+      "eval1": 0.7,
+      "eval2": 0.5,
+      "kill": 0.9428571428571428
+    },
+    "alwaysblock2": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.5,
+      "kill": 1.0
+    },
+    "circuit10": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "circuit7": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "circuit8": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.6
+    },
+    "circuit9": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.1,
+      "kill": 1.0
+    },
+    "conwaylife": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "count10": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "count15": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "count1to10": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "count_clock": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "countbcd": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "counter_2bc": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.5,
+      "kill": 0.95
+    },
+    "countslow": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.4,
+      "kill": 1.0
+    },
+    "dff": {
+      "runs": 10,
+      "eval1": 0.7,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "dff16e": {
+      "runs": 10,
+      "eval1": 0.9,
+      "eval2": 0.0,
+      "kill": 0.8777777777777778
+    },
+    "dff8": {
+      "runs": 10,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "dff8ar": {
+      "runs": 10,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "dff8p": {
+      "runs": 10,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "dff8r": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "dualedge": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.2
+    },
+    "ece241_2013_q12": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.6
+    },
+    "ece241_2013_q4": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "ece241_2013_q7": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.4,
+      "kill": 1.0
+    },
+    "ece241_2013_q8": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.0,
+      "kill": 0.32
+    },
+    "ece241_2014_q4": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.1,
+      "kill": 1.0
+    },
+    "ece241_2014_q5a": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "ece241_2014_q5b": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.85
+    },
+    "edgecapture": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.1,
+      "kill": 0.8333333333333334
+    },
+    "edgedetect": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.3,
+      "kill": 0.975
+    },
+    "edgedetect2": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "fsm1": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "fsm1s": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.2,
+      "kill": 0.9333333333333333
+    },
+    "fsm2": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.5,
+      "kill": 1.0
+    },
+    "fsm2s": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.5,
+      "kill": 1.0
+    },
+    "fsm3": {
+      "runs": 10,
+      "eval1": 0.7,
+      "eval2": 0.0,
+      "kill": 0.4857142857142857
+    },
+    "fsm3s": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.48333333333333334
+    },
+    "fsm_hdlc": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.5666666666666667
+    },
+    "fsm_ps2": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.4666666666666667
+    },
+    "fsm_ps2data": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.55
+    },
+    "fsm_serial": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.0,
+      "kill": 0.0
+    },
+    "fsm_serialdata": {
+      "runs": 10,
+      "eval1": 0.7,
+      "eval2": 0.0,
+      "kill": 0.02857142857142857
+    },
+    "gshare": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.0,
+      "kill": 0.1111111111111111
+    },
+    "history_shift": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.55
+    },
+    "lemmings1": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.6,
+      "kill": 1.0
+    },
+    "lemmings2": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "lemmings3": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "lemmings4": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "lfsr32": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "lfsr5": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "m2014_q4a": {
+      "runs": 10,
+      "eval1": 0.8,
+      "eval2": 0.4,
+      "kill": 0.95
+    },
+    "m2014_q4b": {
+      "runs": 10,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "m2014_q4c": {
+      "runs": 10,
+      "eval1": 0.9,
+      "eval2": 0.0,
+      "kill": 0.7666666666666667
+    },
+    "m2014_q4d": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.5
+    },
+    "m2014_q4k": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "m2014_q6": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.38333333333333336
+    },
+    "mt2015_muxdff": {
+      "runs": 10,
+      "eval1": 0.1,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "review2015_count1k": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.6,
+      "kill": 1.0
+    },
+    "review2015_fancytimer": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.4,
+      "kill": 1.0
+    },
+    "review2015_fsm": {
+      "runs": 10,
+      "eval1": 0.3,
+      "eval2": 0.0,
+      "kill": 0.1111111111111111
+    },
+    "review2015_fsmseq": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.0,
+      "kill": 0.72
+    },
+    "review2015_fsmshift": {
+      "runs": 10,
+      "eval1": 0.4,
+      "eval2": 0.4,
+      "kill": 1.0
+    },
+    "review2015_shiftcount": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "rotate100": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.6,
+      "kill": 1.0
+    },
+    "rule110": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "rule90": {
+      "runs": 10,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "shift18": {
+      "runs": 10,
+      "eval1": 0.6,
+      "eval2": 0.1,
+      "kill": 0.8166666666666667
+    },
+    "shift4": {
+      "runs": 10,
+      "eval1": 0.5,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "timer": {
+      "runs": 10,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.8
+    }
+  },
+  "correctbench": {
+    "2012_q2fsm": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.45
+    },
+    "2013_q2afsm": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.5333333333333333
+    },
+    "2013_q2bfsm": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.5333333333333333
+    },
+    "2014_q3bfsm": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "2014_q3c": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "2014_q3fsm": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.6,
+      "kill": 1.0
+    },
+    "2014_q4a": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "alwaysblock2": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "circuit10": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "circuit7": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "circuit8": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "circuit9": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "conwaylife": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "count10": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "count15": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "count1to10": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "count_clock": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.6666666666666666
+    },
+    "countbcd": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "counter_2bc": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "countslow": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "dff": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "dff16e": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "dff8": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "dff8ar": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "dff8p": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "dff8r": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "dualedge": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.3
+    },
+    "ece241_2013_q12": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.78
+    },
+    "ece241_2013_q4": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "ece241_2013_q7": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "ece241_2013_q8": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.66
+    },
+    "ece241_2014_q4": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.2,
+      "kill": 1.0
+    },
+    "ece241_2014_q5a": {
+      "runs": 5,
+      "eval1": 0.4,
+      "eval2": 0.0,
+      "kill": 0.6
+    },
+    "ece241_2014_q5b": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "edgecapture": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.2,
+      "kill": 0.84
+    },
+    "edgedetect": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "edgedetect2": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "fsm1": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.82
+    },
+    "fsm1s": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.8,
+      "kill": 0.98
+    },
+    "fsm2": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "fsm2s": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "fsm3": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.48
+    },
+    "fsm3s": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.5
+    },
+    "fsm_hdlc": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.1
+    },
+    "fsm_ps2": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "fsm_ps2data": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.3
+    },
+    "fsm_serial": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "fsm_serialdata": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.0
+    },
+    "gshare": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.2222222222222222
+    },
+    "history_shift": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.86
+    },
+    "lemmings1": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "lemmings2": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.2,
+      "kill": 0.875
+    },
+    "lemmings3": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.88
+    },
+    "lemmings4": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.0,
+      "kill": 0.625
+    },
+    "lfsr32": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "lfsr5": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "m2014_q4a": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.4,
+      "kill": 0.9666666666666667
+    },
+    "m2014_q4b": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.78
+    },
+    "m2014_q4c": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "m2014_q4d": {
+      "runs": 5,
+      "eval1": 0.2,
+      "eval2": 0.0,
+      "kill": 0.5
+    },
+    "m2014_q4k": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.78
+    },
+    "m2014_q6": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.62
+    },
+    "mt2015_muxdff": {
+      "runs": 5,
+      "eval1": 0.4,
+      "eval2": 0.0,
+      "kill": 0.7
+    },
+    "review2015_count1k": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.8,
+      "kill": 0.92
+    },
+    "review2015_fancytimer": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.6,
+      "kill": 1.0
+    },
+    "review2015_fsm": {
+      "runs": 5,
+      "eval1": 0.6,
+      "eval2": 0.0,
+      "kill": 0.4074074074074074
+    },
+    "review2015_fsmseq": {
+      "runs": 5,
+      "eval1": 0.4,
+      "eval2": 0.0,
+      "kill": 0.8
+    },
+    "review2015_fsmshift": {
+      "runs": 5,
+      "eval1": 0.8,
+      "eval2": 0.8,
+      "kill": 1.0
+    },
+    "review2015_shiftcount": {
+      "runs": 5,
+      "eval1": 0.0,
+      "eval2": 0.0,
+      "kill": null
+    },
+    "rotate100": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "rule110": {
+      "runs": 5,
+      "eval1": 0.4,
+      "eval2": 0.4,
+      "kill": 1.0
+    },
+    "rule90": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 1.0,
+      "kill": 1.0
+    },
+    "shift18": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.8,
+      "kill": 0.96
+    },
+    "shift4": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    },
+    "timer": {
+      "runs": 5,
+      "eval1": 1.0,
+      "eval2": 0.0,
+      "kill": 0.9
+    }
+  }
+}

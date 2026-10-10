@@ -1,0 +1,24 @@
+{
+  "kernel_id": "tishaferdous/confibench-qwen-cbq-resume-gpu3-oct5",
+  "account": 1,
+  "notebook_sha256": "19b971bf11a042ee3a6bc5ac9bc1a35cadef2bc9cb71a16f0e25f2570a56d7b4",
+  "dataset_sha256": "15f40669d3325bf52a394b60932d515de496c185d37fb86de9ace9c83f389f21",
+  "tasks": [
+    "ece241_2014_q4"
+  ],
+  "worker_budget_hours": 1.5,
+  "max_fresh_calls": 8,
+  "reason": "User authorized finishing remaining tasks on 2026-10-05; one capped resume pilot first.",
+  "tag": "cbq-resume-gpu3-oct5",
+  "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbq-resume-gpu3-oct5",
+  "submission": "staged",
+  "runtime_source": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbq_cpu_resume_oct4_v2\\cpu_runtime.zip",
+  "runtime_source_sha256": "f3f7726bb1794136207a0191652f4a16475bd7360eb241f11f34f3ece20b0e94",
+  "initial_next_iteration": 9,
+  "canonical_records": 138,
+  "remaining_tasks": 18,
+  "startup_budget_minutes": 30,
+  "server_health_wait_seconds_per_attempt": 180,
+  "prebuilt_server": true,
+  "startup_health_probe_calls": 1
+}

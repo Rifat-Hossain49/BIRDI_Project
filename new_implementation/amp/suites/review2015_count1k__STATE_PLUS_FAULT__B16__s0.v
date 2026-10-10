@@ -1,0 +1,69 @@
+`timescale 1ns / 1ps
+module testbench;
+  reg clk;
+  reg reset;
+  wire [9:0] q;
+  integer file, scenario;
+  top_module DUT (.clk(clk), .reset(reset), .q(q));
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    file = $fopen("TBout.txt", "w");
+    scenario = 1;
+    reset = 0;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    reset = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, q = %d", scenario, clk, reset, q);
+    #10;
+    $fclose(file);
+    $finish;
+  end
+endmodule

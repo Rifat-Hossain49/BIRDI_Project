@@ -1,0 +1,37 @@
+  2012_q2b               CMB ran 5  plurality True  oracle True  single True   {'unanimous-right': 4}
+  2013_q2bfsm            SEQ ran 3  plurality False oracle False single False  {'plurality-right': 8, 'none-right': 3}
+  2014_q3fsm             SEQ ran 5  plurality False oracle False single False  {'none-right': 7, 'select-recoverable': 1, 'plurality-right': 2, 'unanimous-right': 1}
+  always_casez           CMB ran 5  plurality True  oracle True  single True   {'unanimous-right': 8}
+  circuit2               CMB ran 5  plurality True  oracle True  single True   {'unanimous-right': 1}
+  circuit3               CMB ran 5  plurality True  oracle True  single True   {'plurality-right': 1}
+  circuit8               SEQ ran 5  plurality False oracle False single False  {'none-right': 1}
+  circuit9               SEQ ran 5  plurality False oracle False single False  {'none-right': 1}
+  conwaylife             SEQ ran 2  plurality True  oracle True  single True   {'unanimous-right': 1}
+  count_clock            SEQ ran 4  plurality False oracle False single False  {'unanimous-right': 1, 'plurality-right': 8, 'none-right': 2}
+  counter_2bc            SEQ ran 5  plurality True  oracle True  single True   {'unanimous-right': 11}
+  ece241_2013_q2         CMB ran 4  plurality False oracle False single False  {'none-right': 1}
+  ece241_2014_q3         CMB ran 5  plurality False oracle False single False  {'none-right': 1}
+  ece241_2014_q4         SEQ ran 4  plurality True  oracle True  single True   {'plurality-right': 1}
+  ece241_2014_q5b        SEQ ran 5  plurality True  oracle True  single True   {'unanimous-right': 11}
+  edgecapture            SEQ ran 5  plurality False oracle True  single True   {'select-recoverable': 9, 'unanimous-right': 2}
+  fsm2                   SEQ ran 5  plurality True  oracle True  single True   {'unanimous-right': 11}
+  fsm_hdlc               SEQ ran 1  plurality True  oracle True  single True   {'unanimous-right': 11}
+  fsm_ps2                SEQ ran 5  plurality False oracle False single False  {'none-right': 10, 'plurality-right': 1}
+  fsm_ps2data            SEQ ran 5  plurality False oracle False single False  {'none-right': 11}
+  fsm_serialdata         SEQ ran 5  plurality False oracle False single False  {'none-right': 11}
+  gatesv                 CMB ran 5  plurality True  oracle True  single True   {'unanimous-right': 1}
+  gshare                 SEQ ran 3  plurality False oracle False single False  {'none-right': 10, 'plurality-right': 1}
+  kmap1                  CMB ran 5  plurality True  oracle True  single True   {'unanimous-right': 1}
+  kmap4                  CMB ran 4  plurality True  oracle True  single True   {'unanimous-right': 1}
+  lemmings1              SEQ ran 4  plurality True  oracle True  single True   {'plurality-right': 9, 'unanimous-right': 2}
+  lemmings3              SEQ ran 4  plurality False oracle True  single True   {'plurality-right': 2, 'unanimous-right': 5, 'select-recoverable': 4}
+  lemmings4              SEQ ran 3  plurality False oracle False single False  {'unanimous-right': 10, 'none-right': 1}
+  lfsr5                  SEQ ran 4  plurality True  oracle True  single True   {'plurality-right': 11}
+  mux256to1v             CMB ran 1  plurality True  oracle True  single True   {'unanimous-right': 15}
+  review2015_fsmonehot   CMB ran 5  plurality True  oracle True  single True   {'plurality-right': 13}
+  review2015_shiftcount  SEQ ran 5  plurality False oracle True  single True   {'select-recoverable': 1}
+  rule110                SEQ ran 3  plurality False oracle False single False  {'none-right': 1}
+  CMB  n= 11  plurality 0.818  oracle-resolution 0.818  oracle-single 0.818
+  SEQ  n= 22  plurality 0.364  oracle-resolution 0.500  oracle-single 0.500
+  ALL  n= 33  plurality 0.515  oracle-resolution 0.606  oracle-single 0.606
+  units: {'unanimous-right': 97, 'plurality-right': 57, 'none-right': 60, 'select-recoverable': 15}

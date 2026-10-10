@@ -1,0 +1,1304 @@
+{
+ "budgets": [
+  8,
+  16,
+  32,
+  64
+ ],
+ "independence": {
+  "2014_q4a": {
+   "independently_startable": 6,
+   "original_cycles": 41,
+   "scenarios": 8,
+   "visible_hypotheses": 5
+  },
+  "circuit10": {
+   "independently_startable": 5,
+   "original_cycles": 37,
+   "scenarios": 10,
+   "visible_hypotheses": 4
+  },
+  "circuit8": {
+   "independently_startable": 6,
+   "original_cycles": 45,
+   "scenarios": 7,
+   "visible_hypotheses": 11
+  },
+  "circuit9": {
+   "independently_startable": 6,
+   "original_cycles": 40,
+   "scenarios": 7,
+   "visible_hypotheses": 11
+  },
+  "count15": {
+   "independently_startable": 2,
+   "original_cycles": 120,
+   "scenarios": 6,
+   "visible_hypotheses": 7
+  },
+  "countslow": {
+   "independently_startable": 4,
+   "original_cycles": 91,
+   "scenarios": 8,
+   "visible_hypotheses": 7
+  },
+  "dff8ar": {
+   "independently_startable": 6,
+   "original_cycles": 32,
+   "scenarios": 6,
+   "visible_hypotheses": 7
+  },
+  "dualedge": {
+   "independently_startable": 12,
+   "original_cycles": 66,
+   "scenarios": 12,
+   "visible_hypotheses": 3
+  },
+  "ece241_2013_q4": {
+   "independently_startable": 6,
+   "original_cycles": 56,
+   "scenarios": 9,
+   "visible_hypotheses": 20
+  },
+  "ece241_2014_q5b": {
+   "independently_startable": 5,
+   "original_cycles": 41,
+   "scenarios": 7,
+   "visible_hypotheses": 16
+  },
+  "lemmings3": {
+   "independently_startable": 9,
+   "original_cycles": 67,
+   "scenarios": 11,
+   "visible_hypotheses": 19
+  },
+  "m2014_q4k": {
+   "independently_startable": 7,
+   "original_cycles": 56,
+   "scenarios": 8,
+   "visible_hypotheses": 17
+  },
+  "mt2015_muxdff": {
+   "independently_startable": 7,
+   "original_cycles": 90,
+   "scenarios": 10,
+   "visible_hypotheses": 17
+  },
+  "review2015_count1k": {
+   "independently_startable": 1,
+   "original_cycles": 3068,
+   "scenarios": 6,
+   "visible_hypotheses": 6
+  },
+  "review2015_shiftcount": {
+   "independently_startable": 4,
+   "original_cycles": 39,
+   "scenarios": 7,
+   "visible_hypotheses": 15
+  }
+ },
+ "method": "ACTIVE-TB-D dependency-preserving distillation",
+ "skipped": {},
+ "suites": {
+  "2014_q4a|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 14,
+   "file": "2014_q4a__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "9ab5dec650c77d501582f9d91b84a47bde74c6b0240457404f058e1b567f9722",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 28,
+   "file": "2014_q4a__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "24d4e5561ea0fccaf6f23200a6dc12f279ef1e0bc2494e4e14233fde7891ebba",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 41,
+   "file": "2014_q4a__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "6d80cd26c0c523d8eaf78cf2685456d67b87c860225f1f44db230dd88ccb882f",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 6,
+   "file": "2014_q4a__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "699492aa3f544e81457eb7ef4f307a33cd078e82b89cbc3286556b695b49fcd3",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "2014_q4a__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "a85f43d6cb44142c76ccb11345feb68a02a78dbb31b8c5664721901a97ab451b",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 28,
+   "file": "2014_q4a__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "24d4e5561ea0fccaf6f23200a6dc12f279ef1e0bc2494e4e14233fde7891ebba",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 41,
+   "file": "2014_q4a__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "6d80cd26c0c523d8eaf78cf2685456d67b87c860225f1f44db230dd88ccb882f",
+   "task_id": "2014_q4a"
+  },
+  "2014_q4a|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 6,
+   "file": "2014_q4a__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "699492aa3f544e81457eb7ef4f307a33cd078e82b89cbc3286556b695b49fcd3",
+   "task_id": "2014_q4a"
+  },
+  "circuit10|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 13,
+   "file": "circuit10__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "6fc66674731c476eaf667a98874969695acb59a94184325cdb9907b62e2412eb",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 31,
+   "file": "circuit10__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "3f6ac32cdf68b193b02df543e7f429c71221a0c4178c054e49988d32db97b0df",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 37,
+   "file": "circuit10__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 10,
+   "seed": 0,
+   "sha256": "db2c8d8dd448478239ce367abece52a44ed0e0c85a44748eb14b2737040fe0fe",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 7,
+   "file": "circuit10__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "4afefa730557edb7424c0dd23449bee5ea39611fb7af42e78e42a29e5736f3b6",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "circuit10__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "a71ae7f430424dfce2535b45ebec650187d36e5069ace69db049773a59774463",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 31,
+   "file": "circuit10__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "3f6ac32cdf68b193b02df543e7f429c71221a0c4178c054e49988d32db97b0df",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 37,
+   "file": "circuit10__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 10,
+   "seed": 0,
+   "sha256": "db2c8d8dd448478239ce367abece52a44ed0e0c85a44748eb14b2737040fe0fe",
+   "task_id": "circuit10"
+  },
+  "circuit10|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 7,
+   "file": "circuit10__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "16827ed8b4dc1486bb56850cae1045958be169397de0a3135daac44a81c052e9",
+   "task_id": "circuit10"
+  },
+  "circuit8|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "circuit8__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "e8729f8c8c45bd99e389f77ffc830545197d80ef40b545e75cbd905386a42352",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "circuit8__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "5af7c92e897fb60a9a00695e8ab6e7bd9f59295d2da19b71f962e419f45df000",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 45,
+   "file": "circuit8__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "588ffb528e178c1ed804427ff8c0054ff5049d0a65a7ded0f44c50b74a3e91ed",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "circuit8__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "fcc17f7f5c43244fcfcb3dec9fb3ac4615c82910f1d361cf06d71582db8b1fed",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "circuit8__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "e8729f8c8c45bd99e389f77ffc830545197d80ef40b545e75cbd905386a42352",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "circuit8__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "5af7c92e897fb60a9a00695e8ab6e7bd9f59295d2da19b71f962e419f45df000",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 45,
+   "file": "circuit8__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "588ffb528e178c1ed804427ff8c0054ff5049d0a65a7ded0f44c50b74a3e91ed",
+   "task_id": "circuit8"
+  },
+  "circuit8|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 6,
+   "file": "circuit8__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "6cdf44f0db379577b597ac166ac61a8b14b2b41442ab32b48b3a96bc9043f21a",
+   "task_id": "circuit8"
+  },
+  "circuit9|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "circuit9__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "474550941044c4163af150737bb8b1021bcc4d245722003bc03e43106821ee49",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 30,
+   "file": "circuit9__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "c005933bf15eaa29199a986538ee8ecd37316c9dbcd03ef71d30685f6d76d6f8",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 40,
+   "file": "circuit9__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "11762bf40d648fc0c3f10d1b669cfcdb27242c7fabcd4e717615a00c6dbbb49a",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "circuit9__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "e466a85583ab59ed4fa65718d0d94580e770206bf447182d2de2c51b15c8ba11",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "circuit9__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "474550941044c4163af150737bb8b1021bcc4d245722003bc03e43106821ee49",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 30,
+   "file": "circuit9__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "c005933bf15eaa29199a986538ee8ecd37316c9dbcd03ef71d30685f6d76d6f8",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 40,
+   "file": "circuit9__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "11762bf40d648fc0c3f10d1b669cfcdb27242c7fabcd4e717615a00c6dbbb49a",
+   "task_id": "circuit9"
+  },
+  "circuit9|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "circuit9__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "40111b9650dc64ce47d83db0fcff478dc3f577814e33022951adb6c576e5021e",
+   "task_id": "circuit9"
+  },
+  "count15|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 12,
+   "file": "count15__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "21fa1c2669198a40e069e105b74fe9bcd382042e475f5eb4d6460687faa6e62f",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "count15__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "33503fd271feb9b460655c71b80ccafc71d3b07c88de65d6e446f56d8eedd9b3",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 55,
+   "file": "count15__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "bb7f8e6f1d2c4acaec2ea0030d352dbdbcbb32177ea655877fdf6b175e9ddc61",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "count15__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "f27fda50ec2fc781a72c4f3f6c1db8c491578fd876056425a3814a8a3a94dda2",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 12,
+   "file": "count15__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "21fa1c2669198a40e069e105b74fe9bcd382042e475f5eb4d6460687faa6e62f",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "count15__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "33503fd271feb9b460655c71b80ccafc71d3b07c88de65d6e446f56d8eedd9b3",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 55,
+   "file": "count15__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "bb7f8e6f1d2c4acaec2ea0030d352dbdbcbb32177ea655877fdf6b175e9ddc61",
+   "task_id": "count15"
+  },
+  "count15|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "count15__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "f27fda50ec2fc781a72c4f3f6c1db8c491578fd876056425a3814a8a3a94dda2",
+   "task_id": "count15"
+  },
+  "countslow|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "countslow__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "df0f1754f809714aaca321e1b09718fb672c426c52abb43e1675a86cd9ddcf57",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 25,
+   "file": "countslow__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "59cdddd61425fbf5aa3d3e911bf517c2bfb00b10a527a893c943decb6e8eb42f",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 64,
+   "file": "countslow__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "1347fb17121f1b3ef39c6a443abba9e8db035aa492dd1d8770720b017e42056d",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "countslow__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "d3acb3b57f78ae98e085dbdf219c03b4a21d942a15f249947b28de633bcaeabe",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "countslow__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "df0f1754f809714aaca321e1b09718fb672c426c52abb43e1675a86cd9ddcf57",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 31,
+   "file": "countslow__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "a466d4337306e761ae271e8b17f2b3c5b4d7957aedfda159d41b39f3fd602b53",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 64,
+   "file": "countslow__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "1347fb17121f1b3ef39c6a443abba9e8db035aa492dd1d8770720b017e42056d",
+   "task_id": "countslow"
+  },
+  "countslow|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "countslow__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "d3acb3b57f78ae98e085dbdf219c03b4a21d942a15f249947b28de633bcaeabe",
+   "task_id": "countslow"
+  },
+  "dff8ar|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 12,
+   "file": "dff8ar__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "1d2478d7c019972f7f07b1ebb6a9cd1c581dc50da3b00471a9f22a9e820e25f7",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 32,
+   "file": "dff8ar__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "0a361cfa85877779e4e1dd0568d3c307593ac4b2918e98110987bc2d8ff84980",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 32,
+   "file": "dff8ar__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "0a361cfa85877779e4e1dd0568d3c307593ac4b2918e98110987bc2d8ff84980",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "dff8ar__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "5f2cca39fa9e2cf7889435bf9e40ef156d55cd5f2ad05ead9382593c4b2cca1c",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 12,
+   "file": "dff8ar__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "1d2478d7c019972f7f07b1ebb6a9cd1c581dc50da3b00471a9f22a9e820e25f7",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 32,
+   "file": "dff8ar__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "0a361cfa85877779e4e1dd0568d3c307593ac4b2918e98110987bc2d8ff84980",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 32,
+   "file": "dff8ar__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "0a361cfa85877779e4e1dd0568d3c307593ac4b2918e98110987bc2d8ff84980",
+   "task_id": "dff8ar"
+  },
+  "dff8ar|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "dff8ar__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "cd759a20080f1f0689c6f624e51c7aaf69ba58f445d41b2254d622f6011c244f",
+   "task_id": "dff8ar"
+  },
+  "dualedge|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "dualedge__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "6d88b765e22d29669bd1715e375c95cbc3d79521bf56dd7b2660130373e2b56a",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 27,
+   "file": "dualedge__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "00ac84701107ff373676ac00c8a259893d21878a20a98c798e569745eef24667",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 51,
+   "file": "dualedge__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 11,
+   "seed": 0,
+   "sha256": "9aebf2dbb6fab6000a06ccb0f6724f7d6de0ea00ea9e530bbab5e4de79f2e0cc",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "dualedge__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "8064b8d7b5cd8927e9fb36f381fa6a1595734b5992f666fae512c327802b78ae",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "dualedge__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "6d88b765e22d29669bd1715e375c95cbc3d79521bf56dd7b2660130373e2b56a",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 27,
+   "file": "dualedge__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "00ac84701107ff373676ac00c8a259893d21878a20a98c798e569745eef24667",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 51,
+   "file": "dualedge__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 11,
+   "seed": 0,
+   "sha256": "9aebf2dbb6fab6000a06ccb0f6724f7d6de0ea00ea9e530bbab5e4de79f2e0cc",
+   "task_id": "dualedge"
+  },
+  "dualedge|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "dualedge__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "8064b8d7b5cd8927e9fb36f381fa6a1595734b5992f666fae512c327802b78ae",
+   "task_id": "dualedge"
+  },
+  "ece241_2013_q4|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "ece241_2013_q4__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "ce5053c94d850615be8ef203e4bc4338333038b38f807d359f6df2cbd4e587db",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 26,
+   "file": "ece241_2013_q4__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "1e9882b919a92bd5b53b632d17011c7c6f88e03c683f39979ec466c0481fc7a1",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 56,
+   "file": "ece241_2013_q4__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 9,
+   "seed": 0,
+   "sha256": "6bfe9f193f8ce6c3ee83b4071d17450d0414879ab4afc9939535fb7839971513",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "ece241_2013_q4__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "8fd6deb5105b272586a84edaa6906e9496764b1b00d17bfe8ae43850b28aae01",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 12,
+   "file": "ece241_2013_q4__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "74dc5a106ba946fabafaa95eeece10a0f71e10ad3b366bab4e4178831e06c421",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 28,
+   "file": "ece241_2013_q4__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "d5c6708f3b317272ad971d303fb41a1144c146f30541d2ba5ffff2e74d5ffae2",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 56,
+   "file": "ece241_2013_q4__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 9,
+   "seed": 0,
+   "sha256": "6bfe9f193f8ce6c3ee83b4071d17450d0414879ab4afc9939535fb7839971513",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2013_q4|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "ece241_2013_q4__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "8fd6deb5105b272586a84edaa6906e9496764b1b00d17bfe8ae43850b28aae01",
+   "task_id": "ece241_2013_q4"
+  },
+  "ece241_2014_q5b|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 14,
+   "file": "ece241_2014_q5b__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "3ee7b9b9627a09bedbf4ef29b23ac888ed0bdb1b680da971f340c31044ef826b",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "ece241_2014_q5b__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "b48ba914d761ee16e76c178f9c004663c0befc3fcd7e1a13dca8ca22f543a6a1",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 41,
+   "file": "ece241_2014_q5b__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "0acddf3955ad31eca703eb4726f28413f0469da0666c6bdc9fba6710d81b81cf",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "ece241_2014_q5b__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "144a8042ba591c202abd19ae1e0b6c43efae5907939b7c1f9599bc5eac82f21b",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "ece241_2014_q5b__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "01f9b48934a6ef83ddd7a5701d8d94e82f786e39cbee1b2d8430d9ee5abd5f01",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 29,
+   "file": "ece241_2014_q5b__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "b48ba914d761ee16e76c178f9c004663c0befc3fcd7e1a13dca8ca22f543a6a1",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 41,
+   "file": "ece241_2014_q5b__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "0acddf3955ad31eca703eb4726f28413f0469da0666c6bdc9fba6710d81b81cf",
+   "task_id": "ece241_2014_q5b"
+  },
+  "ece241_2014_q5b|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "ece241_2014_q5b__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "144a8042ba591c202abd19ae1e0b6c43efae5907939b7c1f9599bc5eac82f21b",
+   "task_id": "ece241_2014_q5b"
+  },
+  "lemmings3|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 16,
+   "file": "lemmings3__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "1f0888644c9d290416877894ed072b1204f07e8cd1faa5f0bd677e3c8a5d58e1",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 28,
+   "file": "lemmings3__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "f8bf453e7349098007c3fa3480c592f674351a957668ef7c8923bfc8b13c7c56",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 61,
+   "file": "lemmings3__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 10,
+   "seed": 0,
+   "sha256": "075c6807545841b7cabd12b6029a14f61dd6a8c541ddabb21ef4231db7055c7d",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 6,
+   "file": "lemmings3__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "14c1af04919b635dc2dd9da4590519e158449b0dcb969c82b3070a0ed250d515",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 14,
+   "file": "lemmings3__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "a5c31c5adf51363c31d8054eadd08bfd273752e387240e8cf2d8e56afc258ba0",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 30,
+   "file": "lemmings3__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "796efc0523e5e139fee4e6b67b0b255ec96055ef93a63fa14736be03e3f438ed",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 61,
+   "file": "lemmings3__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 10,
+   "seed": 0,
+   "sha256": "075c6807545841b7cabd12b6029a14f61dd6a8c541ddabb21ef4231db7055c7d",
+   "task_id": "lemmings3"
+  },
+  "lemmings3|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 7,
+   "file": "lemmings3__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c47e936921a411afe3f3f43af18eeed72a36f79c2eac0f2cb4d979aef84782fb",
+   "task_id": "lemmings3"
+  },
+  "m2014_q4k|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 14,
+   "file": "m2014_q4k__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "b73bb1761f357e2de25907e2fd1bd484076ede67a13e87d74d93e5bc04d3f6a1",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 27,
+   "file": "m2014_q4k__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "ae0babb38b6588a78c0aa4b73396e0c48952a4b18c7a9703a69437fdd22cb694",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 56,
+   "file": "m2014_q4k__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "0bbb3a3f8ed5fc844d0d2c93c98f12c810c88146a9a73f65d83792c9f82e231c",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "m2014_q4k__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "968e97b595c2c29bbe64502c2309d4e41ac38c7a555f6ce043fc7ade794fbc09",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "m2014_q4k__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "8daa91c532f1099e45a2d782807b4c96c2dd2c4e06b968f7cf90811e0820b48d",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 27,
+   "file": "m2014_q4k__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "ae0babb38b6588a78c0aa4b73396e0c48952a4b18c7a9703a69437fdd22cb694",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 56,
+   "file": "m2014_q4k__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "0bbb3a3f8ed5fc844d0d2c93c98f12c810c88146a9a73f65d83792c9f82e231c",
+   "task_id": "m2014_q4k"
+  },
+  "m2014_q4k|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "m2014_q4k__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "968e97b595c2c29bbe64502c2309d4e41ac38c7a555f6ce043fc7ade794fbc09",
+   "task_id": "m2014_q4k"
+  },
+  "mt2015_muxdff|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "mt2015_muxdff__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "c97df4b3ad67947a8dafe59812448bd9b6e4fea1de92fe9c7ec6db671e0f7dbd",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 31,
+   "file": "mt2015_muxdff__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "6408ebedff4d80ddb798a022ff23f1c0855b22fc7cadf07e76f0d635c76f29b2",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 57,
+   "file": "mt2015_muxdff__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 9,
+   "seed": 0,
+   "sha256": "f19424503b0b656e82ba9998bbe1a8fd0ee120b100de6cf46779bc1523320250",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "mt2015_muxdff__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "488d4e169a2fe0513ea9b3a017de0310d7e96450941fc26f85a4c1d381ac3392",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 15,
+   "file": "mt2015_muxdff__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 6,
+   "seed": 0,
+   "sha256": "c97df4b3ad67947a8dafe59812448bd9b6e4fea1de92fe9c7ec6db671e0f7dbd",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 31,
+   "file": "mt2015_muxdff__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 8,
+   "seed": 0,
+   "sha256": "6408ebedff4d80ddb798a022ff23f1c0855b22fc7cadf07e76f0d635c76f29b2",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 57,
+   "file": "mt2015_muxdff__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 9,
+   "seed": 0,
+   "sha256": "f19424503b0b656e82ba9998bbe1a8fd0ee120b100de6cf46779bc1523320250",
+   "task_id": "mt2015_muxdff"
+  },
+  "mt2015_muxdff|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 8,
+   "file": "mt2015_muxdff__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 4,
+   "seed": 0,
+   "sha256": "488d4e169a2fe0513ea9b3a017de0310d7e96450941fc26f85a4c1d381ac3392",
+   "task_id": "mt2015_muxdff"
+  },
+  "review2015_count1k|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_count1k|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 4,
+   "file": "review2015_count1k__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 1,
+   "seed": 0,
+   "sha256": "c5d27bc04fa0e6b8d10e6af829492da6e736227adb9a9b847754bedf1de5d416",
+   "task_id": "review2015_count1k"
+  },
+  "review2015_shiftcount|DISTILL_FAMILY|16|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 16,
+   "deployed_cycles": 11,
+   "file": "review2015_shiftcount__DISTILL_FAMILY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "1809328463e3b64efe842c35bedf9b2a918fb1a0583b9256d7e7cc07a1f52f19",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_FAMILY|32|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 32,
+   "deployed_cycles": 25,
+   "file": "review2015_shiftcount__DISTILL_FAMILY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "83713df01b3bed43cda296e42186f12d1879f78540dc7593c947abdff776a481",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_FAMILY|64|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 64,
+   "deployed_cycles": 39,
+   "file": "review2015_shiftcount__DISTILL_FAMILY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "96b1b2d2ba511112a758b07225174fa1b2a21d2cee9d2bbd616b94b0ce7dc037",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_FAMILY|8|0": {
+   "arm": "DISTILL_FAMILY",
+   "budget": 8,
+   "deployed_cycles": 5,
+   "file": "review2015_shiftcount__DISTILL_FAMILY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "21d7122047cb1c77daa953600a412613f4f726703d45aeb3f13c54e733fa5dd0",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_GREEDY|16|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 16,
+   "deployed_cycles": 11,
+   "file": "review2015_shiftcount__DISTILL_GREEDY__B16__s0.v",
+   "scenarios_selected": 3,
+   "seed": 0,
+   "sha256": "1809328463e3b64efe842c35bedf9b2a918fb1a0583b9256d7e7cc07a1f52f19",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_GREEDY|32|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 32,
+   "deployed_cycles": 25,
+   "file": "review2015_shiftcount__DISTILL_GREEDY__B32__s0.v",
+   "scenarios_selected": 5,
+   "seed": 0,
+   "sha256": "83713df01b3bed43cda296e42186f12d1879f78540dc7593c947abdff776a481",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_GREEDY|64|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 64,
+   "deployed_cycles": 39,
+   "file": "review2015_shiftcount__DISTILL_GREEDY__B64__s0.v",
+   "scenarios_selected": 7,
+   "seed": 0,
+   "sha256": "96b1b2d2ba511112a758b07225174fa1b2a21d2cee9d2bbd616b94b0ce7dc037",
+   "task_id": "review2015_shiftcount"
+  },
+  "review2015_shiftcount|DISTILL_GREEDY|8|0": {
+   "arm": "DISTILL_GREEDY",
+   "budget": 8,
+   "deployed_cycles": 5,
+   "file": "review2015_shiftcount__DISTILL_GREEDY__B8__s0.v",
+   "scenarios_selected": 2,
+   "seed": 0,
+   "sha256": "21d7122047cb1c77daa953600a412613f4f726703d45aeb3f13c54e733fa5dd0",
+   "task_id": "review2015_shiftcount"
+  }
+ }
+}

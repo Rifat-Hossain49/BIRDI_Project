@@ -1,0 +1,838 @@
+{
+  "checked_at": "2026-10-04T05:43:06.819794+00:00",
+  "gpu_jobs_launched": 0,
+  "jobs": [
+    {
+      "tag": "cbqoct300",
+      "tasks": [
+        "ece241_2014_q4",
+        "ece241_2013_q4"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 284,
+          "sha256": "a182380674ad2841146d31b050389a5a2d1b996438c6ad20069d17a354aa04e0"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 1959290,
+          "sha256": "71c86bea45edf9968e083cfb49d67b19d45f5b931eac509932f3e2b031e99045",
+          "members": 1377
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 32485,
+          "sha256": "131067f0e8542483d70d9b71fbaeb74f21c303286c8f7c9314486f07726cc013"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 23708,
+          "sha256": "603fc500c61686c65b3c184e9ec3cf8a22ccdcb533a4d770a73d77e641c5db9f"
+        }
+      },
+      "task_audit": {
+        "ece241_2014_q4": {
+          "checkpointed": false,
+          "partial_files": 799,
+          "recorded_generation_stage_seconds": 13287.4,
+          "recorded_correction_seconds": 23044.2,
+          "generation_iterations_started": 10,
+          "correction_attempts_started": 20,
+          "last_log_lines": [
+            "2026-10-03 15:11:57.4 | INFO     | [ece241_2014_q4] [TBgen] stage_0 ends (51.11s used)",
+            "2026-10-03 15:12:38.1 | INFO     | [ece241_2014_q4] [TBgen] stage_1 ends (40.72s used)",
+            "2026-10-03 15:14:07.4 | INFO     | [ece241_2014_q4] [TBgen] stage_2 ends (89.31s used)",
+            "2026-10-03 15:17:10.2 | INFO     | [ece241_2014_q4] [TBgen] stage_3 ends (182.83s used)"
+          ]
+        },
+        "ece241_2013_q4": {
+          "checkpointed": false,
+          "partial_files": 578,
+          "recorded_generation_stage_seconds": 16191.8,
+          "recorded_correction_seconds": 15677.9,
+          "generation_iterations_started": 8,
+          "correction_attempts_started": 13,
+          "last_log_lines": [
+            "2026-10-03 15:17:40.6 | INFO     | [ece241_2013_q4] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination",
+            "2026-10-03 15:17:44.8 | INFO     | [ece241_2013_q4] [TBcheck] [discriminator] RTL(s) [1, 12, 13, 17, 19] have syntax error during discrimination",
+            "2026-10-03 15:17:45.1 | NEGATIVE | [ece241_2013_q4] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 3  4  5  6  7  9 10 12 13 14], scenario pass ratio: 0/15",
+            "2026-10-03 15:17:45.1 | INFO     | [ece241_2013_q4] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "ece241_2014_q4",
+          "ece241_2013_q4"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "ece241_2013_q4",
+          "ece241_2014_q4"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040890.2124507
+      }
+    },
+    {
+      "tag": "cbqoct301",
+      "tasks": [
+        "fsm_onehot",
+        "fsm_serial"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 268,
+          "sha256": "0b537dfa0237ec13de7dd0740ca590f0ad6237c5b89878f22d2985a98ea8bc51"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 1737018,
+          "sha256": "00e85db48a1e20d8eb66b65e1187e7d23793fc0717f1f0249580333a19f8def8",
+          "members": 1847
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 20790,
+          "sha256": "1aab34f7127b58a5154b985dd0e92ab88d0203f43a2ef3a55e3068eb4a9b6bec"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 11813,
+          "sha256": "9fc4c25b4dd00be604a9bb450b2a7369da1f445ddfc2ca0d81effacdb2d195d7"
+        }
+      },
+      "task_audit": {
+        "fsm_onehot": {
+          "checkpointed": false,
+          "partial_files": 1683,
+          "recorded_generation_stage_seconds": 9820.8,
+          "recorded_correction_seconds": 26226.4,
+          "generation_iterations_started": 7,
+          "correction_attempts_started": 16,
+          "last_log_lines": [
+            "2026-10-03 14:59:45.0 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (104.17s used)",
+            "2026-10-03 15:03:36.9 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (231.88s used)",
+            "2026-10-03 15:08:01.4 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (264.52s used)",
+            "2026-10-03 15:14:42.1 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (400.72s used)"
+          ]
+        },
+        "fsm_serial": {
+          "checkpointed": false,
+          "partial_files": 164,
+          "recorded_generation_stage_seconds": 26730.4,
+          "recorded_correction_seconds": 500.0,
+          "generation_iterations_started": 5,
+          "correction_attempts_started": 2,
+          "last_log_lines": [
+            "2026-10-03 15:02:03.8 | INFO     | [fsm_serial] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination",
+            "2026-10-03 15:02:05.6 | INFO     | [fsm_serial] [TBcheck] [discriminator] RTL(s) [2, 10, 17] have syntax error during discrimination",
+            "2026-10-03 15:02:05.9 | NEGATIVE | [fsm_serial] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 7], scenario pass ratio: 2/7",
+            "2026-10-03 15:02:05.9 | INFO     | [fsm_serial] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "fsm_onehot",
+          "fsm_serial"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "fsm_onehot",
+          "fsm_serial"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040549.9467094
+      }
+    },
+    {
+      "tag": "cbqoct302",
+      "tasks": [
+        "lfsr5",
+        "fsm_serialdata"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 266,
+          "sha256": "b2bba319b7f93a2f502a09d0bbe3a6e4679393e4a9a8377c45b6fa39c3410e2d"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 1012474,
+          "sha256": "f279bf17ecda49b3a364d021538746bbf9ffca69f583c04ab87a95f722aae1f1",
+          "members": 612
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 9341,
+          "sha256": "cbb472f3d8552a74e397322b19de40a71b4404bd3f97db2883d759e433e9bb93"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 13243,
+          "sha256": "c5466fc2108b9aa7ffd4988cd5144bf030f244c3d21d6b91a4069c82ca139280"
+        }
+      },
+      "task_audit": {
+        "lfsr5": {
+          "checkpointed": false,
+          "partial_files": 354,
+          "recorded_generation_stage_seconds": 11856.2,
+          "recorded_correction_seconds": 855.4,
+          "generation_iterations_started": 3,
+          "correction_attempts_started": 1,
+          "last_log_lines": [
+            "2026-10-03 15:09:55.2 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]",
+            "2026-10-03 15:09:55.7 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, False, False, False, False, False]",
+            "2026-10-03 15:09:55.7 | INFO     | [lfsr5] ",
+            "2026-10-03 15:09:55.7 | INFO     | [lfsr5] multibench info updated: iter_id - 3, valid_ratio - 0.00; total ratio / min required - 0.00/0.80"
+          ]
+        },
+        "fsm_serialdata": {
+          "checkpointed": false,
+          "partial_files": 258,
+          "recorded_generation_stage_seconds": 24365.5,
+          "recorded_correction_seconds": 4590.9,
+          "generation_iterations_started": 5,
+          "correction_attempts_started": 5,
+          "last_log_lines": [
+            "2026-10-03 14:38:43.1 | INFO     | [fsm_serialdata] [TBgen] stage_1 ends (72.58s used)",
+            "2026-10-03 14:41:50.2 | INFO     | [fsm_serialdata] [TBgen] stage_2 ends (187.06s used)",
+            "2026-10-03 14:50:46.5 | INFO     | [fsm_serialdata] [TBgen] stage_3 ends (536.30s used)",
+            "2026-10-03 15:08:51.3 | INFO     | [fsm_serialdata] [TBgen] stage_4 ends (1084.82s used)"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "lfsr5",
+          "fsm_serialdata"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "fsm_serialdata",
+          "lfsr5"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040552.6492715
+      }
+    },
+    {
+      "tag": "cbqoct303",
+      "tasks": [
+        "review2015_shiftcount",
+        "gshare"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 282,
+          "sha256": "211dc85da5bbed3a0b75ccd1abca0f5fe270f72b3fdf1ddec9a960cb8835bf18"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 639468,
+          "sha256": "09d5647ab2062d38336a07863fa38eeb84dd7825f413fe837b06445d2becb18e",
+          "members": 335
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 10126,
+          "sha256": "7dd16e05344d60d255517dc1670334988b737022d377be3cf0067a47f6a9819e",
+          "members": 4
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 6599,
+          "sha256": "6755fc470ee8971c0bcdd885d332361f5ab8103844c34dddac98824c3bf91e5f"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 14541,
+          "sha256": "c41dd9ccb5ffb33038592c01cf4d9a38b422e7dfbdf19e3e4df449bb8e253a75"
+        }
+      },
+      "task_audit": {
+        "review2015_shiftcount": {
+          "checkpointed": true,
+          "partial_files": 0,
+          "recorded_generation_stage_seconds": 3711.3,
+          "recorded_correction_seconds": 1094.8,
+          "generation_iterations_started": 2,
+          "correction_attempts_started": 1,
+          "last_log_lines": [
+            "2026-10-03 06:11:02.9 | INFO     | [review2015_shiftcount] [TBeval] Eval 1: Golden RTL checking begins",
+            "2026-10-03 06:11:03.0 | FAILED   | [review2015_shiftcount] [TBeval] Eval 1: Golden RTL checking failed!",
+            "2026-10-03 06:11:03.0 | INFO     | [review2015_shiftcount] [TBeval] [review2015_shiftcount] Eval 2/2b is skipped because Eval 1 failed",
+            "2026-10-03 06:11:03.0 | INFO     | [review2015_shiftcount] "
+          ]
+        },
+        "gshare": {
+          "checkpointed": false,
+          "partial_files": 334,
+          "recorded_generation_stage_seconds": 16282.3,
+          "recorded_correction_seconds": 1766.8,
+          "generation_iterations_started": 5,
+          "correction_attempts_started": 3,
+          "last_log_lines": [
+            "2026-10-03 15:12:14.4 | INFO     | [gshare] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list",
+            "2026-10-03 15:12:14.4 | INFO     | [gshare] [TBcheck] [discriminator] no re-discrimination since the max iteration reached",
+            "2026-10-03 15:12:14.4 | NEGATIVE | [gshare] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2], scenario pass ratio: 6/7",
+            "2026-10-03 15:12:14.4 | INFO     | [gshare] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "review2015_shiftcount",
+          "gshare"
+        ],
+        "checkpointed_tasks": [
+          "review2015_shiftcount"
+        ],
+        "unresolved_tasks": [
+          "gshare"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          0,
+          -15
+        ],
+        "time": 1791040554.2089796
+      }
+    },
+    {
+      "tag": "cbqoct304",
+      "tasks": [
+        "2013_q2bfsm",
+        "lemmings4"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 268,
+          "sha256": "7baca8057a2e630626a3414ca673064f382932938020876fc80b4eb9b5821adb"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 757343,
+          "sha256": "3303c01118a867c72290baeadf379e89bd1ad78bdd9f924b869bb7b7ec8efa79",
+          "members": 368
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 10540,
+          "sha256": "cd3cade7377fa1e3e28ddbf255f2cc4f0d2f25a9364b2f1d9fe4fc51afb76364"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 10748,
+          "sha256": "be079b5afe0eb9ec4f1b020d0fec0c61eb224e7da0123b002b54902b57ef5299"
+        }
+      },
+      "task_audit": {
+        "2013_q2bfsm": {
+          "checkpointed": false,
+          "partial_files": 220,
+          "recorded_generation_stage_seconds": 17207.9,
+          "recorded_correction_seconds": 5326.5,
+          "generation_iterations_started": 4,
+          "correction_attempts_started": 3,
+          "last_log_lines": [
+            "2026-10-03 14:47:02.2 | INFO     | [2013_q2bfsm] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (916.62s used)",
+            "2026-10-03 14:47:02.2 | INFO     | [2013_q2bfsm] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)",
+            "2026-10-03 15:03:06.9 | INFO     | [2013_q2bfsm] [TBsim] stage_4 ends (964.71s used)",
+            "2026-10-03 15:03:06.9 | INFO     | [2013_q2bfsm] [TBsim] stage_checklist ends (0.00s used)"
+          ]
+        },
+        "lemmings4": {
+          "checkpointed": false,
+          "partial_files": 148,
+          "recorded_generation_stage_seconds": 26052.4,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 6,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 14:50:02.2 | INFO     | [lemmings4] [TBsim] stage_checklist ends (0.00s used)",
+            "2026-10-03 15:09:24.3 | INFO     | [lemmings4] [TBsim] stage_4b ends (1162.12s used)",
+            "2026-10-03 15:09:24.3 | INFO     | [lemmings4] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (1895.95s used)",
+            "2026-10-03 15:09:24.3 | INFO     | [lemmings4] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "2013_q2bfsm",
+          "lemmings4"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "2013_q2bfsm",
+          "lemmings4"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040686.7481048
+      }
+    },
+    {
+      "tag": "cbqoct305",
+      "tasks": [
+        "2014_q3fsm",
+        "review2015_fsm"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 275,
+          "sha256": "fc6a8e0ff63857ce288c9f1f0257e24e94a148e83a5e8c1226c21b1e55153b73"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 695681,
+          "sha256": "c69a2b719cde2f8974c71dbf6887f6fbb87abbeee2e29ba2e73191257d55c94d",
+          "members": 331
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 7549,
+          "sha256": "43015d68aaa0eb705163c10b6b212aa1c76e8611a6a24bc369010372aa564088"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 10651,
+          "sha256": "b319832e16f85c90dc437aa2f18715a2f8af431bb51934aa5574795a001fbe30"
+        }
+      },
+      "task_audit": {
+        "2014_q3fsm": {
+          "checkpointed": false,
+          "partial_files": 197,
+          "recorded_generation_stage_seconds": 13872.4,
+          "recorded_correction_seconds": 2845.1,
+          "generation_iterations_started": 3,
+          "correction_attempts_started": 3,
+          "last_log_lines": [
+            "2026-10-03 14:40:01.4 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination",
+            "2026-10-03 14:40:02.4 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] have syntax error during discrimination",
+            "2026-10-03 14:40:02.4 | NEGATIVE | [2014_q3fsm] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.",
+            "2026-10-03 14:40:02.4 | INFO     | [2014_q3fsm] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        },
+        "review2015_fsm": {
+          "checkpointed": false,
+          "partial_files": 134,
+          "recorded_generation_stage_seconds": 24928.0,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 6,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 14:45:29.7 | INFO     | [review2015_fsm] [TBsim] python simulation : passed!",
+            "2026-10-03 14:45:29.7 | INFO     | [review2015_fsm] [TBsim] TBsim finished : True!",
+            "2026-10-03 14:45:29.7 | INFO     | [review2015_fsm] ",
+            "2026-10-03 14:45:29.7 | INFO     | [review2015_fsm] [TBcheck] rtl list not found, generating naive rtls for testbench checking"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "2014_q3fsm",
+          "review2015_fsm"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "2014_q3fsm",
+          "review2015_fsm"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040548.769181
+      }
+    },
+    {
+      "tag": "cbqoct306",
+      "tasks": [
+        "vector100r",
+        "lemmings3"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 266,
+          "sha256": "9a685942e11e68fb0cd6e3916609b704bfb88701884e2ea4d497736985d8471d"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 402602,
+          "sha256": "66934a209c4a9eaabeac5396f0048c3e0077d9cec5ee4877334bb830318e115f",
+          "members": 312
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 14322,
+          "sha256": "affb8f57f8769804074b507af6a6e30c4db2db28701ab8fe5c02d0c4d920c3ab",
+          "members": 4
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 13371,
+          "sha256": "1b2160ab4010494cab459346b63d385e0fd33dd35855472103c489e06fa4d361"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 9033,
+          "sha256": "9401f2565d82966ace851c4eb815eb89b2511efb2d147f770ae7d6891d32c07d"
+        }
+      },
+      "task_audit": {
+        "vector100r": {
+          "checkpointed": false,
+          "partial_files": 311,
+          "recorded_generation_stage_seconds": 31222.6,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 7,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 15:11:35.7 | INFO     | [vector100r] ",
+            "2026-10-03 15:11:35.7 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)",
+            "2026-10-03 15:15:00.1 | INFO     | [vector100r] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (204.41s used)",
+            "2026-10-03 15:15:00.1 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)"
+          ]
+        },
+        "lemmings3": {
+          "checkpointed": true,
+          "partial_files": 0,
+          "recorded_generation_stage_seconds": 11673.8,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 4,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 10:21:10.1 | POSITIVE | [lemmings3] [TBeval] Eval 1: Golden RTL checking passed!",
+            "2026-10-03 10:21:10.1 | INFO     | [lemmings3] [TBeval] Eval 2: Golden TB checking on RTL mutants",
+            "2026-10-03 10:21:11.5 | FAILED   | [lemmings3] [TBeval] Eval 2: Golden TB checking on RTL mutants finished (7/10)!",
+            "2026-10-03 10:21:11.5 | INFO     | [lemmings3] "
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "vector100r",
+          "lemmings3"
+        ],
+        "checkpointed_tasks": [
+          "lemmings3"
+        ],
+        "unresolved_tasks": [
+          "vector100r"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          0
+        ],
+        "time": 1791040538.3893983
+      }
+    },
+    {
+      "tag": "cbqoct307",
+      "tasks": [
+        "circuit10",
+        "count_clock"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 268,
+          "sha256": "294f04492ea6576b3c30249dd2eb015bc960d47128c1083e072905461b194e31"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 1713415,
+          "sha256": "cab26343b5b4b85c907ef6ea3cdcd5766777ce43b066c7cb2aed18fa6ebd558f",
+          "members": 1228
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 13868,
+          "sha256": "5d7c72d985cb55cdb4702eb27044d6351b65611938f9a9b3da5f889fa145c2e4"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 14982,
+          "sha256": "f8b443a324b66b2941ae22588417b541269bdc9e54b6a830d9e341581fdf880e"
+        }
+      },
+      "task_audit": {
+        "circuit10": {
+          "checkpointed": false,
+          "partial_files": 442,
+          "recorded_generation_stage_seconds": 14602.9,
+          "recorded_correction_seconds": 8751.2,
+          "generation_iterations_started": 4,
+          "correction_attempts_started": 7,
+          "last_log_lines": [
+            "2026-10-03 14:58:59.3 | ERROR    | [circuit10] error when running TBgen, current pipeline iter: 8, will REBOOT. error message: cannot access local variable 'char' where it is not associated with a value | location: autoline/TB_autoline.py, func: run_stages_core, line: 356 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 317",
+            "2026-10-03 14:59:29.7 | INFO     | [circuit10] [TBgen] stage_0 ends (30.38s used)",
+            "2026-10-03 15:01:56.0 | INFO     | [circuit10] [TBgen] stage_1 ends (146.31s used)",
+            "2026-10-03 15:04:34.4 | INFO     | [circuit10] [TBgen] stage_2 ends (158.45s used)"
+          ]
+        },
+        "count_clock": {
+          "checkpointed": false,
+          "partial_files": 786,
+          "recorded_generation_stage_seconds": 12460.6,
+          "recorded_correction_seconds": 18319.5,
+          "generation_iterations_started": 4,
+          "correction_attempts_started": 12,
+          "last_log_lines": [
+            "2026-10-03 15:01:44.8 | INFO     | [count_clock] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination",
+            "2026-10-03 15:02:11.2 | INFO     | [count_clock] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] have syntax error during discrimination",
+            "2026-10-03 15:02:11.2 | NEGATIVE | [count_clock] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.",
+            "2026-10-03 15:02:11.2 | INFO     | [count_clock] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "circuit10",
+          "count_clock"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "circuit10",
+          "count_clock"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040500.4658916
+      }
+    },
+    {
+      "tag": "cbqoct308",
+      "tasks": [
+        "fsm_hdlc",
+        "lemmings2"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 262,
+          "sha256": "01a278555307a5c6f3b4a1aa69375ecacf53ebeae9fa8456715f93e4275b6ff9"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 865835,
+          "sha256": "d9ab5626a5e8826adee6e37b5b4e0ea99e5cf80609c14d5e7e7e0e2afd9f5e05",
+          "members": 402
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 5923,
+          "sha256": "02dbd7553cd1ccc11e90c3e624de5f3022f1b8f3fce250e8adb6c8160370a670"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 14591,
+          "sha256": "c05e20d28dc2960153b32b8f1847d10c503d0162296989bb4a9a90908d1b0627"
+        }
+      },
+      "task_audit": {
+        "fsm_hdlc": {
+          "checkpointed": false,
+          "partial_files": 124,
+          "recorded_generation_stage_seconds": 9644.9,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 2,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 14:15:51.1 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] 18 naive rtls generated",
+            "2026-10-03 14:15:51.1 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list",
+            "2026-10-03 14:15:52.4 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] RTL(s) [4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination",
+            "2026-10-03 14:15:52.6 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault."
+          ]
+        },
+        "lemmings2": {
+          "checkpointed": false,
+          "partial_files": 278,
+          "recorded_generation_stage_seconds": 15863.1,
+          "recorded_correction_seconds": 4598.8,
+          "generation_iterations_started": 6,
+          "correction_attempts_started": 6,
+          "last_log_lines": [
+            "2026-10-03 15:08:10.3 | INFO     | [lemmings2] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list",
+            "2026-10-03 15:08:11.9 | INFO     | [lemmings2] [TBcheck] [discriminator] RTL(s) [13, 15, 16, 18, 19] have syntax error during discrimination",
+            "2026-10-03 15:08:12.1 | NEGATIVE | [lemmings2] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [4 5 6 7 8 9], scenario pass ratio: 1/10",
+            "2026-10-03 15:08:12.1 | INFO     | [lemmings2] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "fsm_hdlc",
+          "lemmings2"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "fsm_hdlc",
+          "lemmings2"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040629.6325815
+      }
+    },
+    {
+      "tag": "cbqoct309",
+      "tasks": [
+        "review2015_fancytimer",
+        "countbcd"
+      ],
+      "files": {
+        "cbq_completion.json": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_completion.json",
+          "bytes": 286,
+          "sha256": "d7d3edaab6fab70934943c4e44aee6183a79338989e668ef0a77e680d22615fb"
+        },
+        "cbq_partial.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_partial.zip",
+          "bytes": 1395776,
+          "sha256": "6bcdc4aa305afbe040ef9f1be62cd39ceebc85c71199e54beca4f30fe933215e",
+          "members": 406
+        },
+        "cbq_saves.zip": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_saves.zip",
+          "bytes": 22,
+          "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+          "members": 0
+        },
+        "cbq_w0.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_w0.log",
+          "bytes": 12624,
+          "sha256": "59008c1e583b759d744dbe217a622558be4fd68082679b67d31f4f1475862821"
+        },
+        "cbq_w1.log": {
+          "path": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_w1.log",
+          "bytes": 22190,
+          "sha256": "a40b67ed2d1c611b47f844c4f31bf30c9865d62c64eb0939a4bdbd61c29b9879"
+        }
+      },
+      "task_audit": {
+        "review2015_fancytimer": {
+          "checkpointed": false,
+          "partial_files": 160,
+          "recorded_generation_stage_seconds": 24893.3,
+          "recorded_correction_seconds": 0.0,
+          "generation_iterations_started": 6,
+          "correction_attempts_started": 0,
+          "last_log_lines": [
+            "2026-10-03 14:13:57.7 | INFO     | [review2015_fancytimer] [TBgen] stage_1 ends (55.12s used)",
+            "2026-10-03 14:16:02.2 | INFO     | [review2015_fancytimer] [TBgen] stage_2 ends (124.46s used)",
+            "2026-10-03 14:32:37.6 | INFO     | [review2015_fancytimer] [TBgen] stage_3 ends (995.47s used)",
+            "2026-10-03 14:47:19.0 | INFO     | [review2015_fancytimer] [TBgen] stage_4 ends (881.39s used)"
+          ]
+        },
+        "countbcd": {
+          "checkpointed": false,
+          "partial_files": 246,
+          "recorded_generation_stage_seconds": 5689.8,
+          "recorded_correction_seconds": 7355.0,
+          "generation_iterations_started": 3,
+          "correction_attempts_started": 7,
+          "last_log_lines": [
+            "2026-10-03 14:56:13.4 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination",
+            "2026-10-03 14:56:14.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination",
+            "2026-10-03 14:56:14.2 | NEGATIVE | [countbcd] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.",
+            "2026-10-03 14:56:14.2 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins"
+          ]
+        }
+      },
+      "completion": {
+        "expected_tasks": [
+          "review2015_fancytimer",
+          "countbcd"
+        ],
+        "checkpointed_tasks": [],
+        "unresolved_tasks": [
+          "countbcd",
+          "review2015_fancytimer"
+        ],
+        "all_tasks_checkpointed": false,
+        "worker_exit_codes": [
+          -15,
+          -15
+        ],
+        "time": 1791040609.3753762
+      }
+    }
+  ]
+}

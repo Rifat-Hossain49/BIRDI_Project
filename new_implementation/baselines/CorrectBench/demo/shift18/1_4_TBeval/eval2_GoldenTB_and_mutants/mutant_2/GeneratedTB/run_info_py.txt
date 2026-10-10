@@ -1,0 +1,26 @@
+python compilation passed!
+
+###output:
+Passed; vector: {'check_en': True, 'scenario': '1', 'clk': 1, 'load': 1, 'ena': 0, 'amount': 0, 'data': 12297829382473034410, 'q': 12297829382473034410}
+Passed; vector: {'check_en': True, 'scenario': '2', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 0, 'data': 12297829382473034410, 'q': 12297829382473034408}
+Scenario: 3, expected: q=5555555555555000, observed q=55555555555550ff
+Failed; vector: {'check_en': True, 'scenario': '3', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 1, 'data': 12297829382473034410, 'q': 6148914691236516095}
+Scenario: 4, expected: q=2aaaaaaaaaa80000, observed q=2aaaaaaaaaa87fff
+Failed; vector: {'check_en': True, 'scenario': '4', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 2, 'data': 12297829382473034410, 'q': 3074457345618116607}
+Scenario: 5, expected: q=0015555555555400, observed q=001555555555543f
+Failed; vector: {'check_en': True, 'scenario': '5', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 3, 'data': 12297829382473034410, 'q': 6004799503160383}
+Passed; vector: {'check_en': True, 'scenario': '6', 'clk': 1, 'load': 0, 'ena': 0, 'amount': 0, 'data': 12297829382473034410, 'q': 23456248059220}
+Passed; vector: {'check_en': True, 'scenario': '7', 'clk': 1, 'load': 1, 'ena': 0, 'amount': 0, 'data': 6148914691236517205, 'q': 6148914691236517205}
+Passed; vector: {'check_en': True, 'scenario': '8', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 0, 'data': 18446744073709551615, 'q': 18446744073709551614}
+Passed; vector: {'check_en': True, 'scenario': '9', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 2, 'data': 9223372036854775808, 'q': 13835058055282163712}
+Passed; vector: {'check_en': True, 'scenario': '9', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 3, 'data': 9223372036854775808, 'q': 18437736874454810624}
+Passed; vector: {'check_en': True, 'scenario': '10', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 0, 'data': 9223372036854775808, 'q': 18446673704965373952}
+Passed; vector: {'check_en': True, 'scenario': '10', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 0, 'data': 9223372036854775808, 'q': 18446603336221196288}
+Passed; vector: {'check_en': True, 'scenario': '10', 'clk': 1, 'load': 0, 'ena': 1, 'amount': 0, 'data': 9223372036854775808, 'q': 18446462598732840960}
+Passed; vector: {'check_en': True, 'scenario': '11', 'clk': 1, 'load': 1, 'ena': 0, 'amount': 0, 'data': 1311768467463790320, 'q': 1311768467463790320}
+['3', '4', '5']
+
+
+###error:
+
+

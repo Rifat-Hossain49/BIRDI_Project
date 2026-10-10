@@ -1,0 +1,90 @@
+`timescale 1ns / 1ps
+module testbench;
+  reg clk;
+  reg reset;
+  reg [2:0] s;
+  wire fr3;
+  wire fr2;
+  wire fr1;
+  wire dfr;
+  integer file, scenario;
+  top_module DUT (.clk(clk), .reset(reset), .s(s), .fr3(fr3), .fr2(fr2), .fr1(fr1), .dfr(dfr));
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    file = $fopen("TBout.txt", "w");
+    scenario = 1;
+    reset = 0;
+    s = 0;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    reset = 0;
+    s = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, reset = %d, s = %d, fr3 = %d, fr2 = %d, fr1 = %d, dfr = %d", scenario, clk, reset, s, fr3, fr2, fr1, dfr);
+    #10;
+    $fclose(file);
+    $finish;
+  end
+endmodule

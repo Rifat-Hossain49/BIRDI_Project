@@ -1,0 +1,1431 @@
+{
+  "date": "2026-10-03",
+  "expected": [
+    "mux2to1v",
+    "m2014_q6b",
+    "ringer",
+    "alwaysblock1",
+    "zero",
+    "circuit7",
+    "ece241_2014_q5a",
+    "fsm3",
+    "vector2",
+    "m2014_q4c",
+    "mt2015_q4a",
+    "shift18",
+    "ece241_2013_q8",
+    "m2014_q6",
+    "fsm_ps2data",
+    "2012_q2b",
+    "vector0",
+    "kmap4",
+    "vector1",
+    "norgate",
+    "alwaysblock2",
+    "m2014_q6c",
+    "mux256to1",
+    "2014_q4a",
+    "ece241_2014_q4",
+    "circuit4",
+    "rule110",
+    "fsm3s",
+    "circuit5",
+    "bugs_mux2",
+    "mt2015_muxdff",
+    "edgecapture",
+    "dff8",
+    "ece241_2014_q1c",
+    "review2015_fsmonehot",
+    "counter_2bc",
+    "always_casez",
+    "always_nolatches",
+    "m2014_q4j",
+    "history_shift",
+    "wire_decl",
+    "dff",
+    "ece241_2013_q12",
+    "thermostat",
+    "ece241_2013_q2",
+    "lfsr32",
+    "circuit3",
+    "7420",
+    "popcount255",
+    "gatesv",
+    "circuit6",
+    "countslow",
+    "m2014_q4f",
+    "m2014_q4h",
+    "fsm1",
+    "dualedge",
+    "xnorgate",
+    "mt2015_q4",
+    "rotate100",
+    "review2015_count1k",
+    "notgate",
+    "fsm_onehot",
+    "ece241_2013_q7",
+    "popcount3",
+    "vector5",
+    "lemmings1",
+    "circuit1",
+    "7458",
+    "2014_q3c",
+    "m2014_q4e",
+    "wire4",
+    "m2014_q4b",
+    "always_case",
+    "timer",
+    "review2015_fsmseq",
+    "dff8r",
+    "edgedetect2",
+    "count1to10",
+    "circuit9",
+    "lfsr5",
+    "bugs_addsubz",
+    "m2014_q3",
+    "bugs_case",
+    "vectorr",
+    "kmap3",
+    "review2015_shiftcount",
+    "wire",
+    "review2015_fsmshift",
+    "count15",
+    "always_if",
+    "kmap1",
+    "2013_q2afsm",
+    "count10",
+    "fsm_ps2",
+    "mux2to1",
+    "gates4",
+    "2014_q3bfsm",
+    "2013_q2bfsm",
+    "dff8p",
+    "reduction",
+    "fsm3comb",
+    "mt2015_q4b",
+    "2012_q2fsm",
+    "dff16e",
+    "edgedetect",
+    "circuit8",
+    "rule90",
+    "mt2015_eq2",
+    "gatesv100",
+    "m2014_q4a",
+    "mux256to1v",
+    "mux9to1v",
+    "vectorgates",
+    "fsm3onehot",
+    "conditional",
+    "gates",
+    "kmap2",
+    "2014_q3fsm",
+    "vector4",
+    "m2014_q4k",
+    "always_case2",
+    "fsm2",
+    "m2014_q4i",
+    "step_one",
+    "vector100r",
+    "m2014_q4d",
+    "shift4",
+    "truthtable1",
+    "dff8ar",
+    "gates100",
+    "hadd",
+    "always_if2",
+    "fsm2s",
+    "vector3",
+    "circuit2",
+    "andgate",
+    "fsm1s",
+    "fadd",
+    "m2014_q4g",
+    "ece241_2014_q3",
+    "ece241_2014_q5b",
+    "circuit10",
+    "2012_q1g",
+    "fsm_hdlc",
+    "review2015_fancytimer",
+    "ece241_2013_q4",
+    "fsm_serial",
+    "fsm_serialdata",
+    "gshare",
+    "lemmings4",
+    "review2015_fsm",
+    "conwaylife",
+    "lemmings3",
+    "count_clock",
+    "lemmings2",
+    "countbcd"
+  ],
+  "checkpointed": [
+    "2012_q1g",
+    "2012_q2b",
+    "2012_q2fsm",
+    "2013_q2afsm",
+    "2014_q3bfsm",
+    "2014_q3c",
+    "2014_q4a",
+    "7420",
+    "7458",
+    "always_case",
+    "always_case2",
+    "always_casez",
+    "always_if",
+    "always_if2",
+    "always_nolatches",
+    "alwaysblock1",
+    "alwaysblock2",
+    "andgate",
+    "bugs_addsubz",
+    "bugs_case",
+    "bugs_mux2",
+    "circuit1",
+    "circuit2",
+    "circuit3",
+    "circuit4",
+    "circuit5",
+    "circuit6",
+    "circuit7",
+    "circuit8",
+    "circuit9",
+    "conditional",
+    "conwaylife",
+    "count10",
+    "count15",
+    "count1to10",
+    "counter_2bc",
+    "countslow",
+    "dff",
+    "dff16e",
+    "dff8",
+    "dff8ar",
+    "dff8p",
+    "dff8r",
+    "dualedge",
+    "ece241_2013_q12",
+    "ece241_2013_q2",
+    "ece241_2013_q7",
+    "ece241_2013_q8",
+    "ece241_2014_q1c",
+    "ece241_2014_q3",
+    "ece241_2014_q5a",
+    "ece241_2014_q5b",
+    "edgecapture",
+    "edgedetect",
+    "edgedetect2",
+    "fadd",
+    "fsm1",
+    "fsm1s",
+    "fsm2",
+    "fsm2s",
+    "fsm3",
+    "fsm3comb",
+    "fsm3onehot",
+    "fsm3s",
+    "fsm_ps2",
+    "fsm_ps2data",
+    "gates",
+    "gates100",
+    "gates4",
+    "gatesv",
+    "gatesv100",
+    "hadd",
+    "history_shift",
+    "kmap1",
+    "kmap2",
+    "kmap3",
+    "kmap4",
+    "lemmings1",
+    "lfsr32",
+    "m2014_q3",
+    "m2014_q4a",
+    "m2014_q4b",
+    "m2014_q4c",
+    "m2014_q4d",
+    "m2014_q4e",
+    "m2014_q4f",
+    "m2014_q4g",
+    "m2014_q4h",
+    "m2014_q4i",
+    "m2014_q4j",
+    "m2014_q4k",
+    "m2014_q6",
+    "m2014_q6b",
+    "m2014_q6c",
+    "mt2015_eq2",
+    "mt2015_muxdff",
+    "mt2015_q4",
+    "mt2015_q4a",
+    "mt2015_q4b",
+    "mux256to1",
+    "mux256to1v",
+    "mux2to1",
+    "mux2to1v",
+    "mux9to1v",
+    "norgate",
+    "notgate",
+    "popcount255",
+    "popcount3",
+    "reduction",
+    "review2015_count1k",
+    "review2015_fsmonehot",
+    "review2015_fsmseq",
+    "review2015_fsmshift",
+    "ringer",
+    "rotate100",
+    "rule110",
+    "rule90",
+    "shift18",
+    "shift4",
+    "step_one",
+    "thermostat",
+    "timer",
+    "truthtable1",
+    "vector0",
+    "vector1",
+    "vector2",
+    "vector3",
+    "vector4",
+    "vector5",
+    "vectorgates",
+    "vectorr",
+    "wire",
+    "wire4",
+    "wire_decl",
+    "xnorgate",
+    "zero"
+  ],
+  "remaining": [
+    "ece241_2014_q4",
+    "fsm_onehot",
+    "lfsr5",
+    "review2015_shiftcount",
+    "2013_q2bfsm",
+    "2014_q3fsm",
+    "vector100r",
+    "circuit10",
+    "fsm_hdlc",
+    "review2015_fancytimer",
+    "ece241_2013_q4",
+    "fsm_serial",
+    "fsm_serialdata",
+    "gshare",
+    "lemmings4",
+    "review2015_fsm",
+    "lemmings3",
+    "count_clock",
+    "lemmings2",
+    "countbcd"
+  ],
+  "provenance": {
+    "hadd": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W0_20260926_040708/hadd/data.json",
+      "sha256": "92db7301f9e4d2ed796203839bdacbc26f16856ba83dc725d2179594544d031b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "notgate": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W0_20260926_040708/notgate/data.json",
+      "sha256": "22f144abbc5d74167972768f52628ff139aa98683ce808465ec7c37bc45872a5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "bugs_addsubz": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W1_20260926_040708/bugs_addsubz/data.json",
+      "sha256": "43cb19fe950c9304056d6ef7ead48d6406ace8fad7b4199516e252e36491452a",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2014_q5b": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W1_20260926_040708/ece241_2014_q5b/data.json",
+      "sha256": "54764ec672d9b3d59f830b1ef91e5478fa0f1b3169662dac3df6ba4405026d59",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mux256to1v": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W2_20260926_040708/mux256to1v/data.json",
+      "sha256": "3067a76bfffba2d456b355af440eaf64f2909956e21ec3727109195384e51e7f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "always_case2": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/S0W3_20260926_040708/always_case2/data.json",
+      "sha256": "60d4708bfb951d2a02fde7c4cda129ebde335b4b95546faa824308128e002bbd",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "alwaysblock2": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/alwaysblock2/data.json",
+      "sha256": "7ec5b563d5b15791a61ffe81090db23dc2715c02393fa951ce1017b584215398",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit6": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/circuit6/data.json",
+      "sha256": "8962c315af8f08c419df70c998ca5252655ab19f4057c6383f3df3f9e378af98",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm3comb": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/fsm3comb/data.json",
+      "sha256": "d181fde6294c3d2c2f459b499a5900e1acbad62099e6d5637ab87f721c03c70e",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "kmap1": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/kmap1/data.json",
+      "sha256": "650123dd65f35f5b4387e549323527cce5d1327a8930f66b2047a05a07ec7ba0",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mt2015_muxdff": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/mt2015_muxdff/data.json",
+      "sha256": "7823b2e9c3a0f9b55cab186300c744e0af0b3453e445860cd6b233bdf52d0a13",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mt2015_q4a": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/mt2015_q4a/data.json",
+      "sha256": "78cc61f87ec0636e87ba5f7834e61cddc785b9d1f57937d0b17b5a10a1d7cc36",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mux2to1v": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/mux2to1v/data.json",
+      "sha256": "6ce8948903c762e11d30aa6ebc45322486623db53ca303aa192f505dd12e4ae1",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "wire4": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/wire4/data.json",
+      "sha256": "3237f7109771836dc3fae7c4140f4aa62d6faa3d85c3fc61d867690a8c1c585e",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "wire_decl": {
+      "source": "cbq0of10_finish/saves/ConfiBench_qwen/merged/wire_decl/data.json",
+      "sha256": "310ab002fbf77d47521fb969b8ce42f448893a3ea7e980f387fe1db4daff2c39",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "conwaylife": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/S1W1_20260926_041034/conwaylife/data.json",
+      "sha256": "f9e3fcb3f9171fb333722e98b4e0b4d807f4f49148bb3fa8cb2e178c9b4028cb",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q3": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/S1W1_20260926_041034/m2014_q3/data.json",
+      "sha256": "8497b8d80ca5c4dad46c75204c968e90359c52614bc128c0da4f9187d1bdc629",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "mt2015_q4b": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/S1W2_20260926_041034/mt2015_q4b/data.json",
+      "sha256": "f43d54a9e604825226ff6627da19c987e64af2ff6a48902a41671fb1b439e764",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm2": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/S1W3_20260926_041034/fsm2/data.json",
+      "sha256": "a79053b2d1a9ec4bb5ccea97ca80f3d8ebaff1f8d2f6201f00bfeefd80254faf",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2013_q2afsm": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/2013_q2afsm/data.json",
+      "sha256": "425fc4fc14e2eafa2cb4ff7162a10c99b49bec7b7e14619ba12a71f86fe6a0ce",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "always_if2": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/always_if2/data.json",
+      "sha256": "dad954262fcee9951de1c2d17a3c63c566a742290939e504d0a8d42b119dbfcf",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "countslow": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/countslow/data.json",
+      "sha256": "b846fe20b147c95ef49081e8e2eced1981702f11189c752fb20da3bb28bbaa74",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/dff/data.json",
+      "sha256": "ad2332cc57926513d75bbdd2668c65684d473296fd20666cbb3fa55439a6f479",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "edgecapture": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/edgecapture/data.json",
+      "sha256": "6b2e25ccf7d2e46761f105e3f5cc3aafe71206ff1a74dbf484340d123f6edb32",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4b": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/m2014_q4b/data.json",
+      "sha256": "81dc4f6ce901c1e12f27f553cc83caa30d2f2d69236194206db297144cf1a100",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q6b": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/m2014_q6b/data.json",
+      "sha256": "c5b5a093191159cb19609e965fab55a53c524ade792aadb07e827c176cefbcc5",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q6c": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/m2014_q6c/data.json",
+      "sha256": "4b0e7654130af301dba7cd261b754c9b8599181b15a5ae3c86a44e8e6af196b3",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mux9to1v": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/mux9to1v/data.json",
+      "sha256": "64c6ef26c35ba303d89f5c4148c456c8428d73038fd05115d0ed24420f25f818",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "shift18": {
+      "source": "cbq1of10_finish/saves/ConfiBench_qwen/merged/shift18/data.json",
+      "sha256": "74f935171cd2c02ee01547bde41ab74070c3923007b62aa90b77c17bbbe5adc6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2012_q2fsm": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W0_20260926_040812/2012_q2fsm/data.json",
+      "sha256": "c455307e7a9a2fe81eab949a93f387d18fd69054b2a7cb58f976244497a72f6d",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2013_q12": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W0_20260926_040812/ece241_2013_q12/data.json",
+      "sha256": "14f46724949e148c3743c93e0b93c0a4648c1a02e06883f0a270b19265fa567c",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2013_q7": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W1_20260926_040812/ece241_2013_q7/data.json",
+      "sha256": "1024d4b93ae7eedfcfc98f616be7e0f9fb6c53cbc5f4be52891ee6b4e5f2d029",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vectorgates": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W1_20260926_040812/vectorgates/data.json",
+      "sha256": "9de0cc3418641355d9f3a00d1b7fbd2b8f6aa33a553a516fd530092020e9b7b9",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "always_case": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W2_20260926_040812/always_case/data.json",
+      "sha256": "3f65eb491ee84c41fa9a6e00206f62199315ccb0863dc37534cac8c79b7ee7e8",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4i": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/S2W2_20260926_040812/m2014_q4i/data.json",
+      "sha256": "2066300645211d9ad2ebad89cbf98b9b7a5e2bf5038d5a16f81c10bb8ccf34d4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "bugs_case": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/bugs_case/data.json",
+      "sha256": "cb5671e302b0b1c930f2c021e7900bbe5e50fddaea4710a2150e5305089c3cb7",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff8": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/dff8/data.json",
+      "sha256": "b92b6a26714a526f4d8b1be2a0f86243cb2461ca92a1e7f500794079891178dd",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2013_q8": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/ece241_2013_q8/data.json",
+      "sha256": "06c986221cfea7007028f1af823329f4c7534aaa3ca8af84997159ac524a3d7b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4f": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/m2014_q4f/data.json",
+      "sha256": "6b8d8bd3077a80104de7fe71f9cfdb295f06c529a5b0a53c08082696f17fbd0f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mux256to1": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/mux256to1/data.json",
+      "sha256": "9707a4c1eb925b051c1e512c838f6d9c16bc13ab49c13e6ef03fd14dca780cea",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ringer": {
+      "source": "cbq2of10_finish/saves/ConfiBench_qwen/merged/ringer/data.json",
+      "sha256": "670dd255186b0546c4b5392f9b839b9968d644044811be7683df007abf6c3d4c",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "review2015_fsmseq": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/S4W2_20260926_040833/review2015_fsmseq/data.json",
+      "sha256": "b6e12b759e795a73f2ab7728a7d58be9272d218af9f1615bcaf06d74c37d8689",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "kmap3": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/S4W3_20260926_040833/kmap3/data.json",
+      "sha256": "48f15f8052d41176250da94f9bc9fda9adb49d377d72ef065a6018fe064c8d8b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "conditional": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/conditional/data.json",
+      "sha256": "73491a730d2685d8055bc91b4c00ec55e44cd7fcbec9bcaac539e14285492cb6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm1": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/fsm1/data.json",
+      "sha256": "73331daed88c4454664bc49a2757ceea9cb190774e52263616f71cbb3d364e60",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm_ps2data": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/fsm_ps2data/data.json",
+      "sha256": "36a93bf1c9653994353c105f0703cdb3656ef17bed04e0dd84e8f8da98a09dd6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "review2015_fsmonehot": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/review2015_fsmonehot/data.json",
+      "sha256": "4512c071cb1e8a7e1e952c97f4aef1374fab7c786cfbde511f5c9a6d267af009",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vector5": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/vector5/data.json",
+      "sha256": "03fe1efe2e9cf03e25550f70e63b8daa96fb73b382ea2b372a76cc54f027053a",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "zero": {
+      "source": "cbq4of10_finish/saves/ConfiBench_qwen/merged/zero/data.json",
+      "sha256": "07493f540921698291e1ac1d173f88f43ba71c54221fb20035b8626ccfe570a4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "lemmings1": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/S5W1_20260926_041146/lemmings1/data.json",
+      "sha256": "aa4e1311c9fc355e2389d4463a2813b963989fe09a473e284cd68b80301fcd01",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2012_q2b": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/2012_q2b/data.json",
+      "sha256": "bc9493462a1029d85dc31f87984ee4693d21c30fb67d8e83e7a6fc1f28d85e02",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "andgate": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/andgate/data.json",
+      "sha256": "0960eee9b18a539d6c0ce3e36c58dce1d5e62d96ad6611d787f147db7ad4a871",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit4": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/circuit4/data.json",
+      "sha256": "49224090111beb5c50ca15d00ea653f51857903a342609567b17c5071a5181b7",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit7": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/circuit7/data.json",
+      "sha256": "53b2bde927d5d513ab9fc5944e9c751ddf95a3eeab502a3fa54533323e81e47f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "counter_2bc": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/counter_2bc/data.json",
+      "sha256": "3d5a0cf81e9c1f258bc0742cc150361ba1760d754a9c44aeb650e08fe24df04c",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff8r": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/dff8r/data.json",
+      "sha256": "93d31a7b27403e8a742ecb9ea9124aefb0611866a8ba53cf31eefec12c3445ab",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dualedge": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/dualedge/data.json",
+      "sha256": "44cce7379140ff172ad94139f328a4a1231016e379adc4cf279fcc7dbf4cd63f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "gates": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/gates/data.json",
+      "sha256": "8732d0c56bd0cc56fc160bd976cb6f0b962677127b1c5e863efc0098c5afbed5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "gates4": {
+      "source": "cbq5of10_finish/saves/ConfiBench_qwen/merged/gates4/data.json",
+      "sha256": "4955268bfa44aa5c3649ddc6c57154d9ce83cca81efb992183b1989f053c7f4f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "rule90": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W1_20260926_041023/rule90/data.json",
+      "sha256": "32bf2102faddcabd01321c1320b49dc8fc6cee5a2e71c41c9a58f1bfdd0e2d9a",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "xnorgate": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W1_20260926_041023/xnorgate/data.json",
+      "sha256": "ca4118a27f6562b90055456c0f4c3431b878b88d7f17b0da2dac0cfabfa29d88",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "edgedetect2": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W2_20260926_041023/edgedetect2/data.json",
+      "sha256": "a4d902d7dbca0d85fca6975897159e8a97900a34084df76cf7107a7c6b9223bd",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "kmap2": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W2_20260926_041023/kmap2/data.json",
+      "sha256": "5dd65f1b5778588298c169175ae6a80afb6904518b72f1a820242b789c65c487",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "shift4": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W3_20260926_041023/shift4/data.json",
+      "sha256": "9837257d86810a39113c291b25968d91f7d9ed598c5ba3a7d31ff8daa82037cf",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "wire": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/S6W3_20260926_041023/wire/data.json",
+      "sha256": "dcc4b7dd1a9c254e17f1b2a131a467b017e7c79bf8105a0e8c6c7149e93f21c6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "always_casez": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/merged/always_casez/data.json",
+      "sha256": "976e49ef767507e3d3f8b36211390279a2faabb14b84dd54a05c72c082909f85",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit1": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/merged/circuit1/data.json",
+      "sha256": "9cf4e936221ec63d32b821d04e6656aedd00521f100651b80ba10fb28ff6f8fa",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit3": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/merged/circuit3/data.json",
+      "sha256": "5833e2089f4a586fb8219e9fece74f90575272beddfe1d13cfa7f10608fbd5e4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "rule110": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/merged/rule110/data.json",
+      "sha256": "aaa9100d8201f126271cd2192652b64184c6327d491bef0b7850a00fdd76de9d",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "vector0": {
+      "source": "cbq6of10_finish/saves/ConfiBench_qwen/merged/vector0/data.json",
+      "sha256": "1be00d14eef66ae78c46b8627ce093590f11745a3df19c548196853fed650520",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit9": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W0_20260926_041150/circuit9/data.json",
+      "sha256": "e6f70aa751788155dd32861455927c17e19eb9ad7487af3dbe2fb4ddaad61d4b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vector4": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W0_20260926_041150/vector4/data.json",
+      "sha256": "faef0282a8353959cf1b349c9b21de058d8f532a0c82307ff9192fead5950b52",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "count15": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W1_20260926_041150/count15/data.json",
+      "sha256": "2711234049171a2336c5f81e597186a43dfc75d0aa393afc918ea604d14bcfb4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff8ar": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W1_20260926_041150/dff8ar/data.json",
+      "sha256": "6c69476f976aa6f830cea99f9816ee40587f2535f2f43880d88692cdf11b5918",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff8p": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W2_20260926_041150/dff8p/data.json",
+      "sha256": "af92aec462fc3e39ac2209d69456f4fee1f20d8fd845086f21afae5a199b97ad",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4g": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W2_20260926_041150/m2014_q4g/data.json",
+      "sha256": "7aad1cec900270d897918c97a909207ee20ed5e61b96fa1637842daff6ae5270",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "gatesv100": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/S8W3_20260926_041150/gatesv100/data.json",
+      "sha256": "72418fa2827d337eb2db660e0a3ded3cbdc328ae82f0c8195cb4e63e0f059edc",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2014_q3c": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/2014_q3c/data.json",
+      "sha256": "234d6e0717156fa437d3b9255c8a06849c54ba317e8c4329e1ab76e749cd4afb",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit5": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/circuit5/data.json",
+      "sha256": "9b5b660c1d12da9f2d541fbcbf127d4ac87541707c32e9991992e945a736978b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4j": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/m2014_q4j/data.json",
+      "sha256": "0350236135d968126089ddee0f00245a95355db4f80f634ae0859a3bdccde218",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "popcount255": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/popcount255/data.json",
+      "sha256": "692629a4e7086c18e05f874b96adfa7e6a872f3a9586ccfb14a1cc74e2de6e12",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "rotate100": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/rotate100/data.json",
+      "sha256": "2adbf1cdfc98b886d316c6fb740fe2a053a369023bd97b27b1fc77d19a19eb4c",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vector1": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/vector1/data.json",
+      "sha256": "4b351eebaee75336ccc581a25f6d60bce3a59dd460288068a8fcff49a811b1f3",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vector2": {
+      "source": "cbq8of10_finish/saves/ConfiBench_qwen/merged/vector2/data.json",
+      "sha256": "96f4a78734427d3903eb1a73ffc4f022f6e9cb3c904f61d29430ea2a01e267ff",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4a": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/S9W1_20260926_041304/m2014_q4a/data.json",
+      "sha256": "265896b5eb6628f82014a8499e95cd8636e57e6d4ca781b522bd1543df1b44aa",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "gates100": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/S9W2_20260926_041304/gates100/data.json",
+      "sha256": "5b78763899cb0d48e76c58b8630c37d7e095e2ddc77eff9f2abc9c0979fc0aa4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2014_q3": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/S9W3_20260926_041304/ece241_2014_q3/data.json",
+      "sha256": "1e4768815b5f1fc9566f0dffa572dbbf45b3c450a46146626c45e3a45644951e",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "always_if": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/always_if/data.json",
+      "sha256": "960172888ac6fff8ece852afd7e55ee39c23f35382c9a01951d59b3db68cf511",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "bugs_mux2": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/bugs_mux2/data.json",
+      "sha256": "6e422505be2eecd9cba71bf6d6e5b6d4f9ec7ad0de209e7fe45a685d6e8ae374",
+      "has_eval1": false,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "gatesv": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/gatesv/data.json",
+      "sha256": "42077d1afec062139b98f5f9ce632cec0c4814242b3073f1031e0bc6961814f3",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "history_shift": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/history_shift/data.json",
+      "sha256": "2f66be652ca3e5b8552c794dedb09cee10c89efee1ec7ea3559c508864e254ce",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4c": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/m2014_q4c/data.json",
+      "sha256": "495ea88a9b0963280c4fec7031b264f5f238abaa6ec971e5967cc14495accba7",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4e": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/m2014_q4e/data.json",
+      "sha256": "69963f935bafdee92f059a8361ed550647c84054d4cf8bcdd3fc063b6a271b2b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4k": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/m2014_q4k/data.json",
+      "sha256": "ea9c1276627c63b2fcc219864cb29c0291499b83d8b0ebe7fd36c27dc7cbe559",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "norgate": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/norgate/data.json",
+      "sha256": "8bbf2224a7177265f46ef1b8bbb7e631ea3cf2e681fc8ba520e0d504e1a0d3ee",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "reduction": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/reduction/data.json",
+      "sha256": "0e46f87007d348527e8ba394421d508a362a7763c31c42701cadf38052b661b1",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "review2015_count1k": {
+      "source": "cbq9of10_finish/saves/ConfiBench_qwen/merged/review2015_count1k/data.json",
+      "sha256": "bc4b4554ee1ed9050feadcea4d5dc543c5c899405415f0909d34013efd18dfe1",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "review2015_fsmshift": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/S7W0_20260926_190124/review2015_fsmshift/data.json",
+      "sha256": "709aa4c9ebc30c50e5aed85ce4551566af2e12c1d0de8ed9bde37ac46a568a8a",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "truthtable1": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/S7W1_20260926_190124/truthtable1/data.json",
+      "sha256": "226bcaf8771d843719e4aaf0826b2b1d442bd237087a11d8c449ae3b648804e2",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "7420": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/merged/7420/data.json",
+      "sha256": "9afc4c54cfc563b74039d4f574bdfaf301f2f35e7b97c452b79ab3223dcf0ead",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "7458": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/merged/7458/data.json",
+      "sha256": "2b402c2c278fd8e4c146db7db9740c002950b59e5dc354ebe2a8a429e96dbad3",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm3": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/merged/fsm3/data.json",
+      "sha256": "e374167b1115a3c526093d62d40258f437898d71974313d89ce47455b379e7c4",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm3s": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/merged/fsm3s/data.json",
+      "sha256": "8dfbc0f3cdd76394d1de30f2e82ba0eab3516153f02265b5fc48d1b3823aa3da",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mt2015_eq2": {
+      "source": "cbq7of20_final/saves/ConfiBench_qwen/merged/mt2015_eq2/data.json",
+      "sha256": "854a0ae2733ab08d782406c34940bd03d52b51d8f108b5b5192feba81535ddb6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "always_nolatches": {
+      "source": "cbq17of20_final/saves/ConfiBench_qwen/merged/always_nolatches/data.json",
+      "sha256": "3e475bb607bf3164ee31e8d8dd1b830ca3a08dcbdc5964712a375f5c32750ff8",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "kmap4": {
+      "source": "cbq17of20_final/saves/ConfiBench_qwen/merged/kmap4/data.json",
+      "sha256": "8ebc478f0955ce564d9bffbac7d91e6c7bd5cd42373154828b314844987c81f5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mt2015_q4": {
+      "source": "cbq17of20_final/saves/ConfiBench_qwen/merged/mt2015_q4/data.json",
+      "sha256": "7dc36e89e6ee36412a3214937f97317f9eb6b59b8c5c3e485bc4fbb1a5db1ab1",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm1s": {
+      "source": "cbqfinisha_final/saves/ConfiBench_qwen/S0W0_20260926_155609/fsm1s/data.json",
+      "sha256": "4e464b39f4f9f9dc3548301b0e40a04aa30e6eff954c0cf143d879a7b9d3b137",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "mux2to1": {
+      "source": "cbqfinishc_final/saves/ConfiBench_qwen/S0W3_20260926_155522/mux2to1/data.json",
+      "sha256": "524d1772e6a86db4066aea5d2a74f20d5ab2858906db7fd2018b6177b05b78f5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2014_q4a": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/2014_q4a/data.json",
+      "sha256": "725849a6c58ec9db3a64f022127919b66d3b4c039bc5de30c9e84014d748f9fe",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "alwaysblock1": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/alwaysblock1/data.json",
+      "sha256": "c1e465f5e04f944c5deb209f3a290f349e8ab3a833bb85e94bb8355db1eaadf5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2014_q1c": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/ece241_2014_q1c/data.json",
+      "sha256": "2e48b3e32d0ea22bc6849c9567cefe9a91fa303d484a82541ffd5049095f71b7",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4h": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/m2014_q4h/data.json",
+      "sha256": "90c631aed75154a889368131d06382244a00829018eb7c73cc91f4eb98353d2f",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q6": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/m2014_q6/data.json",
+      "sha256": "649dc8825e09f8d6f1e3cd997705b0da0fe4bc0b706d375d4af0f1ba6572349c",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "popcount3": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/popcount3/data.json",
+      "sha256": "2e997e0a8652b806731f961d54f545b98221d68e97e065dd466aecf6bc90a848",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "thermostat": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/thermostat/data.json",
+      "sha256": "b68290bf611bb14db244ad17943a065ec64694658e9128f2e6f09b8b534fb895",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "timer": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/timer/data.json",
+      "sha256": "e1a867f66a094b5b4a38ef74f9f0bb42e3a98e5a7205fd6f4724824106da0108",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vectorr": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/merged/vectorr/data.json",
+      "sha256": "83ebc1eef50e397ae3a9f2545f10fd86ccf307fdfb2b6178e7901ae4c6901f51",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm_ps2": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/S3W0_20260926_041302/fsm_ps2/data.json",
+      "sha256": "3e61da78307f40be43f4dec17c5199b94ca29b44e972d37b406cfe07293ce1a2",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "dff16e": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/S3W1_20260926_041302/dff16e/data.json",
+      "sha256": "759d8f6a3c1f3ef22ab3651040f58d7dcf1dd42d569dd0c4876ddab4d91c0bd6",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fsm3onehot": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/S3W2_20260926_041302/fsm3onehot/data.json",
+      "sha256": "d137b1cf71a8af4f29ff344887aa1a3963c10e71edef5e4c1aaf1bae5b7df977",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "step_one": {
+      "source": "cbq3of10_recovered_json/ConfiBench/saves/ConfiBench_qwen/S3W3_20260926_041302/step_one/data.json",
+      "sha256": "e65b7ca3b549d7e1c0dd9016e8edcbffb57fb088c166f082ca97bc61f047b73e",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2012_q1g": {
+      "source": "cbqfinal2a_complete/saves/ConfiBench_qwen/S0W0_20260927_061500/2012_q1g/data.json",
+      "sha256": "c3ed9bc81d345e62604d62756913272b951b09a8c74dc83a4835dbcaceaaa597",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "fadd": {
+      "source": "cbqfinal2a_complete/saves/ConfiBench_qwen/S0W3_20260927_061500/fadd/data.json",
+      "sha256": "d71140effecfb9f2af614ae9855a91a771dc9e1925f2a6f9629fb2210fc37c98",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit2": {
+      "source": "cbqfinal2b_complete/saves/ConfiBench_qwen/S0W1_20260927_061553/circuit2/data.json",
+      "sha256": "c5b54895b8d62d7a60500ca8f955a4dbc14203a24ecc294a4e0120d23f04744b",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "count1to10": {
+      "source": "cbqfinal2b_complete/saves/ConfiBench_qwen/S0W2_20260927_061553/count1to10/data.json",
+      "sha256": "d6301796f73c67d0101aaeec8783becc7b2dd82e8588b9e64949b5df54ad67cf",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "2014_q3bfsm": {
+      "source": "cbqfinal2c_complete/saves/ConfiBench_qwen/S0W0_20260927_110504/2014_q3bfsm/data.json",
+      "sha256": "334c056af150c1954c88efed0086dd4c056725d233cf15780b56fd18c1c0c7b2",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "circuit8": {
+      "source": "cbqfinal2c_complete/saves/ConfiBench_qwen/S0W1_20260927_110504/circuit8/data.json",
+      "sha256": "08c9addaab9620aaa97521cb2767f6dabef1c3b0653e4c0f73a1f3cb3e362986",
+      "has_eval1": true,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "count10": {
+      "source": "cbqfinal2d_complete/saves/ConfiBench_qwen/S0W1_20260927_110606/count10/data.json",
+      "sha256": "5a86a300bba18cbe10416a09991ca125b53d173b65ef36b733226cce39c7a965",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2014_q5a": {
+      "source": "cbqfinal2f_complete/saves/ConfiBench_qwen/S0W0_20260927_061742/ece241_2014_q5a/data.json",
+      "sha256": "e414c827a4e029556c3adcfdd31223d5b90cf5bca0f7134a7d6eca8a9dce3d1a",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "edgedetect": {
+      "source": "cbqfinal2f_complete/saves/ConfiBench_qwen/S0W1_20260927_061742/edgedetect/data.json",
+      "sha256": "a08fd618f35de09eae718273b7403152b34b2e8d6de8926654daf926af36a767",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "lfsr32": {
+      "source": "cbqfinal2f_complete/saves/ConfiBench_qwen/S0W2_20260927_061742/lfsr32/data.json",
+      "sha256": "d13cbe708e958a47b8a71df665dee3e7a1980dd8789ece4c1377ef39df250d08",
+      "has_eval1": false,
+      "has_eval2": false,
+      "upstream_incomplete_flag": true
+    },
+    "fsm2s": {
+      "source": "cbqfinal2g_complete/saves/ConfiBench_qwen/S0W1_20260927_061711/fsm2s/data.json",
+      "sha256": "7389005ad8a9ea943a996d16e8a59521184028185cac296535193aa78620bc38",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "m2014_q4d": {
+      "source": "cbqfinal2h_complete/saves/ConfiBench_qwen/S0W2_20260927_061727/m2014_q4d/data.json",
+      "sha256": "ff91f59b785dc2b4c95d2996f4fba49378e9b89db34182cc6c86aec8bd80e7df",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "vector3": {
+      "source": "cbqfinal2j_complete/saves/ConfiBench_qwen/S0W2_20260927_061620/vector3/data.json",
+      "sha256": "00f87e180a1bf1964b3844941840bbd096a99ca85dd49ce995a79776cac278a5",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    },
+    "ece241_2013_q2": {
+      "source": "cbqretry3a_complete/saves/ConfiBench_qwen/S0W0_20260928_053545/ece241_2013_q2/data.json",
+      "sha256": "5548f6b51a1a34e2727965b2339c16484abfc77d7ea693fe8f779f11e056aecb",
+      "has_eval1": true,
+      "has_eval2": true,
+      "upstream_incomplete_flag": true
+    }
+  },
+  "jobs": [
+    {
+      "tag": "cbqoct300",
+      "account": 1,
+      "tasks": [
+        "ece241_2014_q4",
+        "ece241_2013_q4"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct300",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:27.697955+00:00",
+      "status_checked_at": "2026-10-04T05:28:26.662575+00:00",
+      "status": "tishaferdous/confibench-qwen-cbqoct300 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct301",
+      "account": 1,
+      "tasks": [
+        "fsm_onehot",
+        "fsm_serial"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct301",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:27.695814+00:00",
+      "status_checked_at": "2026-10-04T05:28:36.916173+00:00",
+      "status": "tishaferdous/confibench-qwen-cbqoct301 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct302",
+      "account": 2,
+      "tasks": [
+        "lfsr5",
+        "fsm_serialdata"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct302",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:29.541514+00:00",
+      "status_checked_at": "2026-10-04T05:28:45.784773+00:00",
+      "status": "naimahjyoti/confibench-qwen-cbqoct302 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct303",
+      "account": 2,
+      "tasks": [
+        "review2015_shiftcount",
+        "gshare"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct303",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:31.742840+00:00",
+      "status_checked_at": "2026-10-04T05:28:54.009296+00:00",
+      "status": "naimahjyoti/confibench-qwen-cbqoct303 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": [
+        "review2015_shiftcount"
+      ]
+    },
+    {
+      "tag": "cbqoct304",
+      "account": 3,
+      "tasks": [
+        "2013_q2bfsm",
+        "lemmings4"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct304",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:27.697058+00:00",
+      "status_checked_at": "2026-10-04T05:29:02.260285+00:00",
+      "status": "rifathosain/confibench-qwen-cbqoct304 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct305",
+      "account": 3,
+      "tasks": [
+        "2014_q3fsm",
+        "review2015_fsm"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct305",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:27.911906+00:00",
+      "status_checked_at": "2026-10-04T05:29:10.565252+00:00",
+      "status": "rifathosain/confibench-qwen-cbqoct305 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct306",
+      "account": 4,
+      "tasks": [
+        "vector100r",
+        "lemmings3"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct306",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:30.624535+00:00",
+      "status_checked_at": "2026-10-04T05:29:18.475102+00:00",
+      "status": "arafhossainazim/confibench-qwen-cbqoct306 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": [
+        "lemmings3"
+      ]
+    },
+    {
+      "tag": "cbqoct307",
+      "account": 4,
+      "tasks": [
+        "circuit10",
+        "count_clock"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct307",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:28.685855+00:00",
+      "status_checked_at": "2026-10-04T05:29:29.284606+00:00",
+      "status": "arafhossainazim/confibench-qwen-cbqoct307 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct308",
+      "account": 5,
+      "tasks": [
+        "fsm_hdlc",
+        "lemmings2"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct308",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:28.825193+00:00",
+      "status_checked_at": "2026-10-04T05:29:35.666053+00:00",
+      "status": "adibhossain701/confibench-qwen-cbqoct308 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    },
+    {
+      "tag": "cbqoct309",
+      "account": 5,
+      "tasks": [
+        "review2015_fancytimer",
+        "countbcd"
+      ],
+      "bundle": "F:\\BIRDI_Project\\new_implementation\\kaggle_upload_cbqoct309",
+      "submission": "accepted",
+      "submitted_at": "2026-10-03T04:15:27.693696+00:00",
+      "status_checked_at": "2026-10-04T05:29:43.482331+00:00",
+      "status": "adibhossain701/confibench-qwen-cbqoct309 has status \"KernelWorkerStatus.COMPLETE\"",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_collected\\cbq_saves.zip",
+      "checkpointed_tasks": []
+    }
+  ]
+}

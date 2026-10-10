@@ -1,0 +1,40 @@
+{
+    "task_id": "shift18",
+    "task_number": 12,
+    "time": 99.14,
+    "prompt_tokens": 17132,
+    "completion_tokens": 6782,
+    "token_cost": 0.11065,
+    "ERROR(incomplete)": true,
+    "op_record": [
+        "gen",
+        "syncheck",
+        "funccheck",
+        "eval"
+    ],
+    "reboot_times": 0,
+    "max_iter": 10,
+    "circuit_type": "SEQ",
+    "checklist_worked": false,
+    "scenario_num": 11,
+    "Eval0_pass": true,
+    "Eval0_iv_pass": true,
+    "debug_iter_iv": 0,
+    "iv_runing_time": 0.07,
+    "Eval0_py_pass": true,
+    "debug_iter_py": 0,
+    "py_runing_time": 0.07,
+    "TB_corrected": true,
+    "TBcheck_oprecord": [
+        [
+            "discrim",
+            "correct",
+            "discrim"
+        ]
+    ],
+    "rtl_num_newly_gen": 0,
+    "Eval1_pass": true,
+    "Eval2_pass": true,
+    "Eval2_ratio": "10/10",
+    "Eval2_failed_mutant_idxes": []
+}

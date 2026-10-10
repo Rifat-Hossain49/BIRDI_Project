@@ -1,0 +1,659 @@
+[
+ {
+  "task_id": "2012_q2b",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 4
+  }
+ },
+ {
+  "task_id": "2013_q2afsm",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "2013_q2bfsm",
+  "circuit_type": "SEQ",
+  "n_candidates": 4,
+  "n_ran": 2,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 5,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 3,
+   "contested units": 3,
+   "unanimous units": 8
+  }
+ },
+ {
+  "task_id": "2014_q3c",
+  "circuit_type": "SEQ",
+  "n_candidates": 2,
+  "n_ran": 2,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   1,
+   3,
+   10
+  ],
+  "ratio": 0.7,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 3,
+  "resolution": {
+   "pairs decided by size": 1,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "2014_q3fsm",
+  "circuit_type": "SEQ",
+  "n_candidates": 2,
+  "n_ran": 1,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.6666666666666666,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "ratio": 0.0,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 10,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "always_casez",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 8
+  }
+ },
+ {
+  "task_id": "circuit2",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "circuit3",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "circuit4",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 1,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "circuit7",
+  "circuit_type": "SEQ",
+  "n_candidates": 4,
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 2,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "circuit8",
+  "circuit_type": "SEQ",
+  "n_candidates": 4,
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   6,
+   7,
+   9
+  ],
+  "ratio": 0.7,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 3,
+  "resolution": {
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "circuit9",
+  "circuit_type": "SEQ",
+  "n_candidates": 4,
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.3333333333333333,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   4,
+   7
+  ],
+  "ratio": 0.8,
+  "eval2": false,
+  "missed": 1,
+  "false_reject": 1,
+  "resolution": {
+   "pairs decided by size": 2,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "conwaylife",
+  "circuit_type": "SEQ",
+  "n_candidates": 4,
+  "n_ran": 1,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.6666666666666666,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 9,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "count_clock",
+  "circuit_type": "SEQ",
+  "n_candidates": 1,
+  "n_ran": 0,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "eval1": false,
+  "eval2": false,
+  "note": "no candidate simulated"
+ },
+ {
+  "task_id": "countbcd",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.3333333333333333,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 14,
+   "contested units": 11
+  }
+ },
+ {
+  "task_id": "counter_2bc",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "ece241_2013_q2",
+  "circuit_type": "CMB",
+  "n_candidates": 2,
+  "n_ran": 2,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   1
+  ],
+  "ratio": 0.9,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 1,
+  "resolution": {
+   "pairs decided by size": 1,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "ece241_2013_q4",
+  "circuit_type": "SEQ",
+  "n_candidates": 3,
+  "n_ran": 3,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 8,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 19,
+   "contested units": 10,
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "ece241_2014_q3",
+  "circuit_type": "CMB",
+  "n_candidates": 3,
+  "n_ran": 3,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 1,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "ece241_2014_q4",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "ratio": 0.4,
+  "eval2": false,
+  "missed": 6,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 1,
+   "contested units": 1
+  }
+ },
+ {
+  "task_id": "ece241_2014_q5a",
+  "circuit_type": "SEQ",
+  "n_candidates": 2,
+  "n_ran": 2,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "ece241_2014_q5b",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "edgecapture",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   6
+  ],
+  "ratio": 0.9,
+  "eval2": false,
+  "missed": 1,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "fsm2",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "fsm_hdlc",
+  "circuit_type": "SEQ",
+  "n_candidates": 3,
+  "n_ran": 1,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [
+   9
+  ],
+  "ratio": 0.9,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 1,
+  "resolution": {
+   "unanimous units": 11
+  }
+ },
+ {
+  "task_id": "fsm_onehot",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 13
+  }
+ },
+ {
+  "task_id": "fsm_ps2",
+  "circuit_type": "SEQ",
+  "n_candidates": 3,
+  "n_ran": 3,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 10,
+   "contested units": 10,
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "fsm_ps2data",
+  "circuit_type": "SEQ",
+  "n_candidates": 1,
+  "n_ran": 0,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "eval1": false,
+  "eval2": false,
+  "note": "no candidate simulated"
+ },
+ {
+  "task_id": "fsm_serial",
+  "circuit_type": "SEQ",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 5,
+   "contested units": 5,
+   "unanimous units": 6
+  }
+ },
+ {
+  "task_id": "fsm_serialdata",
+  "circuit_type": "SEQ",
+  "n_candidates": 2,
+  "n_ran": 2,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "split": "dev",
+  "eval1": false,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": false,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 6,
+   "pairs decided by size": 5,
+   "contested units": 5
+  }
+ },
+ {
+  "task_id": "gatesv",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "unanimous units": 1
+  }
+ },
+ {
+  "task_id": "gatesv100",
+  "circuit_type": "CMB",
+  "n_candidates": 5,
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "split": "dev",
+  "eval1": true,
+  "n_mutants": 10,
+  "failed_mutants": [],
+  "ratio": 1.0,
+  "eval2": true,
+  "missed": 0,
+  "false_reject": 0,
+  "resolution": {
+   "pairs decided by size": 15,
+   "contested units": 15
+  }
+ },
+ {
+  "task_id": "gshare",
+  "circuit_type": "SEQ",
+  "n_candidates": 1,
+  "n_ran": 0,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "eval1": false,
+  "eval2": false,
+  "note": "no candidate simulated"
+ }
+]

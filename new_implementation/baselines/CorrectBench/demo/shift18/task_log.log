@@ -1,0 +1,27 @@
+2024-08-31 18:50:34 | INFO     | [shift18] [TBgen] stage_0 ends (2.04s used)
+2024-08-31 18:50:37 | INFO     | [shift18] [TBgen] stage_1 ends (2.76s used)
+2024-08-31 18:50:44 | INFO     | [shift18] [TBgen] stage_2 ends (7.26s used)
+2024-08-31 18:50:51 | INFO     | [shift18] [TBgen] stage_3 ends (7.04s used)
+2024-08-31 18:51:06 | INFO     | [shift18] [TBgen] stage_4 ends (15.11s used)
+2024-08-31 18:51:06 | INFO     | [shift18] [TBgen] stage_checklist ends (0.00s used)
+2024-08-31 18:51:39 | INFO     | [shift18] [TBgen] stage_4b ends (32.64s used)
+2024-08-31 18:51:44 | INFO     | [shift18] [TBgen] stage_5 ends (5.38s used)
+2024-08-31 18:51:44 | INFO     | [shift18] 
+2024-08-31 18:51:44 | INFO     | [shift18] [TBsim] iverilog compilation : passed!
+2024-08-31 18:51:44 | INFO     | [shift18] [TBsim] python simulation : passed!
+2024-08-31 18:51:44 | INFO     | [shift18] [TBsim] TBsim finished : True!
+2024-08-31 18:51:44 | INFO     | [shift18] 
+2024-08-31 18:51:44 | INFO     | [shift18] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2024-08-31 18:51:48 | NEGATIVE | [shift18] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 9 10], scenario pass ratio: 9/11
+2024-08-31 18:51:48 | INFO     | [shift18] [TBcheck] [corrector] naive corrector mode begins
+2024-08-31 18:52:03 | INFO     | [shift18] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2024-08-31 18:52:03 | INFO     | [shift18] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2024-08-31 18:52:06 | POSITIVE | [shift18] [TBcheck] [discriminator] TB_discriminating finished, TB passed, wrong scenarios: [], scenario pass ratio: 9/11
+2024-08-31 18:52:06 | INFO     | [shift18] [TBcheck] Testbench passed the funccheck after correction
+2024-08-31 18:52:06 | INFO     | [shift18] [TBcheck] self funccheck finished. Next Action: [pass]
+2024-08-31 18:52:06 | INFO     | [shift18] 
+2024-08-31 18:52:06 | INFO     | [shift18] [TBeval] Eval 1: Golden RTL checking begins
+2024-08-31 18:52:06 | POSITIVE | [shift18] [TBeval] Eval 1: Golden RTL checking passed!
+2024-08-31 18:52:06 | INFO     | [shift18] [TBeval] Eval 2: Golden TB checking on RTL mutants
+2024-08-31 18:52:11 | SUCCESS  | [shift18] [TBeval] Eval 2: Golden TB checking on RTL mutants perfectly passed!
+2024-08-31 18:52:11 | INFO     | [shift18] 

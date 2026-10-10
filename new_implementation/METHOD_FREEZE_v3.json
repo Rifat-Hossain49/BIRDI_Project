@@ -1,0 +1,14 @@
+{
+ "_combined": "8cc045e0386fd0cd94032f4a7413a5880f53d9f80fce8d2e26f7207a042ca08b",
+ "_frozen_at": "2026-09-10, before any ACTIVE-TB-SAFE v3 result was inspected",
+ "_purpose": "Method freeze for the ConfiBench transfer. The condition was to freeze before seeing CorrectBench results, so the transfer is a genuine out-of-sample run rather than a re-tune.",
+ "amp/checker_state.py": "247564eeebe119aefe71952d05bce397cc0e45f32d4db4432a4c4ada634ce148",
+ "amp/frontend_adapter.py": "2db1eb525182415224b46197ebee76536eaf750eae47cdde73c6de155967b6ca",
+ "amp/vexpr.py": "eef5ea4334165e924b0430b8aa1af0e0e340a3741df406a3aa1bcda43efc42cc",
+ "safe/formal_witness.py": "ffe64c26af49b35942ca0a46fe39bb383df1eae3ae97a475c6376acb877047f8",
+ "safe/funnel.py": "d8ff7361091a22290d739b8e4bf473390dc9ada6c99ac51b5a9339edc0984506",
+ "safe/reconcile_eval.py": "00e2878ea449692a8f89b708a5340e99ddb6e6ce26dc4ec2f7d040e2a08bc0bc",
+ "safe/run_safe.py": "193bc489190cbfe5799822b910273cad0cae6fc42b3b72d74c7a231ec1e03911",
+ "safe/score_arms.py": "cfe6d4469f42f86e15c4e6df4147a1bf12a7a8dc640e6be26b90099826ada58e",
+ "safe/shadow_verify.py": "6333d6e3c9d704dd231480dccf1fe70752fa1ddb7674a705f849eb1e12a55bc7"
+}

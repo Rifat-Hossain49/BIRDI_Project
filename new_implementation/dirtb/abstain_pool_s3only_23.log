@@ -1,0 +1,51 @@
+  2012_q2b               CMB ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  2013_q2bfsm            SEQ ran 3  plurality:00 classX@0.6:00 classX@0.8:11 classX@1.0:11 vote@0.6:00 vote@0.8:11 vote@1.0:11 tail@1.0:10
+  2014_q3fsm             SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  always_casez           CMB ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  circuit2               CMB ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  circuit3               CMB ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:10
+  circuit8               SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  circuit9               SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:10
+  conwaylife             SEQ ran 2  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  count_clock            SEQ ran 4  plurality:00 classX@0.6:00 classX@0.8:11 classX@1.0:11 vote@0.6:00 vote@0.8:11 vote@1.0:11 tail@1.0:10
+  counter_2bc            SEQ ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  ece241_2013_q2         CMB ran 4  plurality:00 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  ece241_2014_q3         CMB ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  ece241_2014_q4         SEQ ran 4  plurality:10 classX@0.6:10 classX@0.8:10 classX@1.0:10 vote@0.6:10 vote@0.8:10 vote@1.0:10 tail@1.0:10
+  ece241_2014_q5b        SEQ ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  edgecapture            SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:11 vote@0.6:00 vote@0.8:00 vote@1.0:11 tail@1.0:11
+  fsm2                   SEQ ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  fsm_hdlc               SEQ ran 1  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  fsm_ps2                SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  fsm_ps2data            SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  fsm_serialdata         SEQ ran 5  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+  gatesv                 CMB ran 5  plurality:11 classX@0.6:11 classX@0.8:11 classX@1.0:11 vote@0.6:11 vote@0.8:11 vote@1.0:11 tail@1.0:11
+  gshare                 SEQ ran 3  plurality:00 classX@0.6:00 classX@0.8:00 classX@1.0:00 vote@0.6:00 vote@0.8:00 vote@1.0:00 tail@1.0:00
+
+== CMB n=7   ConfiBench-4o Eval1 0.810 Eval2 0.714
+   plurality    Eval1 0.714  Eval2 0.714  mean x-fraction 0.000  missed 0  false-reject 0
+   classX@0.6   Eval1 0.857  Eval2 0.857  mean x-fraction 0.004  missed 0  false-reject 0
+   classX@0.8   Eval1 0.857  Eval2 0.857  mean x-fraction 0.004  missed 0  false-reject 0
+   classX@1.0   Eval1 0.857  Eval2 0.857  mean x-fraction 0.040  missed 0  false-reject 0
+   vote@0.6     Eval1 0.857  Eval2 0.857  mean x-fraction 0.004  missed 0  false-reject 0
+   vote@0.8     Eval1 0.857  Eval2 0.857  mean x-fraction 0.004  missed 0  false-reject 0
+   vote@1.0     Eval1 0.857  Eval2 0.857  mean x-fraction 0.040  missed 0  false-reject 0
+   tail@1.0     Eval1 0.857  Eval2 0.714  mean x-fraction 0.232  missed 7  false-reject 0
+== SEQ n=16   ConfiBench-4o Eval1 0.917 Eval2 0.417
+   plurality    Eval1 0.375  Eval2 0.312  mean x-fraction 0.000  missed 10  false-reject 17
+   classX@0.6   Eval1 0.375  Eval2 0.312  mean x-fraction 0.067  missed 10  false-reject 17
+   classX@0.8   Eval1 0.500  Eval2 0.438  mean x-fraction 0.098  missed 11  false-reject 17
+   classX@1.0   Eval1 0.562  Eval2 0.500  mean x-fraction 0.145  missed 11  false-reject 17
+   vote@0.6     Eval1 0.375  Eval2 0.312  mean x-fraction 0.065  missed 9  false-reject 17
+   vote@0.8     Eval1 0.500  Eval2 0.438  mean x-fraction 0.098  missed 11  false-reject 17
+   vote@1.0     Eval1 0.562  Eval2 0.500  mean x-fraction 0.145  missed 11  false-reject 17
+   tail@1.0     Eval1 0.625  Eval2 0.375  mean x-fraction 0.541  missed 27  false-reject 16
+== ALL n=23   ConfiBench-4o Eval1 0.884 Eval2 0.507
+   plurality    Eval1 0.478  Eval2 0.435  mean x-fraction 0.000  missed 10  false-reject 17
+   classX@0.6   Eval1 0.522  Eval2 0.478  mean x-fraction 0.048  missed 10  false-reject 17
+   classX@0.8   Eval1 0.609  Eval2 0.565  mean x-fraction 0.070  missed 11  false-reject 17
+   classX@1.0   Eval1 0.652  Eval2 0.609  mean x-fraction 0.113  missed 11  false-reject 17
+   vote@0.6     Eval1 0.522  Eval2 0.478  mean x-fraction 0.046  missed 9  false-reject 17
+   vote@0.8     Eval1 0.609  Eval2 0.565  mean x-fraction 0.070  missed 11  false-reject 17
+   vote@1.0     Eval1 0.652  Eval2 0.609  mean x-fraction 0.113  missed 11  false-reject 17
+   tail@1.0     Eval1 0.696  Eval2 0.478  mean x-fraction 0.447  missed 34  false-reject 16

@@ -1,0 +1,26 @@
+task_id,circuit_type,class,reason,events,checks,scenarios,cost,expectations_recovered,equivalent,checker_sha256
+mux2to1v,CMB,UNSUPPORTED,checker: load() raised: KeyError: 'a',10,0,10,10,0,,5be8c9b4541e99dd
+m2014_q6b,CMB,UNSUPPORTED,replay equivalence failed,12,0,12,12,0,False,a4915487d3f3d84d
+ringer,CMB,UNSUPPORTED,replay equivalence failed,11,0,9,11,0,False,93de80af7f578e6f
+alwaysblock1,CMB,UNSUPPORTED,replay equivalence failed,4,0,4,4,0,False,edaf7298fafff227
+zero,CMB,TRACE_ONLY,expectations recovered at 0/0 checks,5,0,5,5,0,True,554f34c7374d5992
+circuit7,SEQ,UNSUPPORTED,"driver: unsupported RHS: ""'bx""",0,0,0,0,0,,
+ece241_2014_q5a,SEQ,UNSUPPORTED,driver: unsupported RHS: 'x ^ 1',0,0,0,0,0,,
+fsm3,SEQ,UNSUPPORTED,replay equivalence failed,38,22,10,38,22,False,8ecde39e4f137496
+vector2,CMB,UNSUPPORTED,replay equivalence failed,7,0,7,7,0,False,eb90040776678af1
+m2014_q4c,SEQ,UNSUPPORTED,driver: unsupported RHS: '$random',0,0,0,0,0,,
+mt2015_q4a,CMB,UNSUPPORTED,checker: load() raised: KeyError: 'x',4,0,4,4,0,,38eff52a88f4ae4b
+shift18,SEQ,UNSUPPORTED,replay equivalence failed,70,37,10,70,11,False,01115ee2938a9242
+ece241_2013_q8,SEQ,UNSUPPORTED,replay equivalence failed,82,42,10,82,42,False,0ace6cb6b6fec5c7
+m2014_q6,SEQ,UNSUPPORTED,replay equivalence failed,80,17,13,80,17,False,2204b10ab384e5e0
+fsm_ps2data,SEQ,UNSUPPORTED,replay equivalence failed,75,46,10,75,0,False,59264efcc2cbb796
+2012_q2b,CMB,UNSUPPORTED,original checker failed: KeyError: 'Y1',12,0,12,12,0,,c92954a2e8722ea8
+vector0,CMB,UNSUPPORTED,driver: unsupported RHS: '{$random} % 8',0,0,0,0,0,,
+kmap4,CMB,TRACE_ONLY,expectations recovered at 0/0 checks,16,0,1,16,0,True,05cf920a47643515
+vector1,CMB,UNSUPPORTED,original checker failed: KeyError: 'out_hi',10,0,10,10,0,,194ea7a73adc5dda
+norgate,CMB,UNSUPPORTED,checker: load() raised: KeyError: 'a',14,0,7,14,0,,e36d6686a07ca95b
+alwaysblock2,SEQ,UNSUPPORTED,driver: unsupported RHS: 'a ? b : ~b',0,0,0,0,0,,
+m2014_q6c,CMB,UNSUPPORTED,original checker failed: KeyError: 'Y2',13,0,13,13,0,,b118cc84d23a26ce
+mux256to1,CMB,UNSUPPORTED,driver: unsupported RHS: 'i',0,0,0,0,0,,
+2014_q4a,SEQ,UNSUPPORTED,replay equivalence failed,41,20,8,41,20,False,ca7a9cca829aae32
+ece241_2014_q4,SEQ,UNSUPPORTED,driver: unsupported RHS: '$random',0,0,0,0,0,,

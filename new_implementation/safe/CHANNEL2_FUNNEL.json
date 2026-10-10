@@ -1,0 +1,147 @@
+{
+ "AutoBench frontend": {
+  "lost": {
+   "adjudicated": {
+    "checker abstained at every witness point": 0
+   },
+   "channel1_emitted": {},
+   "checker_loaded": {
+    "checker loaded failed": 0
+   },
+   "driver_parsed": {
+    "driver parsed failed": 19
+   },
+   "expectations": {
+    "expectations unrecoverable": 20
+   },
+   "frontend_present": {
+    "no frontend record for this task": 0
+   },
+   "gate_passed": {
+    "A. no candidate passed Channel 1 (gate had nothing to test)": 15,
+    "C. shadow rejects a Channel-1-passing candidate (DISCARDED DETECTION)": 2
+   },
+   "pairs_attempted": {
+    "no pair formed / every pair errored": 0
+   },
+   "requested": {},
+   "state_model": {
+    "state model unusable (direct-drive disagrees at 10/29 positi": 1,
+    "state model unusable (direct-drive disagrees at 2/30 positio": 1,
+    "state model unusable (direct-drive disagrees at 4/26 positio": 1,
+    "state model unusable (direct-drive disagrees at 7/10 positio": 1,
+    "state model unusable (direct-drive disagrees at 9/20 positio": 1,
+    "state model unusable (no GoldenDUT)": 45,
+    "state model unusable (no comparable expectations)": 3
+   },
+   "suite_emitted": {
+    "passed the gate but was not written": 0
+   },
+   "tests_built": {
+    "adjudicated but no test survived assembly": 0
+   },
+   "toolchain": {},
+   "two_families": {
+    "only 0 candidate family": 1,
+    "only 1 candidate family": 11
+   },
+   "witness_found": {
+    "BMC found no disagreement (UNSAT / timeout / unsupported)": 26
+   },
+   "witness_usable": {
+    "every witness unparsed (0 across all tasks) or illegal (4)": 0
+   }
+  },
+  "surviving": {
+   "adjudicated": 26,
+   "channel1_emitted": 137,
+   "checker_loaded": 137,
+   "driver_parsed": 137,
+   "expectations": 105,
+   "frontend_present": 156,
+   "gate_passed": 9,
+   "pairs_attempted": 52,
+   "requested": 156,
+   "state_model": 52,
+   "suite_emitted": 9,
+   "tests_built": 26,
+   "toolchain": 137,
+   "two_families": 125,
+   "witness_found": 26,
+   "witness_usable": 26
+  }
+ },
+ "CorrectBench frontend": {
+  "lost": {
+   "adjudicated": {
+    "checker abstained at every witness point": 0
+   },
+   "channel1_emitted": {},
+   "checker_loaded": {
+    "checker loaded failed": 0
+   },
+   "driver_parsed": {
+    "driver parsed failed": 6
+   },
+   "expectations": {
+    "expectations unrecoverable": 14
+   },
+   "frontend_present": {
+    "no frontend record for this task": 0
+   },
+   "gate_passed": {
+    "A. no candidate passed Channel 1 (gate had nothing to test)": 21,
+    "B. shadow suite did not simulate": 10,
+    "C. shadow rejects a Channel-1-passing candidate (DISCARDED DETECTION)": 6
+   },
+   "pairs_attempted": {
+    "no pair formed / every pair errored": 0
+   },
+   "requested": {},
+   "state_model": {
+    "state model unusable (direct-drive disagrees at 5/10 positio": 1,
+    "state model unusable (load raised: KeyError: 'a')": 7,
+    "state model unusable (load raised: KeyError: 'data0')": 1,
+    "state model unusable (load raised: KeyError: 'in1')": 1,
+    "state model unusable (load raised: KeyError: 'x')": 1,
+    "state model unusable (load raised: KeyError: 'x3')": 1,
+    "state model unusable (no comparable expectations)": 5
+   },
+   "suite_emitted": {
+    "passed the gate but was not written": 0
+   },
+   "tests_built": {
+    "adjudicated but no test survived assembly": 0
+   },
+   "toolchain": {},
+   "two_families": {
+    "only 0 candidate family": 1,
+    "only 1 candidate family": 10
+   },
+   "witness_found": {
+    "BMC found no disagreement (UNSAT / timeout / unsupported)": 54
+   },
+   "witness_usable": {
+    "every witness unparsed (0 across all tasks) or illegal (4)": 0
+   }
+  },
+  "surviving": {
+   "adjudicated": 54,
+   "channel1_emitted": 150,
+   "checker_loaded": 150,
+   "driver_parsed": 150,
+   "expectations": 125,
+   "frontend_present": 156,
+   "gate_passed": 17,
+   "pairs_attempted": 108,
+   "requested": 156,
+   "state_model": 108,
+   "suite_emitted": 17,
+   "tests_built": 54,
+   "toolchain": 150,
+   "two_families": 139,
+   "witness_found": 54,
+   "witness_usable": 54
+  }
+ }
+}

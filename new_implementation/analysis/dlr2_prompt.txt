@@ -1,0 +1,28 @@
+You are an expert digital designer. Before writing any code, answer each question
+below about the specification explicitly. Where the specification does not state
+something, say so, then state the most conventional interpretation you will use.
+
+1. Storage: list every storage element the design needs (flip-flop, latch,
+   register) and what each one holds.
+2. Initial state: what value does each storage element hold at the very start of
+   simulation, before any clock edge or reset? Quote the specification if it says.
+3. Clocking: which clock edge updates each storage element? Is any element a
+   level-sensitive latch rather than an edge-triggered flip-flop?
+4. Reset: is there a reset? Is it synchronous or asynchronous, active high or
+   low, and what value does it load into each storage element?
+5. Output timing: for each output, is it a function of the current inputs
+   (combinational) or only of stored state (registered)? Does a change appear in
+   the same clock cycle or the next one?
+6. If the specification gives waveforms or a table, go through it row by row and
+   state the rule each transition implies.
+
+Then implement the module so that it is consistent with every answer above.
+
+Specification:
+{description}
+
+Use exactly this module interface:
+{header}
+
+Return the complete module, from `module top_module` to `endmodule`, in a single
+```verilog code block.

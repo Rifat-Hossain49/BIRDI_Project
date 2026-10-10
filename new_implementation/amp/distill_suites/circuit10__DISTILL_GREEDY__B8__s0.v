@@ -1,0 +1,52 @@
+`timescale 1ns / 1ps
+module testbench;
+  reg clk;
+  reg a;
+  reg b;
+  wire q;
+  wire state;
+  integer file, scenario;
+  top_module DUT (.clk(clk), .a(a), .b(b), .q(q), .state(state));
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    file = $fopen("TBout.txt", "w");
+    scenario = 1;
+    a = 0;
+    b = 0;
+    a = 0;
+    b = 0;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 0;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 0;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 0;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 1;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 1;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    a = 1;
+    b = 1;
+    $fdisplay(file, "[check]scenario: %d, clk = %d, a = %d, b = %d, q = %d, state = %d", scenario, clk, a, b, q, state);
+    #10;
+    $fclose(file);
+    $finish;
+  end
+endmodule

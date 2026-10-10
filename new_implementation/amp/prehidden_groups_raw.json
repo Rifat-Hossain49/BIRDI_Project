@@ -1,0 +1,89 @@
+{
+ "countslow": {
+  "status": "ok",
+  "original_states": 10,
+  "amplified_states": 10,
+  "new_states": 0
+ },
+ "count15": {
+  "status": "ok",
+  "original_states": 16,
+  "amplified_states": 16,
+  "new_states": 0
+ },
+ "review2015_count1k": {
+  "status": "ok",
+  "original_states": 1000,
+  "amplified_states": 32,
+  "new_states": 0
+ },
+ "dualedge": {
+  "status": "ok",
+  "original_states": 2,
+  "amplified_states": 2,
+  "new_states": 0
+ },
+ "mt2015_muxdff": {
+  "status": "unsupported"
+ },
+ "circuit10": {
+  "status": "ok",
+  "original_states": 4,
+  "amplified_states": 4,
+  "new_states": 0
+ },
+ "ece241_2014_q5b": {
+  "status": "ok",
+  "original_states": 4,
+  "amplified_states": 4,
+  "new_states": 0
+ },
+ "lemmings3": {
+  "status": "ok",
+  "original_states": 4,
+  "amplified_states": 4,
+  "new_states": 0
+ },
+ "ece241_2013_q4": {
+  "status": "ok",
+  "original_states": 25,
+  "amplified_states": 28,
+  "new_states": 16
+ },
+ "m2014_q4k": {
+  "status": "ok",
+  "original_states": 14,
+  "amplified_states": 5,
+  "new_states": 0
+ },
+ "2014_q4a": {
+  "status": "ok",
+  "original_states": 2,
+  "amplified_states": 2,
+  "new_states": 0
+ },
+ "review2015_shiftcount": {
+  "status": "ok",
+  "original_states": 14,
+  "amplified_states": 16,
+  "new_states": 2
+ },
+ "circuit9": {
+  "status": "ok",
+  "original_states": 7,
+  "amplified_states": 7,
+  "new_states": 0
+ },
+ "circuit8": {
+  "status": "ok",
+  "original_states": 4,
+  "amplified_states": 4,
+  "new_states": 0
+ },
+ "dff8ar": {
+  "status": "ok",
+  "original_states": 9,
+  "amplified_states": 32,
+  "new_states": 27
+ }
+}

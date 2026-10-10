@@ -1,0 +1,411 @@
+[
+ {
+  "task_id": "2012_q2b",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 4,
+  "buckets": {
+   "unanimous-right": 4
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "2013_q2bfsm",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "n_units": 11,
+  "buckets": {
+   "plurality-right": 8,
+   "none-right": 3
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "2014_q3fsm",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "none-right": 7,
+   "select-recoverable": 1,
+   "plurality-right": 2,
+   "unanimous-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "always_casez",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 8,
+  "buckets": {
+   "unanimous-right": 8
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "circuit2",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "unanimous-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "circuit3",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "plurality-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "circuit8",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "circuit9",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "conwaylife",
+  "circuit_type": "SEQ",
+  "n_ran": 2,
+  "n_units": 1,
+  "buckets": {
+   "unanimous-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "count_clock",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 1,
+   "plurality-right": 8,
+   "none-right": 2
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "counter_2bc",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 11
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "ece241_2013_q2",
+  "circuit_type": "CMB",
+  "n_ran": 4,
+  "n_units": 1,
+  "buckets": {
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "ece241_2014_q3",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "ece241_2014_q4",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "n_units": 1,
+  "buckets": {
+   "plurality-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "ece241_2014_q5b",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 11
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "edgecapture",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "select-recoverable": 9,
+   "unanimous-right": 2
+  },
+  "plurality_ok": false,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "fsm2",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 11
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "fsm_hdlc",
+  "circuit_type": "SEQ",
+  "n_ran": 1,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 11
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "fsm_ps2",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "none-right": 10,
+   "plurality-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "fsm_ps2data",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "none-right": 11
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "fsm_serialdata",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 11,
+  "buckets": {
+   "none-right": 11
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "gatesv",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "unanimous-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "gshare",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "n_units": 11,
+  "buckets": {
+   "none-right": 10,
+   "plurality-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "kmap1",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "unanimous-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "kmap4",
+  "circuit_type": "CMB",
+  "n_ran": 4,
+  "n_units": 1,
+  "buckets": {
+   "unanimous-right": 1
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "lemmings1",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "n_units": 11,
+  "buckets": {
+   "plurality-right": 9,
+   "unanimous-right": 2
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "lemmings3",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "n_units": 11,
+  "buckets": {
+   "plurality-right": 2,
+   "unanimous-right": 5,
+   "select-recoverable": 4
+  },
+  "plurality_ok": false,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "lemmings4",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "n_units": 11,
+  "buckets": {
+   "unanimous-right": 10,
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ },
+ {
+  "task_id": "lfsr5",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "n_units": 11,
+  "buckets": {
+   "plurality-right": 11
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "mux256to1v",
+  "circuit_type": "CMB",
+  "n_ran": 1,
+  "n_units": 15,
+  "buckets": {
+   "unanimous-right": 15
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "review2015_fsmonehot",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "n_units": 13,
+  "buckets": {
+   "plurality-right": 13
+  },
+  "plurality_ok": true,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "review2015_shiftcount",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "n_units": 1,
+  "buckets": {
+   "select-recoverable": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": true,
+  "single_ok": true
+ },
+ {
+  "task_id": "rule110",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "n_units": 1,
+  "buckets": {
+   "none-right": 1
+  },
+  "plurality_ok": false,
+  "oracle_ok": false,
+  "single_ok": false
+ }
+]

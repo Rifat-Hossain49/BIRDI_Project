@@ -1,0 +1,40 @@
+`timescale 1ns / 1ps
+module testbench;
+  reg clk;
+  reg clock;
+  reg a;
+  wire p;
+  wire q;
+  integer file, scenario;
+  top_module DUT (.clk(clk), .clock(clock), .a(a), .p(p), .q(q));
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  initial begin
+    file = $fopen("TBout.txt", "w");
+    scenario = 1;
+    clock = 0;
+    a = 0;
+    clock = 0;
+    a = 0;
+    $fdisplay(file, "[check]scenario: %d, clock = %d, a = %d, p = %d, q = %d", scenario, clock, a, p, q);
+    #10;
+    clock = 0;
+    a = 0;
+    $fdisplay(file, "[check]scenario: %d, clock = %d, a = %d, p = %d, q = %d", scenario, clock, a, p, q);
+    #10;
+    clock = 0;
+    a = 0;
+    $fdisplay(file, "[check]scenario: %d, clock = %d, a = %d, p = %d, q = %d", scenario, clock, a, p, q);
+    #10;
+    clock = 0;
+    a = 0;
+    $fdisplay(file, "[check]scenario: %d, clock = %d, a = %d, p = %d, q = %d", scenario, clock, a, p, q);
+    #10;
+    $fclose(file);
+    $finish;
+  end
+endmodule

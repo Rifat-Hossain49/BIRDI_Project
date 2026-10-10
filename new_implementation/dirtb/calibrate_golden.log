@@ -1,0 +1,10 @@
+GATE  local official verdict == ConfiBench's recorded verdict: 520/520 = 100.0%
+
+CALIBRATION  golden as reference, our stimulus, dev tasks:
+   2013_q2bfsm: golden did not run under our driver (COMPILE_ERROR) tb.v:9: error: 'f' has already been declared in this scope.
+tb.v:7:      : It was declared here as a net.
+
+   CMB  n= 20  Eval1 1.000  Eval2 1.000  missed 0  false-rejects 0
+   SEQ  n= 39  Eval1 1.000  Eval2 0.872  missed 19  false-rejects 7
+   ALL  n= 59  Eval1 1.000  Eval2 0.915  missed 19  false-rejects 7
+   tasks failing Eval2 with a PERFECT reference: count_clock(m3/fr0), countbcd(m3/fr0), lemmings4(m2/fr0), m2014_q4d(m0/fr6), timer(m6/fr0)

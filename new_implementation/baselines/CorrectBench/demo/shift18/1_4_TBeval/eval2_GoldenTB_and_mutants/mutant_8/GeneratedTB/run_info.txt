@@ -1,0 +1,15 @@
+iverilog simulation passed!
+
+iverilog cmd 1:
+~/bin/bin/iverilog -g2012 -o run.vvp shift18_tb.v shift18.v 
+iverilog cmd 1 output:
+
+iverilog cmd 1 error:
+
+iverilog cmd 2:
+~/bin/bin/vvp run.vvp
+iverilog cmd 2 output:
+shift18_tb.v:139: $finish called at 290000 (1ps)
+
+iverilog cmd 2 error:
+

@@ -1,0 +1,515 @@
+{
+  "profile": "13a4988006c83ccb8f37c66b0a1e829f41d60024ef334c471a30a0e7545b6ffd",
+  "tasks": [
+    {
+      "task": "ece241_2014_q4",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "71c86bea45edf9968e083cfb49d67b19d45f5b931eac509932f3e2b031e99045",
+      "recoverable_calls": 107,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/6_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/7_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/8_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_045135/ece241_2014_q4/9_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "ece241_2013_q4",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct300_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "71c86bea45edf9968e083cfb49d67b19d45f5b931eac509932f3e2b031e99045",
+      "recoverable_calls": 78,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/6_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/7_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_045135/ece241_2013_q4/8_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "fsm_onehot",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "00e85db48a1e20d8eb66b65e1187e7d23793fc0717f1f0249580333a19f8def8",
+      "recoverable_calls": 79,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044554/fsm_onehot/1_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044554/fsm_onehot/3_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044554/fsm_onehot/6_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044554/fsm_onehot/7_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "fsm_serial",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct301_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "00e85db48a1e20d8eb66b65e1187e7d23793fc0717f1f0249580333a19f8def8",
+      "recoverable_calls": 40,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044554/fsm_serial/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044554/fsm_serial/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044554/fsm_serial/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044554/fsm_serial/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "lfsr5",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "f279bf17ecda49b3a364d021538746bbf9ffca69f583c04ab87a95f722aae1f1",
+      "recoverable_calls": 22,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044557/lfsr5/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044557/lfsr5/2_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044557/lfsr5/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "fsm_serialdata",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct302_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "f279bf17ecda49b3a364d021538746bbf9ffca69f583c04ab87a95f722aae1f1",
+      "recoverable_calls": 46,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044557/fsm_serialdata/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044557/fsm_serialdata/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044557/fsm_serialdata/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "gshare",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct303_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "09d5647ab2062d38336a07863fa38eeb84dd7825f413fe837b06445d2becb18e",
+      "recoverable_calls": 42,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044558/gshare/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044558/gshare/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044558/gshare/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044558/gshare/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "2013_q2bfsm",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "3303c01118a867c72290baeadf379e89bd1ad78bdd9f924b869bb7b7ec8efa79",
+      "recoverable_calls": 34,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044811/2013_q2bfsm/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044811/2013_q2bfsm/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044811/2013_q2bfsm/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044811/2013_q2bfsm/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "lemmings4",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct304_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "3303c01118a867c72290baeadf379e89bd1ad78bdd9f924b869bb7b7ec8efa79",
+      "recoverable_calls": 42,
+      "frozen_population_size": 0,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044811/lemmings4/6_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "2014_q3fsm",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "c69a2b719cde2f8974c71dbf6887f6fbb87abbeee2e29ba2e73191257d55c94d",
+      "recoverable_calls": 26,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044552/2014_q3fsm/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044552/2014_q3fsm/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "review2015_fsm",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct305_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "c69a2b719cde2f8974c71dbf6887f6fbb87abbeee2e29ba2e73191257d55c94d",
+      "recoverable_calls": 40,
+      "frozen_population_size": 0,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044552/review2015_fsm/6_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "vector100r",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct306_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "66934a209c4a9eaabeac5396f0048c3e0077d9cec5ee4877334bb830318e115f",
+      "recoverable_calls": 53,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044542/vector100r/1_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044542/vector100r/7_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "circuit10",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "cab26343b5b4b85c907ef6ea3cdcd5766777ce43b066c7cb2aed18fa6ebd558f",
+      "recoverable_calls": 38,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044504/circuit10/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044504/circuit10/4_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044504/circuit10/6_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "count_clock",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct307_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "cab26343b5b4b85c907ef6ea3cdcd5766777ce43b066c7cb2aed18fa6ebd558f",
+      "recoverable_calls": 50,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044504/count_clock/1_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044504/count_clock/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044504/count_clock/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044504/count_clock/4_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "fsm_hdlc",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "d9ab5626a5e8826adee6e37b5b4e0ea99e5cf80609c14d5e7e7e0e2afd9f5e05",
+      "recoverable_calls": 14,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044714/fsm_hdlc/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044714/fsm_hdlc/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "lemmings2",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct308_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "d9ab5626a5e8826adee6e37b5b4e0ea99e5cf80609c14d5e7e7e0e2afd9f5e05",
+      "recoverable_calls": 47,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044714/lemmings2/6_1_TBgen/stage_checklist.txt",
+          "reason": "Truncated message"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "review2015_fancytimer",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "6bcdc4aa305afbe040ef9f1be62cd39ceebc85c71199e54beca4f30fe933215e",
+      "recoverable_calls": 40,
+      "frozen_population_size": 0,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044653/review2015_fancytimer/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044653/review2015_fancytimer/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044653/review2015_fancytimer/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044653/review2015_fancytimer/4_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W0_20261003_044653/review2015_fancytimer/5_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    },
+    {
+      "task": "countbcd",
+      "archive": "F:\\BIRDI_Project\\new_implementation\\kaggle_runs\\cbqoct309_oct3_diagnostics\\cbq_partial.zip",
+      "archive_sha256": "6bcdc4aa305afbe040ef9f1be62cd39ceebc85c71199e54beca4f30fe933215e",
+      "recoverable_calls": 33,
+      "frozen_population_size": 20,
+      "rejected_files": [
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044653/countbcd/1_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044653/countbcd/2_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        },
+        {
+          "path": "saves/ConfiBench_qwen/S0W1_20261003_044653/countbcd/3_1_TBgen/stage_checklist.txt",
+          "reason": "Not a complete saved conversation"
+        }
+      ],
+      "iteration_state_reconstructed": false,
+      "historical_usage_available": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "AutoBench": {
+    "runs": 1560,
+    "eval1": 0.5147435897435897,
+    "published_eval2": 0.4480769230769231,
+    "published_eval2_gated_on_eval0_eval1": 0.44551282051282054,
+    "strict_all_verdicts_agree": 0.34615384615384615,
+    "tasks": 156,
+    "path": "F:\\BIRDI_Project\\new_implementation\\baselines\\ConfiBench\\data\\AutoBenchResults\\run_info_and_codes.jsonl",
+    "sequential": {
+      "runs": 750,
+      "eval1": 0.37066666666666664,
+      "published_eval2": 0.26,
+      "published_eval2_gated_on_eval0_eval1": 0.26,
+      "strict_all_verdicts_agree": 0.10933333333333334
+    }
+  },
+  "AutoBench-direct": {
+    "runs": 1560,
+    "eval1": 0.5615384615384615,
+    "published_eval2": 0.3384615384615385,
+    "published_eval2_gated_on_eval0_eval1": 0.0,
+    "strict_all_verdicts_agree": 0.257051282051282,
+    "tasks": 156,
+    "path": "F:\\BIRDI_Project\\new_implementation\\baselines\\ConfiBench\\data\\AutoBenchResults\\run_info_and_codes_Baseline.jsonl",
+    "sequential": {
+      "runs": 750,
+      "eval1": 0.42,
+      "published_eval2": 0.12,
+      "published_eval2_gated_on_eval0_eval1": 0.0,
+      "strict_all_verdicts_agree": 0.04
+    }
+  },
+  "CorrectBench(run_info)": {
+    "runs": 780,
+    "eval1": 0.7948717948717948,
+    "published_eval2": 0.7012820512820512,
+    "published_eval2_gated_on_eval0_eval1": 0.7,
+    "strict_all_verdicts_agree": 0.5230769230769231,
+    "tasks": 156,
+    "path": "F:\\BIRDI_Project\\new_implementation\\baselines\\ConfiBench\\data\\CorrectBenchResults\\run_info.jsonl",
+    "sequential": {
+      "runs": 375,
+      "eval1": 0.7173333333333334,
+      "published_eval2": 0.5493333333333333,
+      "published_eval2_gated_on_eval0_eval1": 0.5493333333333333,
+      "strict_all_verdicts_agree": 0.264
+    }
+  },
+  "CorrectBench(codes)": {
+    "runs": 780,
+    "eval1": 0.7948717948717948,
+    "published_eval2": 0.7012820512820512,
+    "published_eval2_gated_on_eval0_eval1": 0.7,
+    "strict_all_verdicts_agree": 0.5230769230769231,
+    "tasks": 156,
+    "path": "F:\\BIRDI_Project\\new_implementation\\baselines\\ConfiBench\\data\\CorrectBenchResults\\run_info_and_codes.jsonl",
+    "sequential": {
+      "runs": 375,
+      "eval1": 0.7173333333333334,
+      "published_eval2": 0.5493333333333333,
+      "published_eval2_gated_on_eval0_eval1": 0.5493333333333333,
+      "strict_all_verdicts_agree": 0.264
+    }
+  },
+  "CorrectBench(new)": {
+    "runs": 780,
+    "eval1": 0.7948717948717948,
+    "published_eval2": 0.7012820512820512,
+    "published_eval2_gated_on_eval0_eval1": 0.7,
+    "strict_all_verdicts_agree": 0.5230769230769231,
+    "tasks": 156,
+    "path": "F:\\BIRDI_Project\\new_implementation\\baselines\\ConfiBench\\data\\CorrectBenchResults\\run_info_and_codes_new.jsonl",
+    "sequential": {
+      "runs": 375,
+      "eval1": 0.7173333333333334,
+      "published_eval2": 0.5493333333333333,
+      "published_eval2_gated_on_eval0_eval1": 0.5493333333333333,
+      "strict_all_verdicts_agree": 0.264
+    }
+  }
+}

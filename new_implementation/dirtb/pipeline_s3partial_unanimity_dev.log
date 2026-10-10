@@ -1,0 +1,38 @@
+  [  1/33] 2012_q2b               ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  7s
+  [  2/33] 2013_q2bfsm            ran 3/5  Eval1 True  Eval2 True   (ConfiBench 0.67/0.00)  8s
+  [  3/33] 2014_q3fsm             ran 5/5  Eval1 False Eval2 False  (ConfiBench 0.67/0.67)  10s
+  [  4/33] always_casez           ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  7s
+  [  5/33] circuit2               ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  6s
+  [  6/33] circuit3               ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  6s
+  [  7/33] circuit8               ran 5/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  8s
+  [  8/33] circuit9               ran 5/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.33)  8s
+  [  9/33] conwaylife             ran 2/5  Eval1 True  Eval2 True   (ConfiBench 1.00/0.67)  31s
+  [ 10/33] count_clock            ran 4/5  Eval1 True  Eval2 True   (ConfiBench 1.00/0.00)  10s
+  [ 11/33] counter_2bc            ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  8s
+  [ 12/33] ece241_2013_q2         ran 4/4  Eval1 True  Eval2 True   (ConfiBench 0.33/0.00)  6s
+  [ 13/33] ece241_2014_q3         ran 5/5  Eval1 False Eval2 False  (ConfiBench 0.33/0.00)  6s
+  [ 14/33] ece241_2014_q4         ran 4/5  Eval1 True  Eval2 False  (ConfiBench 1.00/1.00)  8s
+  [ 15/33] ece241_2014_q5b        ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  8s
+  [ 16/33] edgecapture            ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  8s
+  [ 17/33] fsm2                   ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  8s
+  [ 18/33] fsm_hdlc               ran 1/5  Eval1 True  Eval2 True   (ConfiBench 0.33/0.00)  7s
+  [ 19/33] fsm_ps2                ran 5/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  8s
+  [ 20/33] fsm_ps2data            ran 5/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  9s
+  [ 21/33] fsm_serialdata         ran 5/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  8s
+  [ 22/33] gatesv                 ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  6s
+  [ 23/33] gshare                 ran 3/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  8s
+  [ 24/33] kmap1                  ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  6s
+  [ 25/33] kmap4                  ran 4/5  Eval1 True  Eval2 True   (ConfiBench 1.00/0.00)  7s
+  [ 26/33] lemmings1              ran 4/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  8s
+  [ 27/33] lemmings3              ran 4/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  9s
+  [ 28/33] lemmings4              ran 3/5  Eval1 False Eval2 False  (ConfiBench 1.00/0.33)  8s
+  [ 29/33] lfsr5                  ran 4/4  Eval1 True  Eval2 True   (ConfiBench 0.00/0.00)  8s
+  [ 30/33] mux256to1v             ran 1/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  6s
+  [ 31/33] review2015_fsmonehot   ran 5/5  Eval1 True  Eval2 True   (ConfiBench 0.33/0.00)  6s
+  [ 32/33] review2015_shiftcount  ran 5/5  Eval1 True  Eval2 True   (ConfiBench 1.00/1.00)  10s
+  [ 33/33] rule110                ran 3/4  Eval1 False Eval2 False  (ConfiBench 1.00/0.00)  9s
+
+33 tasks in 277s
+  CMB  n= 11   pipeline Eval1 0.909 Eval2 0.909   |   ConfiBench-4o Eval1 0.818 Eval2 0.636
+  SEQ  n= 22   pipeline Eval1 0.591 Eval2 0.545   |   ConfiBench-4o Eval1 0.894 Eval2 0.455
+  ALL  n= 33   pipeline Eval1 0.697 Eval2 0.667   |   ConfiBench-4o Eval1 0.869 Eval2 0.515

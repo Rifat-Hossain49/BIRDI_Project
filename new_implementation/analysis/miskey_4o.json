@@ -1,0 +1,3763 @@
+{
+"variant": "ConfiBench_4o",
+"tau": 0.0,
+"gate1": 0.9772727272727273,
+"gate2": 0.9970171513795675,
+"audit": {
+"scenarios unmasked": 839,
+"scenarios masked by ConfiBench": 1386,
+"Eval1 broken by an unmask": 42,
+"mutant verdict flipped to reject": 287,
+"  ...a missed detection recovered": 232,
+"  ...a FALSE rejection introduced": 55,
+"mutant skipped: reconstruction disagrees with record": 12
+},
+"baseline": {
+"NO2_20250305_104647|mux2to1v": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q6b": [
+false,
+false
+],
+"NO2_20250305_104647|ringer": [
+true,
+true
+],
+"NO2_20250305_104647|alwaysblock1": [
+true,
+true
+],
+"NO2_20250305_104647|zero": [
+true,
+true
+],
+"NO2_20250305_104647|circuit7": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q5a": [
+true,
+true
+],
+"NO2_20250305_104647|fsm3": [
+true,
+true
+],
+"NO2_20250305_104647|vector2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4c": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|shift18": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q8": [
+true,
+false
+],
+"NO2_20250305_104647|m2014_q6": [
+true,
+false
+],
+"NO2_20250305_104647|fsm_ps2data": [
+true,
+false
+],
+"NO2_20250305_104647|2012_q2b": [
+true,
+true
+],
+"NO2_20250305_104647|vector0": [
+true,
+true
+],
+"NO2_20250305_104647|kmap4": [
+true,
+false
+],
+"NO2_20250305_104647|vector1": [
+true,
+true
+],
+"NO2_20250305_104647|norgate": [
+true,
+true
+],
+"NO2_20250305_104647|alwaysblock2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q6c": [
+true,
+true
+],
+"NO2_20250305_104647|mux256to1": [
+true,
+true
+],
+"NO2_20250305_104647|2014_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q4": [
+true,
+true
+],
+"NO2_20250305_104647|circuit4": [
+true,
+true
+],
+"NO2_20250305_104647|rule110": [
+true,
+false
+],
+"NO2_20250305_104647|fsm3s": [
+true,
+false
+],
+"NO2_20250305_104647|circuit5": [
+true,
+true
+],
+"NO2_20250305_104647|bugs_mux2": [
+false,
+false
+],
+"NO2_20250305_104647|mt2015_muxdff": [
+true,
+false
+],
+"NO2_20250305_104647|edgecapture": [
+true,
+true
+],
+"NO2_20250305_104647|dff8": [
+true,
+false
+],
+"NO2_20250305_104647|ece241_2014_q1c": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmonehot": [
+false,
+false
+],
+"NO2_20250305_104647|counter_2bc": [
+true,
+true
+],
+"NO2_20250305_104647|always_casez": [
+true,
+true
+],
+"NO2_20250305_104647|always_nolatches": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4j": [
+true,
+true
+],
+"NO2_20250305_104647|history_shift": [
+true,
+true
+],
+"NO2_20250305_104647|wire_decl": [
+true,
+true
+],
+"NO2_20250305_104647|dff": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q12": [
+true,
+true
+],
+"NO2_20250305_104647|thermostat": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q2": [
+false,
+false
+],
+"NO2_20250305_104647|lfsr32": [
+false,
+false
+],
+"NO2_20250305_104647|circuit3": [
+true,
+true
+],
+"NO2_20250305_104647|7420": [
+true,
+true
+],
+"NO2_20250305_104647|popcount255": [
+true,
+true
+],
+"NO2_20250305_104647|gatesv": [
+true,
+true
+],
+"NO2_20250305_104647|circuit6": [
+true,
+true
+],
+"NO2_20250305_104647|countslow": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4f": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4h": [
+true,
+true
+],
+"NO2_20250305_104647|fsm1": [
+true,
+true
+],
+"NO2_20250305_104647|dualedge": [
+true,
+false
+],
+"NO2_20250305_104647|xnorgate": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4": [
+true,
+true
+],
+"NO2_20250305_104647|rotate100": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_count1k": [
+true,
+true
+],
+"NO2_20250305_104647|notgate": [
+true,
+true
+],
+"NO2_20250305_104647|fsm_onehot": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q7": [
+false,
+false
+],
+"NO2_20250305_104647|popcount3": [
+true,
+true
+],
+"NO2_20250305_104647|vector5": [
+true,
+true
+],
+"NO2_20250305_104647|lemmings1": [
+true,
+true
+],
+"NO2_20250305_104647|circuit1": [
+true,
+true
+],
+"NO2_20250305_104647|7458": [
+true,
+false
+],
+"NO2_20250305_104647|2014_q3c": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4e": [
+true,
+true
+],
+"NO2_20250305_104647|wire4": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4b": [
+true,
+true
+],
+"NO2_20250305_104647|always_case": [
+true,
+true
+],
+"NO2_20250305_104647|timer": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmseq": [
+true,
+true
+],
+"NO2_20250305_104647|dff8r": [
+true,
+true
+],
+"NO2_20250305_104647|edgedetect2": [
+false,
+false
+],
+"NO2_20250305_104647|count1to10": [
+true,
+true
+],
+"NO2_20250305_104647|circuit9": [
+true,
+false
+],
+"NO2_20250305_104647|lfsr5": [
+false,
+false
+],
+"NO2_20250305_104647|bugs_addsubz": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q3": [
+false,
+false
+],
+"NO2_20250305_104647|bugs_case": [
+true,
+true
+],
+"NO2_20250305_104647|vectorr": [
+true,
+true
+],
+"NO2_20250305_104647|kmap3": [
+false,
+false
+],
+"NO2_20250305_104647|review2015_shiftcount": [
+true,
+true
+],
+"NO2_20250305_104647|wire": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmshift": [
+true,
+false
+],
+"NO2_20250305_104647|count15": [
+true,
+true
+],
+"NO2_20250305_104647|always_if": [
+true,
+true
+],
+"NO2_20250305_104647|kmap1": [
+true,
+true
+],
+"NO2_20250305_104647|2013_q2afsm": [
+false,
+false
+],
+"NO2_20250305_104647|count10": [
+true,
+true
+],
+"NO2_20250305_104647|fsm_ps2": [
+true,
+false
+],
+"NO2_20250305_104647|mux2to1": [
+true,
+true
+],
+"NO2_20250305_104647|gates4": [
+true,
+true
+],
+"NO2_20250305_104647|2014_q3bfsm": [
+true,
+false
+],
+"NO2_20250305_104647|2013_q2bfsm": [
+true,
+false
+],
+"NO2_20250305_104647|dff8p": [
+true,
+true
+],
+"NO2_20250305_104647|reduction": [
+true,
+true
+],
+"NO2_20250305_104647|fsm3comb": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4b": [
+true,
+true
+],
+"NO2_20250305_104647|2012_q2fsm": [
+true,
+false
+],
+"NO2_20250305_104647|dff16e": [
+true,
+true
+],
+"NO2_20250305_104647|edgedetect": [
+true,
+true
+],
+"NO2_20250305_104647|circuit8": [
+true,
+false
+],
+"NO2_20250305_104647|rule90": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_eq2": [
+true,
+true
+],
+"NO2_20250305_104647|gatesv100": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|mux256to1v": [
+true,
+true
+],
+"NO2_20250305_104647|mux9to1v": [
+true,
+true
+],
+"NO2_20250305_104647|vectorgates": [
+true,
+true
+],
+"NO2_20250305_104647|fsm3onehot": [
+true,
+true
+],
+"NO2_20250305_104647|conditional": [
+true,
+true
+],
+"NO2_20250305_104647|gates": [
+true,
+true
+],
+"NO2_20250305_104647|kmap2": [
+false,
+false
+],
+"NO2_20250305_104647|2014_q3fsm": [
+true,
+true
+],
+"NO2_20250305_104647|vector4": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4k": [
+true,
+false
+],
+"NO2_20250305_104647|always_case2": [
+false,
+false
+],
+"NO2_20250305_104647|fsm2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4i": [
+true,
+true
+],
+"NO2_20250305_104647|step_one": [
+true,
+true
+],
+"NO2_20250305_104647|vector100r": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4d": [
+true,
+false
+],
+"NO2_20250305_104647|shift4": [
+true,
+true
+],
+"NO2_20250305_104647|truthtable1": [
+true,
+true
+],
+"NO2_20250305_104647|dff8ar": [
+true,
+true
+],
+"NO2_20250305_104647|gates100": [
+true,
+true
+],
+"NO2_20250305_104647|hadd": [
+true,
+true
+],
+"NO2_20250305_104647|always_if2": [
+true,
+true
+],
+"NO2_20250305_104647|fsm2s": [
+true,
+true
+],
+"NO2_20250305_104647|vector3": [
+true,
+true
+],
+"NO2_20250305_104647|circuit2": [
+true,
+true
+],
+"NO2_20250305_104647|andgate": [
+true,
+true
+],
+"NO2_20250305_104647|fsm1s": [
+true,
+true
+],
+"NO2_20250305_104647|fadd": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4g": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q3": [
+true,
+false
+],
+"NO2_20250305_104647|ece241_2014_q5b": [
+true,
+true
+],
+"NO2_20250305_104647|circuit10": [
+true,
+false
+],
+"NO2_20250305_104647|2012_q1g": [
+false,
+false
+],
+"NO2_20250305_104647|fsm_hdlc": [
+false,
+false
+],
+"NO2_20250305_104647|review2015_fancytimer": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q4": [
+true,
+false
+],
+"NO2_20250305_104647|fsm_serial": [
+false,
+false
+],
+"NO2_20250305_104647|fsm_serialdata": [
+true,
+false
+],
+"NO2_20250305_104647|gshare": [
+true,
+false
+],
+"NO2_20250305_104647|lemmings4": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsm": [
+true,
+false
+],
+"NO2_20250305_104647|conwaylife": [
+true,
+false
+],
+"NO2_20250305_104647|lemmings3": [
+true,
+true
+],
+"NO2_20250305_104647|count_clock": [
+true,
+false
+],
+"NO2_20250305_104647|lemmings2": [
+true,
+true
+],
+"NO2_20250305_104647|countbcd": [
+true,
+false
+],
+"NO3_20250305_212048|mux2to1v": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6b": [
+false,
+false
+],
+"NO3_20250305_212048|ringer": [
+true,
+true
+],
+"NO3_20250305_212048|alwaysblock1": [
+true,
+true
+],
+"NO3_20250305_212048|zero": [
+true,
+true
+],
+"NO3_20250305_212048|circuit7": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q5a": [
+true,
+true
+],
+"NO3_20250305_212048|fsm3": [
+true,
+false
+],
+"NO3_20250305_212048|vector2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4c": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|shift18": [
+true,
+false
+],
+"NO3_20250305_212048|ece241_2013_q8": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6": [
+true,
+false
+],
+"NO3_20250305_212048|fsm_ps2data": [
+true,
+false
+],
+"NO3_20250305_212048|2012_q2b": [
+true,
+true
+],
+"NO3_20250305_212048|vector0": [
+true,
+true
+],
+"NO3_20250305_212048|kmap4": [
+true,
+false
+],
+"NO3_20250305_212048|vector1": [
+true,
+true
+],
+"NO3_20250305_212048|norgate": [
+true,
+true
+],
+"NO3_20250305_212048|alwaysblock2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6c": [
+true,
+true
+],
+"NO3_20250305_212048|mux256to1": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q4": [
+true,
+true
+],
+"NO3_20250305_212048|circuit4": [
+true,
+true
+],
+"NO3_20250305_212048|rule110": [
+true,
+false
+],
+"NO3_20250305_212048|fsm3s": [
+true,
+false
+],
+"NO3_20250305_212048|circuit5": [
+true,
+true
+],
+"NO3_20250305_212048|bugs_mux2": [
+false,
+false
+],
+"NO3_20250305_212048|mt2015_muxdff": [
+true,
+false
+],
+"NO3_20250305_212048|edgecapture": [
+true,
+true
+],
+"NO3_20250305_212048|dff8": [
+true,
+false
+],
+"NO3_20250305_212048|ece241_2014_q1c": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_fsmonehot": [
+false,
+false
+],
+"NO3_20250305_212048|counter_2bc": [
+true,
+true
+],
+"NO3_20250305_212048|always_casez": [
+true,
+true
+],
+"NO3_20250305_212048|always_nolatches": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4j": [
+true,
+true
+],
+"NO3_20250305_212048|history_shift": [
+true,
+true
+],
+"NO3_20250305_212048|wire_decl": [
+true,
+true
+],
+"NO3_20250305_212048|dff": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q12": [
+true,
+true
+],
+"NO3_20250305_212048|thermostat": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q2": [
+false,
+false
+],
+"NO3_20250305_212048|lfsr32": [
+false,
+false
+],
+"NO3_20250305_212048|circuit3": [
+true,
+true
+],
+"NO3_20250305_212048|7420": [
+true,
+true
+],
+"NO3_20250305_212048|popcount255": [
+true,
+true
+],
+"NO3_20250305_212048|gatesv": [
+true,
+true
+],
+"NO3_20250305_212048|circuit6": [
+true,
+true
+],
+"NO3_20250305_212048|countslow": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4f": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4h": [
+true,
+true
+],
+"NO3_20250305_212048|fsm1": [
+true,
+true
+],
+"NO3_20250305_212048|dualedge": [
+true,
+false
+],
+"NO3_20250305_212048|xnorgate": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4": [
+true,
+true
+],
+"NO3_20250305_212048|rotate100": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_count1k": [
+true,
+true
+],
+"NO3_20250305_212048|notgate": [
+true,
+true
+],
+"NO3_20250305_212048|fsm_onehot": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q7": [
+true,
+true
+],
+"NO3_20250305_212048|popcount3": [
+true,
+true
+],
+"NO3_20250305_212048|vector5": [
+true,
+true
+],
+"NO3_20250305_212048|lemmings1": [
+true,
+true
+],
+"NO3_20250305_212048|circuit1": [
+true,
+true
+],
+"NO3_20250305_212048|7458": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q3c": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4e": [
+true,
+true
+],
+"NO3_20250305_212048|wire4": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4b": [
+true,
+true
+],
+"NO3_20250305_212048|always_case": [
+true,
+true
+],
+"NO3_20250305_212048|timer": [
+true,
+false
+],
+"NO3_20250305_212048|review2015_fsmseq": [
+true,
+true
+],
+"NO3_20250305_212048|dff8r": [
+true,
+true
+],
+"NO3_20250305_212048|edgedetect2": [
+false,
+false
+],
+"NO3_20250305_212048|count1to10": [
+true,
+true
+],
+"NO3_20250305_212048|circuit9": [
+true,
+true
+],
+"NO3_20250305_212048|lfsr5": [
+false,
+false
+],
+"NO3_20250305_212048|bugs_addsubz": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q3": [
+false,
+false
+],
+"NO3_20250305_212048|bugs_case": [
+true,
+true
+],
+"NO3_20250305_212048|vectorr": [
+true,
+true
+],
+"NO3_20250305_212048|kmap3": [
+false,
+false
+],
+"NO3_20250305_212048|review2015_shiftcount": [
+true,
+true
+],
+"NO3_20250305_212048|wire": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_fsmshift": [
+true,
+false
+],
+"NO3_20250305_212048|count15": [
+true,
+true
+],
+"NO3_20250305_212048|always_if": [
+true,
+true
+],
+"NO3_20250305_212048|kmap1": [
+true,
+true
+],
+"NO3_20250305_212048|2013_q2afsm": [
+false,
+false
+],
+"NO3_20250305_212048|count10": [
+true,
+true
+],
+"NO3_20250305_212048|fsm_ps2": [
+true,
+false
+],
+"NO3_20250305_212048|mux2to1": [
+true,
+true
+],
+"NO3_20250305_212048|gates4": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q3bfsm": [
+true,
+false
+],
+"NO3_20250305_212048|2013_q2bfsm": [
+false,
+false
+],
+"NO3_20250305_212048|dff8p": [
+true,
+true
+],
+"NO3_20250305_212048|reduction": [
+true,
+true
+],
+"NO3_20250305_212048|fsm3comb": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4b": [
+true,
+true
+],
+"NO3_20250305_212048|2012_q2fsm": [
+true,
+false
+],
+"NO3_20250305_212048|dff16e": [
+true,
+false
+],
+"NO3_20250305_212048|edgedetect": [
+true,
+true
+],
+"NO3_20250305_212048|circuit8": [
+true,
+false
+],
+"NO3_20250305_212048|rule90": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_eq2": [
+true,
+true
+],
+"NO3_20250305_212048|gatesv100": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|mux256to1v": [
+true,
+true
+],
+"NO3_20250305_212048|mux9to1v": [
+true,
+true
+],
+"NO3_20250305_212048|vectorgates": [
+true,
+true
+],
+"NO3_20250305_212048|fsm3onehot": [
+true,
+true
+],
+"NO3_20250305_212048|conditional": [
+true,
+true
+],
+"NO3_20250305_212048|gates": [
+true,
+true
+],
+"NO3_20250305_212048|kmap2": [
+false,
+false
+],
+"NO3_20250305_212048|2014_q3fsm": [
+true,
+true
+],
+"NO3_20250305_212048|vector4": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4k": [
+true,
+true
+],
+"NO3_20250305_212048|always_case2": [
+false,
+false
+],
+"NO3_20250305_212048|fsm2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4i": [
+true,
+true
+],
+"NO3_20250305_212048|step_one": [
+true,
+true
+],
+"NO3_20250305_212048|vector100r": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4d": [
+false,
+false
+],
+"NO3_20250305_212048|shift4": [
+true,
+true
+],
+"NO3_20250305_212048|truthtable1": [
+true,
+true
+],
+"NO3_20250305_212048|dff8ar": [
+true,
+true
+],
+"NO3_20250305_212048|gates100": [
+true,
+true
+],
+"NO3_20250305_212048|hadd": [
+true,
+true
+],
+"NO3_20250305_212048|always_if2": [
+true,
+true
+],
+"NO3_20250305_212048|fsm2s": [
+false,
+false
+],
+"NO3_20250305_212048|vector3": [
+true,
+true
+],
+"NO3_20250305_212048|circuit2": [
+true,
+true
+],
+"NO3_20250305_212048|andgate": [
+true,
+true
+],
+"NO3_20250305_212048|fsm1s": [
+true,
+true
+],
+"NO3_20250305_212048|fadd": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4g": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q3": [
+false,
+false
+],
+"NO3_20250305_212048|ece241_2014_q5b": [
+true,
+true
+],
+"NO3_20250305_212048|circuit10": [
+true,
+false
+],
+"NO3_20250305_212048|2012_q1g": [
+false,
+false
+],
+"NO3_20250305_212048|fsm_hdlc": [
+false,
+false
+],
+"NO3_20250305_212048|review2015_fancytimer": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q4": [
+true,
+false
+],
+"NO3_20250305_212048|fsm_serial": [
+true,
+false
+],
+"NO3_20250305_212048|fsm_serialdata": [
+true,
+false
+],
+"NO3_20250305_212048|gshare": [
+true,
+false
+],
+"NO3_20250305_212048|lemmings4": [
+true,
+false
+],
+"NO3_20250305_212048|review2015_fsm": [
+true,
+false
+],
+"NO3_20250305_212048|conwaylife": [
+true,
+true
+],
+"NO3_20250305_212048|lemmings3": [
+true,
+true
+],
+"NO3_20250305_212048|count_clock": [
+true,
+false
+],
+"NO3_20250305_212048|lemmings2": [
+true,
+true
+],
+"NO3_20250305_212048|countbcd": [
+true,
+false
+],
+"NO1_20250305_104636|mux2to1v": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q6b": [
+false,
+false
+],
+"NO1_20250305_104636|ringer": [
+true,
+true
+],
+"NO1_20250305_104636|alwaysblock1": [
+true,
+true
+],
+"NO1_20250305_104636|zero": [
+true,
+true
+],
+"NO1_20250305_104636|circuit7": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q5a": [
+true,
+true
+],
+"NO1_20250305_104636|fsm3": [
+true,
+false
+],
+"NO1_20250305_104636|vector2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4c": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|shift18": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q8": [
+true,
+false
+],
+"NO1_20250305_104636|m2014_q6": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_ps2data": [
+true,
+false
+],
+"NO1_20250305_104636|2012_q2b": [
+true,
+true
+],
+"NO1_20250305_104636|vector0": [
+true,
+true
+],
+"NO1_20250305_104636|kmap4": [
+true,
+false
+],
+"NO1_20250305_104636|vector1": [
+true,
+true
+],
+"NO1_20250305_104636|norgate": [
+true,
+true
+],
+"NO1_20250305_104636|alwaysblock2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q6c": [
+true,
+true
+],
+"NO1_20250305_104636|mux256to1": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q4": [
+true,
+true
+],
+"NO1_20250305_104636|circuit4": [
+true,
+true
+],
+"NO1_20250305_104636|rule110": [
+true,
+false
+],
+"NO1_20250305_104636|fsm3s": [
+true,
+false
+],
+"NO1_20250305_104636|circuit5": [
+true,
+true
+],
+"NO1_20250305_104636|bugs_mux2": [
+false,
+false
+],
+"NO1_20250305_104636|mt2015_muxdff": [
+true,
+false
+],
+"NO1_20250305_104636|edgecapture": [
+true,
+true
+],
+"NO1_20250305_104636|dff8": [
+true,
+false
+],
+"NO1_20250305_104636|ece241_2014_q1c": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_fsmonehot": [
+true,
+false
+],
+"NO1_20250305_104636|counter_2bc": [
+true,
+true
+],
+"NO1_20250305_104636|always_casez": [
+true,
+true
+],
+"NO1_20250305_104636|always_nolatches": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4j": [
+true,
+true
+],
+"NO1_20250305_104636|history_shift": [
+true,
+true
+],
+"NO1_20250305_104636|wire_decl": [
+true,
+true
+],
+"NO1_20250305_104636|dff": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q12": [
+true,
+true
+],
+"NO1_20250305_104636|thermostat": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q2": [
+true,
+false
+],
+"NO1_20250305_104636|lfsr32": [
+false,
+false
+],
+"NO1_20250305_104636|circuit3": [
+true,
+true
+],
+"NO1_20250305_104636|7420": [
+true,
+false
+],
+"NO1_20250305_104636|popcount255": [
+true,
+true
+],
+"NO1_20250305_104636|gatesv": [
+true,
+true
+],
+"NO1_20250305_104636|circuit6": [
+true,
+true
+],
+"NO1_20250305_104636|countslow": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4f": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4h": [
+true,
+true
+],
+"NO1_20250305_104636|fsm1": [
+true,
+true
+],
+"NO1_20250305_104636|dualedge": [
+true,
+false
+],
+"NO1_20250305_104636|xnorgate": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4": [
+true,
+true
+],
+"NO1_20250305_104636|rotate100": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_count1k": [
+true,
+true
+],
+"NO1_20250305_104636|notgate": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_onehot": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q7": [
+true,
+true
+],
+"NO1_20250305_104636|popcount3": [
+true,
+true
+],
+"NO1_20250305_104636|vector5": [
+true,
+true
+],
+"NO1_20250305_104636|lemmings1": [
+true,
+true
+],
+"NO1_20250305_104636|circuit1": [
+true,
+true
+],
+"NO1_20250305_104636|7458": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q3c": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4e": [
+true,
+true
+],
+"NO1_20250305_104636|wire4": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4b": [
+true,
+true
+],
+"NO1_20250305_104636|always_case": [
+true,
+true
+],
+"NO1_20250305_104636|timer": [
+true,
+false
+],
+"NO1_20250305_104636|review2015_fsmseq": [
+true,
+true
+],
+"NO1_20250305_104636|dff8r": [
+true,
+true
+],
+"NO1_20250305_104636|edgedetect2": [
+false,
+false
+],
+"NO1_20250305_104636|count1to10": [
+true,
+true
+],
+"NO1_20250305_104636|circuit9": [
+true,
+false
+],
+"NO1_20250305_104636|lfsr5": [
+false,
+false
+],
+"NO1_20250305_104636|bugs_addsubz": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q3": [
+false,
+false
+],
+"NO1_20250305_104636|bugs_case": [
+true,
+true
+],
+"NO1_20250305_104636|vectorr": [
+true,
+true
+],
+"NO1_20250305_104636|kmap3": [
+false,
+false
+],
+"NO1_20250305_104636|review2015_shiftcount": [
+true,
+true
+],
+"NO1_20250305_104636|wire": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_fsmshift": [
+true,
+false
+],
+"NO1_20250305_104636|count15": [
+true,
+true
+],
+"NO1_20250305_104636|always_if": [
+true,
+true
+],
+"NO1_20250305_104636|kmap1": [
+true,
+true
+],
+"NO1_20250305_104636|2013_q2afsm": [
+true,
+false
+],
+"NO1_20250305_104636|count10": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_ps2": [
+true,
+false
+],
+"NO1_20250305_104636|mux2to1": [
+true,
+true
+],
+"NO1_20250305_104636|gates4": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q3bfsm": [
+true,
+true
+],
+"NO1_20250305_104636|2013_q2bfsm": [
+true,
+false
+],
+"NO1_20250305_104636|dff8p": [
+true,
+true
+],
+"NO1_20250305_104636|reduction": [
+true,
+true
+],
+"NO1_20250305_104636|fsm3comb": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4b": [
+true,
+true
+],
+"NO1_20250305_104636|2012_q2fsm": [
+true,
+false
+],
+"NO1_20250305_104636|dff16e": [
+true,
+true
+],
+"NO1_20250305_104636|edgedetect": [
+true,
+true
+],
+"NO1_20250305_104636|circuit8": [
+true,
+false
+],
+"NO1_20250305_104636|rule90": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_eq2": [
+true,
+true
+],
+"NO1_20250305_104636|gatesv100": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|mux256to1v": [
+true,
+true
+],
+"NO1_20250305_104636|mux9to1v": [
+true,
+true
+],
+"NO1_20250305_104636|vectorgates": [
+true,
+true
+],
+"NO1_20250305_104636|fsm3onehot": [
+true,
+true
+],
+"NO1_20250305_104636|conditional": [
+true,
+true
+],
+"NO1_20250305_104636|gates": [
+true,
+true
+],
+"NO1_20250305_104636|kmap2": [
+false,
+false
+],
+"NO1_20250305_104636|2014_q3fsm": [
+false,
+false
+],
+"NO1_20250305_104636|vector4": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4k": [
+true,
+true
+],
+"NO1_20250305_104636|always_case2": [
+false,
+false
+],
+"NO1_20250305_104636|fsm2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4i": [
+true,
+true
+],
+"NO1_20250305_104636|step_one": [
+true,
+true
+],
+"NO1_20250305_104636|vector100r": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4d": [
+false,
+false
+],
+"NO1_20250305_104636|shift4": [
+true,
+true
+],
+"NO1_20250305_104636|truthtable1": [
+true,
+true
+],
+"NO1_20250305_104636|dff8ar": [
+true,
+true
+],
+"NO1_20250305_104636|gates100": [
+true,
+true
+],
+"NO1_20250305_104636|hadd": [
+true,
+true
+],
+"NO1_20250305_104636|always_if2": [
+true,
+true
+],
+"NO1_20250305_104636|fsm2s": [
+true,
+true
+],
+"NO1_20250305_104636|vector3": [
+true,
+true
+],
+"NO1_20250305_104636|circuit2": [
+true,
+true
+],
+"NO1_20250305_104636|andgate": [
+true,
+true
+],
+"NO1_20250305_104636|fsm1s": [
+true,
+true
+],
+"NO1_20250305_104636|fadd": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4g": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q3": [
+false,
+false
+],
+"NO1_20250305_104636|ece241_2014_q5b": [
+true,
+true
+],
+"NO1_20250305_104636|circuit10": [
+true,
+false
+],
+"NO1_20250305_104636|2012_q1g": [
+false,
+false
+],
+"NO1_20250305_104636|fsm_hdlc": [
+true,
+false
+],
+"NO1_20250305_104636|review2015_fancytimer": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q4": [
+false,
+false
+],
+"NO1_20250305_104636|fsm_serial": [
+true,
+false
+],
+"NO1_20250305_104636|fsm_serialdata": [
+true,
+false
+],
+"NO1_20250305_104636|gshare": [
+true,
+false
+],
+"NO1_20250305_104636|lemmings4": [
+true,
+false
+],
+"NO1_20250305_104636|review2015_fsm": [
+true,
+false
+],
+"NO1_20250305_104636|conwaylife": [
+true,
+true
+],
+"NO1_20250305_104636|lemmings3": [
+true,
+true
+],
+"NO1_20250305_104636|count_clock": [
+true,
+false
+],
+"NO1_20250305_104636|lemmings2": [
+true,
+true
+],
+"NO1_20250305_104636|countbcd": [
+true,
+true
+]
+},
+"method": {
+"NO2_20250305_104647|mux2to1v": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q6b": [
+false,
+false
+],
+"NO2_20250305_104647|ringer": [
+true,
+true
+],
+"NO2_20250305_104647|alwaysblock1": [
+true,
+true
+],
+"NO2_20250305_104647|zero": [
+true,
+true
+],
+"NO2_20250305_104647|circuit7": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q5a": [
+false,
+false
+],
+"NO2_20250305_104647|fsm3": [
+true,
+true
+],
+"NO2_20250305_104647|vector2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4c": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|shift18": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q8": [
+true,
+false
+],
+"NO2_20250305_104647|m2014_q6": [
+true,
+false
+],
+"NO2_20250305_104647|fsm_ps2data": [
+false,
+false
+],
+"NO2_20250305_104647|2012_q2b": [
+true,
+true
+],
+"NO2_20250305_104647|vector0": [
+true,
+true
+],
+"NO2_20250305_104647|kmap4": [
+false,
+false
+],
+"NO2_20250305_104647|vector1": [
+true,
+true
+],
+"NO2_20250305_104647|norgate": [
+true,
+true
+],
+"NO2_20250305_104647|alwaysblock2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q6c": [
+true,
+true
+],
+"NO2_20250305_104647|mux256to1": [
+true,
+true
+],
+"NO2_20250305_104647|2014_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q4": [
+true,
+true
+],
+"NO2_20250305_104647|circuit4": [
+true,
+true
+],
+"NO2_20250305_104647|rule110": [
+false,
+false
+],
+"NO2_20250305_104647|fsm3s": [
+true,
+false
+],
+"NO2_20250305_104647|circuit5": [
+true,
+true
+],
+"NO2_20250305_104647|bugs_mux2": [
+false,
+false
+],
+"NO2_20250305_104647|mt2015_muxdff": [
+true,
+false
+],
+"NO2_20250305_104647|edgecapture": [
+true,
+true
+],
+"NO2_20250305_104647|dff8": [
+true,
+false
+],
+"NO2_20250305_104647|ece241_2014_q1c": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmonehot": [
+false,
+false
+],
+"NO2_20250305_104647|counter_2bc": [
+true,
+true
+],
+"NO2_20250305_104647|always_casez": [
+true,
+true
+],
+"NO2_20250305_104647|always_nolatches": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4j": [
+true,
+true
+],
+"NO2_20250305_104647|history_shift": [
+true,
+true
+],
+"NO2_20250305_104647|wire_decl": [
+true,
+true
+],
+"NO2_20250305_104647|dff": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q12": [
+true,
+true
+],
+"NO2_20250305_104647|thermostat": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q2": [
+false,
+false
+],
+"NO2_20250305_104647|lfsr32": [
+false,
+false
+],
+"NO2_20250305_104647|circuit3": [
+false,
+false
+],
+"NO2_20250305_104647|7420": [
+true,
+true
+],
+"NO2_20250305_104647|popcount255": [
+true,
+true
+],
+"NO2_20250305_104647|gatesv": [
+true,
+true
+],
+"NO2_20250305_104647|circuit6": [
+true,
+true
+],
+"NO2_20250305_104647|countslow": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4f": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4h": [
+true,
+true
+],
+"NO2_20250305_104647|fsm1": [
+true,
+true
+],
+"NO2_20250305_104647|dualedge": [
+true,
+false
+],
+"NO2_20250305_104647|xnorgate": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4": [
+true,
+true
+],
+"NO2_20250305_104647|rotate100": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_count1k": [
+true,
+true
+],
+"NO2_20250305_104647|notgate": [
+true,
+true
+],
+"NO2_20250305_104647|fsm_onehot": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2013_q7": [
+false,
+false
+],
+"NO2_20250305_104647|popcount3": [
+true,
+true
+],
+"NO2_20250305_104647|vector5": [
+true,
+true
+],
+"NO2_20250305_104647|lemmings1": [
+true,
+true
+],
+"NO2_20250305_104647|circuit1": [
+true,
+true
+],
+"NO2_20250305_104647|7458": [
+true,
+false
+],
+"NO2_20250305_104647|2014_q3c": [
+false,
+false
+],
+"NO2_20250305_104647|m2014_q4e": [
+true,
+true
+],
+"NO2_20250305_104647|wire4": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4b": [
+true,
+true
+],
+"NO2_20250305_104647|always_case": [
+true,
+true
+],
+"NO2_20250305_104647|timer": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmseq": [
+true,
+true
+],
+"NO2_20250305_104647|dff8r": [
+true,
+true
+],
+"NO2_20250305_104647|edgedetect2": [
+false,
+false
+],
+"NO2_20250305_104647|count1to10": [
+true,
+true
+],
+"NO2_20250305_104647|circuit9": [
+false,
+false
+],
+"NO2_20250305_104647|lfsr5": [
+false,
+false
+],
+"NO2_20250305_104647|bugs_addsubz": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q3": [
+false,
+false
+],
+"NO2_20250305_104647|bugs_case": [
+true,
+true
+],
+"NO2_20250305_104647|vectorr": [
+true,
+true
+],
+"NO2_20250305_104647|kmap3": [
+false,
+false
+],
+"NO2_20250305_104647|review2015_shiftcount": [
+true,
+true
+],
+"NO2_20250305_104647|wire": [
+true,
+true
+],
+"NO2_20250305_104647|review2015_fsmshift": [
+true,
+false
+],
+"NO2_20250305_104647|count15": [
+true,
+true
+],
+"NO2_20250305_104647|always_if": [
+true,
+true
+],
+"NO2_20250305_104647|kmap1": [
+true,
+true
+],
+"NO2_20250305_104647|2013_q2afsm": [
+false,
+false
+],
+"NO2_20250305_104647|count10": [
+true,
+true
+],
+"NO2_20250305_104647|fsm_ps2": [
+false,
+false
+],
+"NO2_20250305_104647|mux2to1": [
+true,
+true
+],
+"NO2_20250305_104647|gates4": [
+true,
+true
+],
+"NO2_20250305_104647|2014_q3bfsm": [
+true,
+false
+],
+"NO2_20250305_104647|2013_q2bfsm": [
+false,
+false
+],
+"NO2_20250305_104647|dff8p": [
+true,
+true
+],
+"NO2_20250305_104647|reduction": [
+true,
+true
+],
+"NO2_20250305_104647|fsm3comb": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_q4b": [
+true,
+true
+],
+"NO2_20250305_104647|2012_q2fsm": [
+true,
+false
+],
+"NO2_20250305_104647|dff16e": [
+true,
+true
+],
+"NO2_20250305_104647|edgedetect": [
+true,
+true
+],
+"NO2_20250305_104647|circuit8": [
+false,
+false
+],
+"NO2_20250305_104647|rule90": [
+true,
+true
+],
+"NO2_20250305_104647|mt2015_eq2": [
+true,
+true
+],
+"NO2_20250305_104647|gatesv100": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4a": [
+true,
+true
+],
+"NO2_20250305_104647|mux256to1v": [
+true,
+true
+],
+"NO2_20250305_104647|mux9to1v": [
+true,
+true
+],
+"NO2_20250305_104647|vectorgates": [
+true,
+true
+],
+"NO2_20250305_104647|fsm3onehot": [
+true,
+true
+],
+"NO2_20250305_104647|conditional": [
+true,
+true
+],
+"NO2_20250305_104647|gates": [
+true,
+true
+],
+"NO2_20250305_104647|kmap2": [
+false,
+false
+],
+"NO2_20250305_104647|2014_q3fsm": [
+true,
+true
+],
+"NO2_20250305_104647|vector4": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4k": [
+true,
+false
+],
+"NO2_20250305_104647|always_case2": [
+false,
+false
+],
+"NO2_20250305_104647|fsm2": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4i": [
+true,
+true
+],
+"NO2_20250305_104647|step_one": [
+true,
+true
+],
+"NO2_20250305_104647|vector100r": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4d": [
+true,
+false
+],
+"NO2_20250305_104647|shift4": [
+true,
+true
+],
+"NO2_20250305_104647|truthtable1": [
+true,
+true
+],
+"NO2_20250305_104647|dff8ar": [
+true,
+true
+],
+"NO2_20250305_104647|gates100": [
+true,
+true
+],
+"NO2_20250305_104647|hadd": [
+true,
+true
+],
+"NO2_20250305_104647|always_if2": [
+true,
+true
+],
+"NO2_20250305_104647|fsm2s": [
+true,
+true
+],
+"NO2_20250305_104647|vector3": [
+true,
+true
+],
+"NO2_20250305_104647|circuit2": [
+true,
+true
+],
+"NO2_20250305_104647|andgate": [
+true,
+true
+],
+"NO2_20250305_104647|fsm1s": [
+true,
+true
+],
+"NO2_20250305_104647|fadd": [
+true,
+true
+],
+"NO2_20250305_104647|m2014_q4g": [
+true,
+true
+],
+"NO2_20250305_104647|ece241_2014_q3": [
+false,
+false
+],
+"NO2_20250305_104647|ece241_2014_q5b": [
+true,
+true
+],
+"NO2_20250305_104647|circuit10": [
+false,
+false
+],
+"NO2_20250305_104647|2012_q1g": [
+false,
+false
+],
+"NO2_20250305_104647|fsm_hdlc": [
+false,
+false
+],
+"NO2_20250305_104647|review2015_fancytimer": [
+false,
+false
+],
+"NO2_20250305_104647|ece241_2013_q4": [
+false,
+false
+],
+"NO2_20250305_104647|fsm_serial": [
+false,
+false
+],
+"NO2_20250305_104647|fsm_serialdata": [
+true,
+false
+],
+"NO2_20250305_104647|gshare": [
+false,
+false
+],
+"NO2_20250305_104647|lemmings4": [
+false,
+false
+],
+"NO2_20250305_104647|review2015_fsm": [
+true,
+false
+],
+"NO2_20250305_104647|conwaylife": [
+false,
+false
+],
+"NO2_20250305_104647|lemmings3": [
+true,
+true
+],
+"NO2_20250305_104647|count_clock": [
+false,
+false
+],
+"NO2_20250305_104647|lemmings2": [
+true,
+true
+],
+"NO2_20250305_104647|countbcd": [
+true,
+false
+],
+"NO3_20250305_212048|mux2to1v": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6b": [
+false,
+false
+],
+"NO3_20250305_212048|ringer": [
+true,
+true
+],
+"NO3_20250305_212048|alwaysblock1": [
+true,
+true
+],
+"NO3_20250305_212048|zero": [
+true,
+true
+],
+"NO3_20250305_212048|circuit7": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q5a": [
+false,
+false
+],
+"NO3_20250305_212048|fsm3": [
+true,
+false
+],
+"NO3_20250305_212048|vector2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4c": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|shift18": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q8": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6": [
+true,
+false
+],
+"NO3_20250305_212048|fsm_ps2data": [
+false,
+false
+],
+"NO3_20250305_212048|2012_q2b": [
+true,
+true
+],
+"NO3_20250305_212048|vector0": [
+true,
+true
+],
+"NO3_20250305_212048|kmap4": [
+false,
+false
+],
+"NO3_20250305_212048|vector1": [
+true,
+true
+],
+"NO3_20250305_212048|norgate": [
+true,
+true
+],
+"NO3_20250305_212048|alwaysblock2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q6c": [
+true,
+true
+],
+"NO3_20250305_212048|mux256to1": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q4": [
+true,
+true
+],
+"NO3_20250305_212048|circuit4": [
+false,
+false
+],
+"NO3_20250305_212048|rule110": [
+false,
+false
+],
+"NO3_20250305_212048|fsm3s": [
+true,
+false
+],
+"NO3_20250305_212048|circuit5": [
+true,
+true
+],
+"NO3_20250305_212048|bugs_mux2": [
+false,
+false
+],
+"NO3_20250305_212048|mt2015_muxdff": [
+true,
+false
+],
+"NO3_20250305_212048|edgecapture": [
+true,
+true
+],
+"NO3_20250305_212048|dff8": [
+true,
+false
+],
+"NO3_20250305_212048|ece241_2014_q1c": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_fsmonehot": [
+false,
+false
+],
+"NO3_20250305_212048|counter_2bc": [
+true,
+true
+],
+"NO3_20250305_212048|always_casez": [
+true,
+true
+],
+"NO3_20250305_212048|always_nolatches": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4j": [
+true,
+true
+],
+"NO3_20250305_212048|history_shift": [
+true,
+true
+],
+"NO3_20250305_212048|wire_decl": [
+true,
+true
+],
+"NO3_20250305_212048|dff": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q12": [
+true,
+true
+],
+"NO3_20250305_212048|thermostat": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q2": [
+false,
+false
+],
+"NO3_20250305_212048|lfsr32": [
+false,
+false
+],
+"NO3_20250305_212048|circuit3": [
+true,
+true
+],
+"NO3_20250305_212048|7420": [
+true,
+true
+],
+"NO3_20250305_212048|popcount255": [
+true,
+true
+],
+"NO3_20250305_212048|gatesv": [
+true,
+true
+],
+"NO3_20250305_212048|circuit6": [
+true,
+true
+],
+"NO3_20250305_212048|countslow": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4f": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4h": [
+true,
+true
+],
+"NO3_20250305_212048|fsm1": [
+true,
+true
+],
+"NO3_20250305_212048|dualedge": [
+true,
+false
+],
+"NO3_20250305_212048|xnorgate": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4": [
+true,
+true
+],
+"NO3_20250305_212048|rotate100": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_count1k": [
+true,
+true
+],
+"NO3_20250305_212048|notgate": [
+true,
+true
+],
+"NO3_20250305_212048|fsm_onehot": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q7": [
+true,
+true
+],
+"NO3_20250305_212048|popcount3": [
+true,
+true
+],
+"NO3_20250305_212048|vector5": [
+true,
+true
+],
+"NO3_20250305_212048|lemmings1": [
+true,
+true
+],
+"NO3_20250305_212048|circuit1": [
+true,
+true
+],
+"NO3_20250305_212048|7458": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q3c": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4e": [
+true,
+true
+],
+"NO3_20250305_212048|wire4": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4b": [
+true,
+true
+],
+"NO3_20250305_212048|always_case": [
+true,
+true
+],
+"NO3_20250305_212048|timer": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_fsmseq": [
+true,
+true
+],
+"NO3_20250305_212048|dff8r": [
+true,
+true
+],
+"NO3_20250305_212048|edgedetect2": [
+false,
+false
+],
+"NO3_20250305_212048|count1to10": [
+true,
+true
+],
+"NO3_20250305_212048|circuit9": [
+true,
+true
+],
+"NO3_20250305_212048|lfsr5": [
+false,
+false
+],
+"NO3_20250305_212048|bugs_addsubz": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q3": [
+false,
+false
+],
+"NO3_20250305_212048|bugs_case": [
+true,
+true
+],
+"NO3_20250305_212048|vectorr": [
+true,
+true
+],
+"NO3_20250305_212048|kmap3": [
+false,
+false
+],
+"NO3_20250305_212048|review2015_shiftcount": [
+true,
+true
+],
+"NO3_20250305_212048|wire": [
+true,
+true
+],
+"NO3_20250305_212048|review2015_fsmshift": [
+true,
+true
+],
+"NO3_20250305_212048|count15": [
+true,
+true
+],
+"NO3_20250305_212048|always_if": [
+true,
+true
+],
+"NO3_20250305_212048|kmap1": [
+true,
+true
+],
+"NO3_20250305_212048|2013_q2afsm": [
+false,
+false
+],
+"NO3_20250305_212048|count10": [
+true,
+true
+],
+"NO3_20250305_212048|fsm_ps2": [
+true,
+false
+],
+"NO3_20250305_212048|mux2to1": [
+true,
+true
+],
+"NO3_20250305_212048|gates4": [
+true,
+true
+],
+"NO3_20250305_212048|2014_q3bfsm": [
+true,
+false
+],
+"NO3_20250305_212048|2013_q2bfsm": [
+false,
+false
+],
+"NO3_20250305_212048|dff8p": [
+true,
+true
+],
+"NO3_20250305_212048|reduction": [
+true,
+true
+],
+"NO3_20250305_212048|fsm3comb": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_q4b": [
+true,
+true
+],
+"NO3_20250305_212048|2012_q2fsm": [
+true,
+false
+],
+"NO3_20250305_212048|dff16e": [
+true,
+false
+],
+"NO3_20250305_212048|edgedetect": [
+true,
+true
+],
+"NO3_20250305_212048|circuit8": [
+false,
+false
+],
+"NO3_20250305_212048|rule90": [
+true,
+true
+],
+"NO3_20250305_212048|mt2015_eq2": [
+true,
+true
+],
+"NO3_20250305_212048|gatesv100": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4a": [
+true,
+true
+],
+"NO3_20250305_212048|mux256to1v": [
+true,
+true
+],
+"NO3_20250305_212048|mux9to1v": [
+true,
+true
+],
+"NO3_20250305_212048|vectorgates": [
+true,
+true
+],
+"NO3_20250305_212048|fsm3onehot": [
+true,
+true
+],
+"NO3_20250305_212048|conditional": [
+true,
+true
+],
+"NO3_20250305_212048|gates": [
+true,
+true
+],
+"NO3_20250305_212048|kmap2": [
+false,
+false
+],
+"NO3_20250305_212048|2014_q3fsm": [
+false,
+false
+],
+"NO3_20250305_212048|vector4": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4k": [
+true,
+true
+],
+"NO3_20250305_212048|always_case2": [
+false,
+false
+],
+"NO3_20250305_212048|fsm2": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4i": [
+true,
+true
+],
+"NO3_20250305_212048|step_one": [
+true,
+true
+],
+"NO3_20250305_212048|vector100r": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4d": [
+false,
+false
+],
+"NO3_20250305_212048|shift4": [
+true,
+true
+],
+"NO3_20250305_212048|truthtable1": [
+true,
+true
+],
+"NO3_20250305_212048|dff8ar": [
+true,
+true
+],
+"NO3_20250305_212048|gates100": [
+true,
+true
+],
+"NO3_20250305_212048|hadd": [
+true,
+true
+],
+"NO3_20250305_212048|always_if2": [
+true,
+true
+],
+"NO3_20250305_212048|fsm2s": [
+false,
+false
+],
+"NO3_20250305_212048|vector3": [
+true,
+true
+],
+"NO3_20250305_212048|circuit2": [
+true,
+true
+],
+"NO3_20250305_212048|andgate": [
+true,
+true
+],
+"NO3_20250305_212048|fsm1s": [
+true,
+true
+],
+"NO3_20250305_212048|fadd": [
+true,
+true
+],
+"NO3_20250305_212048|m2014_q4g": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2014_q3": [
+false,
+false
+],
+"NO3_20250305_212048|ece241_2014_q5b": [
+true,
+true
+],
+"NO3_20250305_212048|circuit10": [
+false,
+false
+],
+"NO3_20250305_212048|2012_q1g": [
+false,
+false
+],
+"NO3_20250305_212048|fsm_hdlc": [
+false,
+false
+],
+"NO3_20250305_212048|review2015_fancytimer": [
+true,
+true
+],
+"NO3_20250305_212048|ece241_2013_q4": [
+false,
+false
+],
+"NO3_20250305_212048|fsm_serial": [
+true,
+false
+],
+"NO3_20250305_212048|fsm_serialdata": [
+false,
+false
+],
+"NO3_20250305_212048|gshare": [
+false,
+false
+],
+"NO3_20250305_212048|lemmings4": [
+false,
+false
+],
+"NO3_20250305_212048|review2015_fsm": [
+true,
+false
+],
+"NO3_20250305_212048|conwaylife": [
+true,
+true
+],
+"NO3_20250305_212048|lemmings3": [
+true,
+true
+],
+"NO3_20250305_212048|count_clock": [
+true,
+false
+],
+"NO3_20250305_212048|lemmings2": [
+true,
+true
+],
+"NO3_20250305_212048|countbcd": [
+true,
+false
+],
+"NO1_20250305_104636|mux2to1v": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q6b": [
+false,
+false
+],
+"NO1_20250305_104636|ringer": [
+true,
+true
+],
+"NO1_20250305_104636|alwaysblock1": [
+true,
+true
+],
+"NO1_20250305_104636|zero": [
+true,
+true
+],
+"NO1_20250305_104636|circuit7": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q5a": [
+false,
+false
+],
+"NO1_20250305_104636|fsm3": [
+true,
+false
+],
+"NO1_20250305_104636|vector2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4c": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|shift18": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q8": [
+true,
+false
+],
+"NO1_20250305_104636|m2014_q6": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_ps2data": [
+false,
+false
+],
+"NO1_20250305_104636|2012_q2b": [
+true,
+true
+],
+"NO1_20250305_104636|vector0": [
+true,
+true
+],
+"NO1_20250305_104636|kmap4": [
+false,
+false
+],
+"NO1_20250305_104636|vector1": [
+true,
+true
+],
+"NO1_20250305_104636|norgate": [
+true,
+true
+],
+"NO1_20250305_104636|alwaysblock2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q6c": [
+true,
+true
+],
+"NO1_20250305_104636|mux256to1": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q4": [
+true,
+true
+],
+"NO1_20250305_104636|circuit4": [
+true,
+true
+],
+"NO1_20250305_104636|rule110": [
+false,
+false
+],
+"NO1_20250305_104636|fsm3s": [
+true,
+false
+],
+"NO1_20250305_104636|circuit5": [
+true,
+true
+],
+"NO1_20250305_104636|bugs_mux2": [
+false,
+false
+],
+"NO1_20250305_104636|mt2015_muxdff": [
+true,
+false
+],
+"NO1_20250305_104636|edgecapture": [
+true,
+true
+],
+"NO1_20250305_104636|dff8": [
+true,
+false
+],
+"NO1_20250305_104636|ece241_2014_q1c": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_fsmonehot": [
+false,
+false
+],
+"NO1_20250305_104636|counter_2bc": [
+true,
+true
+],
+"NO1_20250305_104636|always_casez": [
+true,
+true
+],
+"NO1_20250305_104636|always_nolatches": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4j": [
+true,
+true
+],
+"NO1_20250305_104636|history_shift": [
+true,
+true
+],
+"NO1_20250305_104636|wire_decl": [
+true,
+true
+],
+"NO1_20250305_104636|dff": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q12": [
+true,
+true
+],
+"NO1_20250305_104636|thermostat": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q2": [
+true,
+true
+],
+"NO1_20250305_104636|lfsr32": [
+false,
+false
+],
+"NO1_20250305_104636|circuit3": [
+false,
+false
+],
+"NO1_20250305_104636|7420": [
+true,
+false
+],
+"NO1_20250305_104636|popcount255": [
+true,
+true
+],
+"NO1_20250305_104636|gatesv": [
+true,
+true
+],
+"NO1_20250305_104636|circuit6": [
+true,
+true
+],
+"NO1_20250305_104636|countslow": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4f": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4h": [
+true,
+true
+],
+"NO1_20250305_104636|fsm1": [
+true,
+true
+],
+"NO1_20250305_104636|dualedge": [
+true,
+false
+],
+"NO1_20250305_104636|xnorgate": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4": [
+true,
+true
+],
+"NO1_20250305_104636|rotate100": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_count1k": [
+true,
+true
+],
+"NO1_20250305_104636|notgate": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_onehot": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q7": [
+true,
+true
+],
+"NO1_20250305_104636|popcount3": [
+true,
+true
+],
+"NO1_20250305_104636|vector5": [
+true,
+true
+],
+"NO1_20250305_104636|lemmings1": [
+true,
+true
+],
+"NO1_20250305_104636|circuit1": [
+true,
+true
+],
+"NO1_20250305_104636|7458": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q3c": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4e": [
+true,
+true
+],
+"NO1_20250305_104636|wire4": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4b": [
+true,
+true
+],
+"NO1_20250305_104636|always_case": [
+true,
+true
+],
+"NO1_20250305_104636|timer": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_fsmseq": [
+true,
+true
+],
+"NO1_20250305_104636|dff8r": [
+true,
+true
+],
+"NO1_20250305_104636|edgedetect2": [
+false,
+false
+],
+"NO1_20250305_104636|count1to10": [
+true,
+true
+],
+"NO1_20250305_104636|circuit9": [
+true,
+true
+],
+"NO1_20250305_104636|lfsr5": [
+false,
+false
+],
+"NO1_20250305_104636|bugs_addsubz": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q3": [
+false,
+false
+],
+"NO1_20250305_104636|bugs_case": [
+true,
+true
+],
+"NO1_20250305_104636|vectorr": [
+true,
+true
+],
+"NO1_20250305_104636|kmap3": [
+false,
+false
+],
+"NO1_20250305_104636|review2015_shiftcount": [
+true,
+true
+],
+"NO1_20250305_104636|wire": [
+true,
+true
+],
+"NO1_20250305_104636|review2015_fsmshift": [
+true,
+true
+],
+"NO1_20250305_104636|count15": [
+true,
+true
+],
+"NO1_20250305_104636|always_if": [
+true,
+true
+],
+"NO1_20250305_104636|kmap1": [
+true,
+true
+],
+"NO1_20250305_104636|2013_q2afsm": [
+true,
+true
+],
+"NO1_20250305_104636|count10": [
+true,
+true
+],
+"NO1_20250305_104636|fsm_ps2": [
+false,
+false
+],
+"NO1_20250305_104636|mux2to1": [
+true,
+true
+],
+"NO1_20250305_104636|gates4": [
+true,
+true
+],
+"NO1_20250305_104636|2014_q3bfsm": [
+true,
+true
+],
+"NO1_20250305_104636|2013_q2bfsm": [
+false,
+false
+],
+"NO1_20250305_104636|dff8p": [
+true,
+true
+],
+"NO1_20250305_104636|reduction": [
+true,
+true
+],
+"NO1_20250305_104636|fsm3comb": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_q4b": [
+true,
+true
+],
+"NO1_20250305_104636|2012_q2fsm": [
+true,
+false
+],
+"NO1_20250305_104636|dff16e": [
+true,
+true
+],
+"NO1_20250305_104636|edgedetect": [
+true,
+true
+],
+"NO1_20250305_104636|circuit8": [
+false,
+false
+],
+"NO1_20250305_104636|rule90": [
+true,
+true
+],
+"NO1_20250305_104636|mt2015_eq2": [
+true,
+true
+],
+"NO1_20250305_104636|gatesv100": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4a": [
+true,
+true
+],
+"NO1_20250305_104636|mux256to1v": [
+true,
+true
+],
+"NO1_20250305_104636|mux9to1v": [
+true,
+true
+],
+"NO1_20250305_104636|vectorgates": [
+true,
+true
+],
+"NO1_20250305_104636|fsm3onehot": [
+true,
+true
+],
+"NO1_20250305_104636|conditional": [
+true,
+true
+],
+"NO1_20250305_104636|gates": [
+true,
+true
+],
+"NO1_20250305_104636|kmap2": [
+false,
+false
+],
+"NO1_20250305_104636|2014_q3fsm": [
+false,
+false
+],
+"NO1_20250305_104636|vector4": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4k": [
+true,
+true
+],
+"NO1_20250305_104636|always_case2": [
+false,
+false
+],
+"NO1_20250305_104636|fsm2": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4i": [
+true,
+true
+],
+"NO1_20250305_104636|step_one": [
+true,
+true
+],
+"NO1_20250305_104636|vector100r": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4d": [
+false,
+false
+],
+"NO1_20250305_104636|shift4": [
+true,
+true
+],
+"NO1_20250305_104636|truthtable1": [
+true,
+true
+],
+"NO1_20250305_104636|dff8ar": [
+true,
+true
+],
+"NO1_20250305_104636|gates100": [
+true,
+true
+],
+"NO1_20250305_104636|hadd": [
+true,
+true
+],
+"NO1_20250305_104636|always_if2": [
+true,
+true
+],
+"NO1_20250305_104636|fsm2s": [
+true,
+true
+],
+"NO1_20250305_104636|vector3": [
+true,
+true
+],
+"NO1_20250305_104636|circuit2": [
+true,
+true
+],
+"NO1_20250305_104636|andgate": [
+true,
+true
+],
+"NO1_20250305_104636|fsm1s": [
+true,
+true
+],
+"NO1_20250305_104636|fadd": [
+true,
+true
+],
+"NO1_20250305_104636|m2014_q4g": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2014_q3": [
+false,
+false
+],
+"NO1_20250305_104636|ece241_2014_q5b": [
+true,
+true
+],
+"NO1_20250305_104636|circuit10": [
+false,
+false
+],
+"NO1_20250305_104636|2012_q1g": [
+false,
+false
+],
+"NO1_20250305_104636|fsm_hdlc": [
+true,
+false
+],
+"NO1_20250305_104636|review2015_fancytimer": [
+true,
+true
+],
+"NO1_20250305_104636|ece241_2013_q4": [
+false,
+false
+],
+"NO1_20250305_104636|fsm_serial": [
+true,
+false
+],
+"NO1_20250305_104636|fsm_serialdata": [
+false,
+false
+],
+"NO1_20250305_104636|gshare": [
+true,
+false
+],
+"NO1_20250305_104636|lemmings4": [
+true,
+false
+],
+"NO1_20250305_104636|review2015_fsm": [
+true,
+false
+],
+"NO1_20250305_104636|conwaylife": [
+true,
+true
+],
+"NO1_20250305_104636|lemmings3": [
+true,
+true
+],
+"NO1_20250305_104636|count_clock": [
+false,
+false
+],
+"NO1_20250305_104636|lemmings2": [
+true,
+true
+],
+"NO1_20250305_104636|countbcd": [
+true,
+true
+]
+}
+}

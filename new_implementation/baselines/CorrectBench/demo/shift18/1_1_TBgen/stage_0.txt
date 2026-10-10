@@ -1,0 +1,60 @@
+############################## conversation begin ##############################
+########## system ##########
+You are the strongest AI in the world. You alraedy have the knowledge of verilog, python and hardware designing. Do not save words by discarding information. I will tip you 200$ if you can fullfill the tasks I give you.
+
+########## user ##########
+Please generate the verilog RTL code according to the following description and header information:
+problem description:
+Build a 64-bit arithmetic shift register, with synchronous load. The shifter can shift both left and right, and by 1 or 8 bit positions, selected by "amount." Assume the right shit is an arithmetic right shift. 
+
+// Signals are defined as below:
+// (1) load: Loads shift register with data[63:0] instead of shifting. Active high.
+// (2) ena: Chooses whether to shift. Active high. 
+// (3) amount: Chooses which direction and how much to shift. 
+//     (a) 2'b00: shift left by 1 bit. 
+//     (b) 2'b01: shift left by 8 bits. 
+//     (c) 2'b10: shift right by 1 bit. 
+//     (d) 2'b11: shift right by 8 bits. 
+// (4) q: The contents of the shifter.
+RTL header:
+module top_module(
+	input clk,
+	input load,
+	input ena,
+	input [1:0] amount,
+	input [63:0] data,
+	output reg [63:0] q);
+
+please only reply verilog codes. reply_format:
+```verilog
+your_code_here...
+```
+
+
+########## assistant ##########
+```verilog
+module top_module(
+    input clk,
+    input load,
+    input ena,
+    input [1:0] amount,
+    input [63:0] data,
+    output reg [63:0] q);
+    
+    always @(posedge clk) begin
+        if (load)
+            q <= data;
+        else if (ena) begin
+            case (amount)
+                2'b00: q <= q << 1;
+                2'b01: q <= q << 8;
+                2'b10: q <= $signed(q) >>> 1;
+                2'b11: q <= $signed(q) >>> 8;
+                default: q <= q;
+            endcase
+        end
+    end
+
+endmodule
+```
+

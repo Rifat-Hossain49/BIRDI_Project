@@ -1,0 +1,5 @@
+CALIBRATION  golden as reference, stimulus WITH long runs, dev tasks:
+   CMB  n= 20  Eval1 1.000  Eval2 1.000  missed 0  false-rejects 0
+   SEQ  n= 40  Eval1 1.000  Eval2 0.950  missed 6  false-rejects 7
+   ALL  n= 60  Eval1 1.000  Eval2 0.967  missed 6  false-rejects 7
+   tasks failing Eval2 with a PERFECT reference: lemmings4(m2/fr0), m2014_q4d(m0/fr6)

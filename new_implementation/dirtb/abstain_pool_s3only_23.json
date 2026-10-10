@@ -1,0 +1,2003 @@
+[
+ {
+  "task_id": "2012_q2b",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "2013_q2bfsm",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0001,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0025,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0025,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0025,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0025,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 0.9999,
+    "failed_mutants": [
+     3,
+     4
+    ],
+    "missed": 2,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "2014_q3fsm",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 0.6666666666666666,
+  "confibench_eval2": 0.6666666666666666,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0767,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.4604,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0767,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.4604,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.9536,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 10
+   }
+  }
+ },
+ {
+  "task_id": "always_casez",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "circuit2",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "circuit3",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.125,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.125,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 0.8125,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     6,
+     9,
+     10
+    ],
+    "missed": 6,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "circuit8",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6,
+     7,
+     9
+    ],
+    "missed": 0,
+    "false_reject": 3
+   }
+  }
+ },
+ {
+  "task_id": "circuit9",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.3333333333333333,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0122,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0499,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0789,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0499,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0789,
+    "failed_mutants": [
+     4,
+     7
+    ],
+    "missed": 1,
+    "false_reject": 1
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "missed": 9,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "conwaylife",
+  "circuit_type": "SEQ",
+  "n_ran": 2,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.6666666666666666,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "count_clock",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0364,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.3751,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.3751,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0364,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.3751,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.3751,
+    "failed_mutants": [
+     2
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 0.9934,
+    "failed_mutants": [
+     2,
+     5,
+     6
+    ],
+    "missed": 3,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "counter_2bc",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "ece241_2013_q2",
+  "circuit_type": "CMB",
+  "n_ran": 4,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0312,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.3125,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "ece241_2014_q3",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.125,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.125,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.5,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "ece241_2014_q4",
+  "circuit_type": "SEQ",
+  "n_ran": 4,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": false,
+    "x_frac": 1.0,
+    "failed_mutants": [
+     1,
+     2,
+     4,
+     5,
+     7,
+     9
+    ],
+    "missed": 6,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "ece241_2014_q5b",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "edgecapture",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.001,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.001,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.8119,
+    "failed_mutants": [
+     6
+    ],
+    "missed": 1,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "fsm2",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "fsm_hdlc",
+  "circuit_type": "SEQ",
+  "n_ran": 1,
+  "confibench_eval1": 0.3333333333333333,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4
+    ],
+    "missed": 1,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "fsm_ps2",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.3135,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.3135,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.9353,
+    "failed_mutants": [
+     4,
+     6,
+     7,
+     8,
+     9
+    ],
+    "missed": 5,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "fsm_ps2data",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0155,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0365,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0155,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0365,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.994,
+    "failed_mutants": [
+     4,
+     10
+    ],
+    "missed": 0,
+    "false_reject": 2
+   }
+  }
+ },
+ {
+  "task_id": "fsm_serialdata",
+  "circuit_type": "SEQ",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.001,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0022,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0038,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0022,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0038,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0107,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "gatesv",
+  "circuit_type": "CMB",
+  "n_ran": 5,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 1.0,
+  "policies": {
+   "plurality": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "classX@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.6": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@0.8": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "vote@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   },
+   "tail@1.0": {
+    "eval1": true,
+    "eval2": true,
+    "x_frac": 0.0,
+    "failed_mutants": [],
+    "missed": 0,
+    "false_reject": 0
+   }
+  }
+ },
+ {
+  "task_id": "gshare",
+  "circuit_type": "SEQ",
+  "n_ran": 3,
+  "confibench_eval1": 1.0,
+  "confibench_eval2": 0.0,
+  "policies": {
+   "plurality": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "classX@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0198,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "classX@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0504,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "classX@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0504,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "vote@0.6": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "vote@0.8": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0504,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "vote@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.0504,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   },
+   "tail@1.0": {
+    "eval1": false,
+    "eval2": false,
+    "x_frac": 0.9617,
+    "failed_mutants": [
+     3
+    ],
+    "missed": 0,
+    "false_reject": 1
+   }
+  }
+ }
+]

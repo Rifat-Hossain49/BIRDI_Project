@@ -1,0 +1,44 @@
+{
+  "dataset_content_identical": true,
+  "first_task": "mux2to1v",
+  "gogotb_status": "paper and eight-design benchmark announced; source release pending",
+  "last_task": "countbcd",
+  "protocol_version": "active_tb_x_external_v1",
+  "repositories": {
+    "AutoBench": {
+      "commit": "2c1d73c1188222c2bf0e323b87d64e2385c401fa",
+      "path": "F:/BIRDI_Project/new_implementation/baselines/AutoBench"
+    },
+    "ConfiBench": {
+      "commit": "e542272efde407131b8c58321935dface1ea5dfe",
+      "path": "F:/BIRDI_Project/new_implementation/baselines/ConfiBench"
+    },
+    "CorrectBench": {
+      "commit": "a2dcd36097b9416fd48dece8c2801401425dfcd1",
+      "path": "F:/BIRDI_Project/new_implementation/baselines/CorrectBench"
+    }
+  },
+  "task_count": 156,
+  "track_a": {
+    "input_access": "natural-language specification only",
+    "methods": [
+      "direct",
+      "AutoBench",
+      "CorrectBench",
+      "ConfiBench"
+    ],
+    "official_model": "gpt-4o-2024-08-06",
+    "primary_metric": "official Eval2/Eval2b pass ratio",
+    "simulation_timeout_seconds": 40
+  },
+  "track_b": {
+    "input_access": "RTL source plus specification with identical optional reference access",
+    "methods": [
+      "random",
+      "active_no_llm",
+      "active_portfolio",
+      "GoGoTB when released"
+    ],
+    "primary_metric": "held-out mutation score at equal cycle budget"
+  }
+}
