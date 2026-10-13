@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 from pathlib import Path, PurePosixPath
+import re
 import shutil
 import signal
 import subprocess
@@ -20,6 +21,9 @@ from prepare_confibench_qwen import CONFIG, MODEL
 WORK = Path('/kaggle/working')
 CB = WORK / 'ConfiBench'
 RUNTIME = WORK / 'cbq_runtime'
+PROC = Path('/proc')
+# The guest filesystem reports ~1 TB free even when the host drive behind the WSL disk is full.
+DISK_GROWTH_LIMIT = 80 << 30
 
 
 def file_sha(path):
@@ -94,7 +98,11 @@ def checkpoint(manifest):
             for path in sorted(source.rglob('*.json')):
                 if source == CB / 'saves' and path.name not in ('data.json', 'run_info.json', 'run_info_short.json'):
                     continue
-                archive.write(path, (path.relative_to(CB) if source == CB / 'saves' else path.relative_to(source)).as_posix())
+                try:
+                    archive.write(path, (path.relative_to(CB) if source == CB / 'saves' else path.relative_to(source)).as_posix())
+                except FileNotFoundError:
+                    # A live worker removed it (e.g. a consumed next_request.json); the next snapshot is current.
+                    continue
         os.replace(temporary, WORK / filename)
     done = set(completed())
     atomic_json(WORK / 'desktop_completion.json', {
@@ -174,6 +182,43 @@ def stop(process):
             process.wait(timeout=10)
 
 
+def worker_config(task):
+    """ConfiBench names save roots <prefix>_<second>; a per-task prefix keeps workers started
+    in the same second apart, as the Kaggle per-worker S<shard>W<w> prefixes did."""
+    return CONFIG % {'prefix': 'Desktop_' + task, 'model': MODEL, 'only': json.dumps([task])}
+
+
+def reap_orphans(keep):
+    """Kill processes re-parented to this PID-1 runner. ConfiBench's subproc_call kills only the
+    shell or python checker it started on timeout, so an abandoned vvp grandchild can keep writing
+    a deleted TBout.txt until the disk fills (2026-10-10). Workers and the server are in keep."""
+    reaped = 0
+    for entry in PROC.iterdir():
+        if not entry.name.isdigit() or int(entry.name) in keep:
+            continue
+        try:
+            status = (entry / 'status').read_text()
+            if int(re.search(r'^PPid:\s+(\d+)', status, re.M).group(1)) != 1:
+                continue
+            pid = int(entry.name)
+            if not re.search(r'^State:\s+Z', status, re.M):
+                command = (entry / 'cmdline').read_bytes().replace(b'\0', b' ').decode(errors='replace')
+                os.kill(pid, signal.SIGKILL)
+                with (WORK / 'desktop_reaped.log').open('a') as log:
+                    log.write(f'{time.time():.0f} {pid} {command[:300]}\n')
+                reaped += 1
+            os.waitpid(pid, os.WNOHANG)
+        except (OSError, AttributeError, ValueError):
+            pass
+    return reaped
+
+
+def check_disk(start_used):
+    grown = shutil.disk_usage(WORK).used - start_used
+    if grown > DISK_GROWTH_LIMIT:
+        raise RuntimeError(f'Working disk grew {grown >> 30} GB this session; stopping before the host drive fills')
+
+
 def verify_first_records():
     with zipfile.ZipFile(WORK / 'first_records_before_desktop.zip') as original:
         for name in original.namelist():
@@ -215,13 +260,12 @@ def main():
             proof.unlink()
             server = start_server(args)
             deadline = time.time() + args.hours * 3600
+        start_used = shutil.disk_usage(WORK).used
         while todo or running:
             while todo and len(running) < args.workers and time.time() < deadline:
                 task = todo.pop(0)
                 config = 'desktop_' + task
-                (CB / 'config/configs' / (config + '.yaml')).write_text(CONFIG % {
-                    'prefix': 'Desktop', 'model': MODEL, 'only': json.dumps([task]),
-                })
+                (CB / 'config/configs' / (config + '.yaml')).write_text(worker_config(task))
                 env = dict(os.environ, CBQ_RESUME_ROOT=str(RUNTIME),
                            QWEN_BASE_URL='http://127.0.0.1:8080/v1', PYTHONUNBUFFERED='1')
                 env.pop('CBQ_NEW_CALL_DEADLINE', None)
@@ -243,6 +287,13 @@ def main():
                     outcomes[task] = code
                     del running[task]
                     print('Worker exited', task, code, flush=True)
+            if os.getpid() == 1:
+                keep = {1} | {process.pid for process in running.values()}
+                if server is not None:
+                    keep.add(server.pid)
+                if reaped := reap_orphans(keep):
+                    print('Killed', reaped, 'orphaned simulator process(es); see desktop_reaped.log', flush=True)
+            check_disk(start_used)
             if time.time() - last_snapshot >= 60 or not running:
                 verify_first_records()
                 checkpoint(manifest)
