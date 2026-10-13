@@ -1,0 +1,277 @@
+2026-10-10 10:21:47.0 | INFO     | all configurations are loaded, starting the main process...
+2026-10-10 10:21:47.0 | INFO     | 
+2026-10-10 10:21:47.0 | INFO     | ######################### task 1/1 [circuit10] #########################
+RESUME task=circuit10 next_iteration=3 eval_ready=False
+2026-10-10 10:21:47.2 | INFO     | [circuit10] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 10:21:47.2 | INFO     | [circuit10] [TBgen] stage_1 ends (0.02s used)
+2026-10-10 10:21:47.2 | INFO     | [circuit10] [TBgen] stage_2 ends (0.02s used)
+2026-10-10 10:21:47.2 | INFO     | [circuit10] [TBgen] stage_3 ends (0.02s used)
+2026-10-10 10:21:47.2 | INFO     | [circuit10] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 10:24:25.7 | INFO     | [circuit10] [TBgen] stage_checklist ends (158.49s used)
+LEGACY_CACHE_MISS: 3:TBgen:stage:stage_4b:4_1_TBgen #0; candidate retained, not replayed
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBgen] stage_4b ends (61.49s used)
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBgen] stage_5 ends (0.02s used)
+2026-10-10 10:25:27.2 | INFO     | [circuit10] 
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBsim] python simulation : passed!
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBsim] TBsim finished : True!
+2026-10-10 10:25:27.2 | INFO     | [circuit10] 
+2026-10-10 10:25:27.2 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 10:25:27.5 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [2, 3, 5, 6, 10, 11, 14] have syntax error during discrimination
+2026-10-10 10:25:27.5 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 1/8
+2026-10-10 10:25:27.5 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 3:TBcheck:correct:correct_1 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 3:TBcheck:correct:correct_1 #1; candidate retained, not replayed
+2026-10-10 10:26:11.6 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 10:26:11.6 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 10:26:11.9 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 1/8
+2026-10-10 10:26:11.9 | INFO     | [circuit10] [TBcheck] wrong scenarios not decreased for 1 times (1 = 1), continue the correction
+2026-10-10 10:26:11.9 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 3:TBcheck:correct:correct_2 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 3:TBcheck:correct:correct_2 #1; candidate retained, not replayed
+2026-10-10 10:27:09.5 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 10:27:09.5 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 10:27:09.7 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 1/8
+2026-10-10 10:27:09.7 | INFO     | [circuit10] [TBcheck] wrong scenarios not decreased for 2 times (1 = 1), I give up, quiting the funccheck stage...
+2026-10-10 10:27:09.7 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 10:27:10.0 | INFO     | [circuit10] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.41, 0.0, 0.53, 0.15, 0.15, 0.64, 1.0], scenario mask - [False, False, False, False, False, False, True, True]
+2026-10-10 10:27:10.0 | INFO     | [circuit10] 
+2026-10-10 10:27:10.0 | INFO     | [circuit10] multibench info updated: iter_id - 4, valid_ratio - 0.25; total ratio / min required - 0.25/0.80
+2026-10-10 10:29:44.3 | INFO     | [circuit10] [TBgen] stage_0 ends (154.23s used)
+2026-10-10 10:30:06.3 | INFO     | [circuit10] [TBgen] stage_1 ends (22.01s used)
+2026-10-10 10:30:27.1 | INFO     | [circuit10] [TBgen] stage_2 ends (20.81s used)
+2026-10-10 10:33:02.1 | INFO     | [circuit10] [TBgen] stage_3 ends (155.04s used)
+2026-10-10 10:33:34.9 | INFO     | [circuit10] [TBgen] stage_4 ends (32.74s used)
+2026-10-10 10:33:34.9 | INFO     | [circuit10] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 10:34:20.4 | INFO     | [circuit10] [TBgen] stage_4b ends (45.54s used)
+2026-10-10 10:37:05.3 | INFO     | [circuit10] [TBgen] stage_5 ends (164.90s used)
+2026-10-10 10:37:05.3 | INFO     | [circuit10] 
+2026-10-10 10:37:05.3 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 10:37:05.3 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 1)
+2026-10-10 10:39:48.4 | INFO     | [circuit10] [TBsim] python tier - 1/3, total - 1/6: python DEBUG finished (163.04s used)
+2026-10-10 10:39:48.4 | INFO     | [circuit10] [TBsim] python compilation failed! Rebooting... (debug_iter = 2)
+2026-10-10 10:42:26.5 | INFO     | [circuit10] [TBsim] stage_5 ends (158.17s used)
+2026-10-10 10:42:26.5 | INFO     | [circuit10] [TBsim] python tier - 2/3, total - 2/6: python REBOOT finished (158.18s used)
+2026-10-10 10:42:26.5 | INFO     | [circuit10] [TBsim] python simulation : failed! will reboot both iverilog and python
+2026-10-10 10:42:26.5 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 1)
+2026-10-10 10:43:11.3 | INFO     | [circuit10] [TBsim] stage_4 ends (44.79s used)
+2026-10-10 10:45:26.2 | INFO     | [circuit10] [TBsim] stage_checklist ends (134.84s used)
+2026-10-10 10:46:29.4 | INFO     | [circuit10] [TBsim] stage_4b ends (63.25s used)
+2026-10-10 10:46:29.4 | INFO     | [circuit10] [TBsim] verilog iter - 1/3, total - 3/6: verilog REBOOT finished (242.91s used)
+2026-10-10 10:46:29.4 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 10:46:29.5 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 3)
+2026-10-10 10:46:46.7 | INFO     | [circuit10] [TBsim] python tier - 3/3, total - 4/6: python DEBUG finished (17.3s used)
+2026-10-10 10:46:46.7 | INFO     | [circuit10] [TBsim] python simulation : failed! exceeded max debug iteration (3)
+2026-10-10 10:46:46.7 | INFO     | [circuit10] [TBsim] TBsim finished : False!
+2026-10-10 10:46:46.7 | INFO     | [circuit10] 
+2026-10-10 10:46:46.7 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 10:46:47.0 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 10:46:47.0 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error, I give up. Reboot the whole process
+2026-10-10 10:46:47.0 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 10:46:47.0 | INFO     | [circuit10] 
+2026-10-10 10:46:47.0 | INFO     | [circuit10] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 10:46:47.0 | INFO     | [circuit10] [TBgen] stage_1 ends (0.01s used)
+2026-10-10 10:46:47.1 | INFO     | [circuit10] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 10:46:47.1 | INFO     | [circuit10] [TBgen] stage_3 ends (0.01s used)
+2026-10-10 10:46:47.1 | INFO     | [circuit10] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 10:48:59.8 | INFO     | [circuit10] [TBgen] stage_checklist ends (132.69s used)
+LEGACY_CACHE_MISS: 5:TBgen:stage:stage_4b:6_1_TBgen #0; candidate retained, not replayed
+2026-10-10 10:51:40.7 | INFO     | [circuit10] [TBgen] stage_4b ends (160.97s used)
+2026-10-10 10:51:40.8 | INFO     | [circuit10] [TBgen] stage_5 ends (0.02s used)
+2026-10-10 10:51:40.8 | INFO     | [circuit10] 
+2026-10-10 10:51:40.8 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+LEGACY_CACHE_MISS: 5:TBsim:debug:debug_1 #0; candidate retained, not replayed
+2026-10-10 10:54:27.0 | INFO     | [circuit10] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (166.27s used)
+2026-10-10 10:54:27.0 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-10 10:55:30.0 | INFO     | [circuit10] [TBsim] stage_4 ends (62.93s used)
+2026-10-10 10:55:30.0 | INFO     | [circuit10] [TBsim] stage_checklist ends (0.00s used)
+2026-10-10 10:56:48.8 | INFO     | [circuit10] [TBsim] stage_4b ends (78.87s used)
+2026-10-10 10:56:48.9 | INFO     | [circuit10] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (141.81s used)
+2026-10-10 10:56:48.9 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 10:56:48.9 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 1)
+2026-10-10 10:59:26.5 | INFO     | [circuit10] [TBsim] python tier - 1/3, total - 3/6: python DEBUG finished (157.67s used)
+2026-10-10 10:59:26.5 | INFO     | [circuit10] [TBsim] python compilation failed! Rebooting... (debug_iter = 2)
+2026-10-10 11:02:13.5 | INFO     | [circuit10] [TBsim] stage_5 ends (166.92s used)
+2026-10-10 11:02:13.5 | INFO     | [circuit10] [TBsim] python tier - 2/3, total - 4/6: python REBOOT finished (166.93s used)
+2026-10-10 11:02:13.5 | INFO     | [circuit10] [TBsim] python simulation : failed! will reboot both iverilog and python
+2026-10-10 11:02:13.5 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 3)
+2026-10-10 11:03:39.7 | INFO     | [circuit10] [TBsim] stage_4 ends (86.21s used)
+2026-10-10 11:04:28.7 | INFO     | [circuit10] [TBsim] stage_checklist ends (49.03s used)
+2026-10-10 11:05:32.0 | INFO     | [circuit10] [TBsim] stage_4b ends (63.31s used)
+2026-10-10 11:05:32.0 | INFO     | [circuit10] [TBsim] verilog iter - 3/3, total - 5/6: verilog REBOOT finished (198.56s used)
+2026-10-10 11:05:32.0 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 11:05:32.0 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 3)
+2026-10-10 11:08:07.6 | INFO     | [circuit10] [TBsim] python tier - 3/3, total - 6/6: python DEBUG finished (155.54s used)
+2026-10-10 11:08:07.6 | INFO     | [circuit10] [TBsim] python simulation : passed!
+2026-10-10 11:08:07.6 | INFO     | [circuit10] [TBsim] TBsim finished : True!
+2026-10-10 11:08:07.6 | INFO     | [circuit10] 
+2026-10-10 11:08:07.6 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 11:08:07.8 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [2, 3, 5, 6, 10, 11, 14] have syntax error during discrimination
+2026-10-10 11:08:07.9 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 1  2  5  6 11 12], scenario pass ratio: 0/15
+2026-10-10 11:08:07.9 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_1 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_1 #1; candidate retained, not replayed
+2026-10-10 11:12:10.4 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 11:12:10.4 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 11:12:10.6 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] have syntax error during discrimination
+2026-10-10 11:12:10.6 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-10 11:12:10.6 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_2 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_2 #1; candidate retained, not replayed
+2026-10-10 11:13:31.2 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 11:13:31.2 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 11:13:31.5 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15], scenario pass ratio: 0/15
+2026-10-10 11:13:31.5 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 11:16:41.0 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 11:16:41.0 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-10 11:16:41.3 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 1  2  4  5  6  7  8 10 11 12], scenario pass ratio: 0/15
+2026-10-10 11:16:41.3 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 11:16:41.3 | INFO     | [circuit10] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.83, 0.0, 0.0, 0.0, 0.0, 0.0, 0.92, 0.0, 0.0, 0.0, 0.0, 0.64, 0.0], scenario mask - [False, False, True, False, False, False, False, False, True, False, False, False, False, True, False]
+2026-10-10 11:16:41.3 | INFO     | [circuit10] 
+2026-10-10 11:16:41.3 | INFO     | [circuit10] multibench info updated: iter_id - 6, valid_ratio - 0.20; total ratio / min required - 0.45/0.80
+2026-10-10 11:19:16.5 | ERROR    | [circuit10] error when running TBgen, current pipeline iter: 7, will REBOOT. error message: cannot access local variable 'char' where it is not associated with a value | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-10 11:19:26.9 | INFO     | [circuit10] [TBgen] stage_0 ends (10.38s used)
+2026-10-10 11:19:46.3 | INFO     | [circuit10] [TBgen] stage_1 ends (19.32s used)
+2026-10-10 11:20:25.5 | INFO     | [circuit10] [TBgen] stage_2 ends (39.27s used)
+2026-10-10 11:23:13.3 | INFO     | [circuit10] [TBgen] stage_3 ends (167.79s used)
+2026-10-10 11:24:33.5 | INFO     | [circuit10] [TBgen] stage_4 ends (80.17s used)
+2026-10-10 11:24:33.5 | INFO     | [circuit10] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 11:26:11.1 | INFO     | [circuit10] [TBgen] stage_4b ends (97.57s used)
+2026-10-10 11:28:57.0 | INFO     | [circuit10] [TBgen] stage_5 ends (165.94s used)
+2026-10-10 11:28:57.0 | INFO     | [circuit10] 
+2026-10-10 11:28:57.0 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 11:28:57.0 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 1)
+2026-10-10 11:31:39.2 | INFO     | [circuit10] [TBsim] python tier - 1/3, total - 1/6: python DEBUG finished (162.18s used)
+2026-10-10 11:31:39.2 | INFO     | [circuit10] [TBsim] python compilation failed! Rebooting... (debug_iter = 2)
+2026-10-10 11:34:19.1 | INFO     | [circuit10] [TBsim] stage_5 ends (159.89s used)
+2026-10-10 11:34:19.1 | INFO     | [circuit10] [TBsim] python tier - 2/3, total - 2/6: python REBOOT finished (159.9s used)
+2026-10-10 11:34:19.1 | INFO     | [circuit10] [TBsim] python simulation : failed! will reboot both iverilog and python
+2026-10-10 11:34:19.1 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 1)
+2026-10-10 11:35:40.0 | INFO     | [circuit10] [TBsim] stage_4 ends (80.85s used)
+2026-10-10 11:37:12.0 | INFO     | [circuit10] [TBsim] stage_checklist ends (92.09s used)
+2026-10-10 11:38:58.0 | INFO     | [circuit10] [TBsim] stage_4b ends (105.94s used)
+2026-10-10 11:38:58.0 | INFO     | [circuit10] [TBsim] verilog iter - 1/3, total - 3/6: verilog REBOOT finished (278.9s used)
+2026-10-10 11:38:58.0 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 11:38:58.0 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 3)
+2026-10-10 11:41:42.1 | INFO     | [circuit10] [TBsim] python tier - 3/3, total - 4/6: python DEBUG finished (164.13s used)
+2026-10-10 11:41:42.1 | INFO     | [circuit10] [TBsim] python simulation : failed! exceeded max debug iteration (3)
+2026-10-10 11:41:42.1 | INFO     | [circuit10] [TBsim] TBsim finished : False!
+2026-10-10 11:41:42.1 | INFO     | [circuit10] 
+2026-10-10 11:41:42.1 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 11:41:42.4 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 11:41:42.4 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error, I give up. Reboot the whole process
+2026-10-10 11:41:42.4 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 11:41:42.4 | INFO     | [circuit10] 
+2026-10-10 11:41:42.4 | INFO     | [circuit10] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 11:41:42.4 | INFO     | [circuit10] [TBgen] stage_1 ends (0.01s used)
+2026-10-10 11:41:42.4 | INFO     | [circuit10] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 11:44:10.2 | INFO     | [circuit10] [TBgen] stage_3 ends (147.75s used)
+2026-10-10 11:45:01.8 | INFO     | [circuit10] [TBgen] stage_4 ends (51.62s used)
+2026-10-10 11:47:44.5 | INFO     | [circuit10] [TBgen] stage_checklist ends (162.65s used)
+2026-10-10 11:49:01.3 | INFO     | [circuit10] [TBgen] stage_4b ends (76.82s used)
+2026-10-10 11:49:39.1 | INFO     | [circuit10] [TBgen] stage_5 ends (37.86s used)
+2026-10-10 11:49:39.1 | INFO     | [circuit10] 
+2026-10-10 11:50:19.6 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-10 11:51:41.3 | INFO     | [circuit10] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (81.69s used)
+2026-10-10 11:51:41.3 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 11:51:41.3 | INFO     | [circuit10] [TBsim] python simulation : passed!
+2026-10-10 11:51:41.3 | INFO     | [circuit10] [TBsim] TBsim finished : True!
+2026-10-10 11:51:41.3 | INFO     | [circuit10] 
+2026-10-10 11:51:41.3 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 11:51:41.6 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [2, 3, 5, 6, 10, 11, 14] have syntax error during discrimination
+2026-10-10 11:51:41.7 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 6/7
+2026-10-10 11:51:41.7 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 11:52:38.9 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 11:52:38.9 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 11:52:39.2 | NEGATIVE | [circuit10] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2], scenario pass ratio: 6/7
+2026-10-10 11:52:39.2 | INFO     | [circuit10] [TBcheck] wrong scenarios not decreased for 1 times (1 = 1), continue the correction
+2026-10-10 11:52:39.2 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 11:58:08.2 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 11:58:08.2 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 11:58:08.4 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] have syntax error during discrimination
+2026-10-10 11:58:08.4 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-10 11:58:08.4 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 12:03:02.6 | INFO     | [circuit10] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 12:03:02.6 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-10 12:03:02.8 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] have syntax error during discrimination
+2026-10-10 12:03:02.8 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-10 12:03:02.8 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 12:03:02.8 | INFO     | [circuit10] 
+2026-10-10 12:03:09.2 | INFO     | [circuit10] [TBgen] stage_0 ends (6.41s used)
+2026-10-10 12:03:33.8 | INFO     | [circuit10] [TBgen] stage_1 ends (24.57s used)
+2026-10-10 12:03:55.7 | INFO     | [circuit10] [TBgen] stage_2 ends (21.89s used)
+2026-10-10 12:06:37.8 | INFO     | [circuit10] [TBgen] stage_3 ends (162.11s used)
+2026-10-10 12:07:21.0 | INFO     | [circuit10] [TBgen] stage_4 ends (43.22s used)
+2026-10-10 12:09:56.0 | INFO     | [circuit10] [TBgen] stage_checklist ends (155.02s used)
+2026-10-10 12:11:05.2 | INFO     | [circuit10] [TBgen] stage_4b ends (69.15s used)
+2026-10-10 12:13:49.6 | INFO     | [circuit10] [TBgen] stage_5 ends (164.42s used)
+2026-10-10 12:13:49.6 | INFO     | [circuit10] 
+2026-10-10 12:14:30.5 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-10 12:15:43.1 | INFO     | [circuit10] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (72.59s used)
+2026-10-10 12:15:43.1 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 12:15:43.1 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 1)
+2026-10-10 12:18:25.0 | INFO     | [circuit10] [TBsim] python tier - 1/3, total - 2/6: python DEBUG finished (161.83s used)
+2026-10-10 12:18:25.0 | INFO     | [circuit10] [TBsim] python compilation failed! Rebooting... (debug_iter = 2)
+2026-10-10 12:20:59.9 | INFO     | [circuit10] [TBsim] stage_5 ends (154.94s used)
+2026-10-10 12:20:59.9 | INFO     | [circuit10] [TBsim] python tier - 2/3, total - 3/6: python REBOOT finished (154.95s used)
+2026-10-10 12:20:59.9 | INFO     | [circuit10] [TBsim] python simulation : failed! will reboot both iverilog and python
+2026-10-10 12:20:59.9 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-10 12:22:08.0 | INFO     | [circuit10] [TBsim] stage_4 ends (68.05s used)
+2026-10-10 12:24:13.8 | INFO     | [circuit10] [TBsim] stage_checklist ends (125.79s used)
+2026-10-10 12:25:40.4 | INFO     | [circuit10] [TBsim] stage_4b ends (86.63s used)
+2026-10-10 12:26:21.4 | INFO     | [circuit10] [TBsim] verilog iter - 2/3, total - 4/6: verilog REBOOT finished (321.45s used)
+2026-10-10 12:26:21.4 | INFO     | [circuit10] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-10 12:27:45.7 | INFO     | [circuit10] [TBsim] verilog iter - 3/3, total - 5/6: verilog DEBUG finished (84.34s used)
+2026-10-10 12:27:45.7 | INFO     | [circuit10] [TBsim] iverilog compilation : passed!
+2026-10-10 12:27:45.7 | INFO     | [circuit10] [TBsim] python compilation failed! Debuging python... (debug_iter = 3)
+2026-10-10 12:30:24.4 | INFO     | [circuit10] [TBsim] python tier - 3/3, total - 6/6: python DEBUG finished (158.67s used)
+2026-10-10 12:30:24.4 | INFO     | [circuit10] [TBsim] python simulation : failed! exceeded max debug iteration (3)
+2026-10-10 12:30:24.4 | INFO     | [circuit10] [TBsim] TBsim finished : False!
+2026-10-10 12:30:24.4 | INFO     | [circuit10] 
+2026-10-10 12:30:24.4 | INFO     | [circuit10] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 12:30:24.6 | INFO     | [circuit10] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:30:24.6 | NEGATIVE | [circuit10] [TBcheck] Testbench has syntax error, I give up. Reboot the whole process
+2026-10-10 12:30:24.6 | INFO     | [circuit10] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 12:30:24.6 | INFO     | [circuit10] 
+2026-10-10 12:30:24.6 | INFO     | [circuit10] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-10 12:30:24.7 | FAILED   | [circuit10] [TBeval] Eval 1: Golden RTL checking failed!
+2026-10-10 12:30:24.7 | INFO     | [circuit10] [TBeval] [circuit10] Eval 2/2b is skipped because Eval 1 failed
+2026-10-10 12:30:24.7 | INFO     | [circuit10] 
+2026-10-10 12:30:24.7 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 0
+Eval1 : 0
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 0
+
+passed TB by functional corrector: 0
+
+#### tokens and cost:
+average prompt tokens: 650850
+average completion tokens: 492284
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 7717.57s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             0 |     0 |
+Eval2    |                0 |             0 |     0 |
+
+#### Eval2 ratio:
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

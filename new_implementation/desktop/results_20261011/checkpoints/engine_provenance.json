@@ -1,0 +1,19 @@
+{
+  "release": "b11399",
+  "assets": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11399/llama-b11399-bin-ubuntu-cuda-12.8-x64.tar.gz",
+      "sha256": "eab8601a1a286530c289ff717ceb5976c1479e0760105bfca545cd150c7a934d"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11399/cudart-llama-b11399-bin-ubuntu-cuda-12.8-x64.tar.gz",
+      "sha256": "d0e9800045ee60fc9a57ae0fe208a2f4ba33ac3181572ee8c0e763aeb7a6423d"
+    }
+  ],
+  "server": "/kaggle/working/llama-runtime/llama-b11399/llama-server",
+  "ld_library_path": "/kaggle/working/llama-runtime/cudart-llama-b11399-bin-ubuntu-cuda-12.8-x64:/kaggle/working/llama-runtime/llama-b11399:",
+  "version": "version: 0.5.0-dev (build 11399, commit 2ca15f540)\nbuilt with GNU 13.3.0 for Linux x86_64\n",
+  "missing_driver": [],
+  "cuda_backend": "/kaggle/working/llama-runtime/llama-b11399/libggml-cuda.so",
+  "source_build": false
+}

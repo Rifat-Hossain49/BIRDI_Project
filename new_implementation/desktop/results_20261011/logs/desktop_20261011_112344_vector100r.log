@@ -1,0 +1,102 @@
+2026-10-11 14:53:02.4 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 14:53:02.4 | INFO     | 
+2026-10-11 14:53:02.4 | INFO     | ######################### task 1/1 [vector100r] #########################
+RESUME task=vector100r next_iteration=7 eval_ready=False
+2026-10-11 14:53:02.5 | INFO     | [vector100r] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 14:53:02.5 | INFO     | [vector100r] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 14:53:02.5 | INFO     | [vector100r] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 14:53:02.5 | INFO     | [vector100r] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 14:53:02.5 | INFO     | [vector100r] [TBgen] stage_4 ends (0.01s used)
+2026-10-11 14:58:19.3 | INFO     | [vector100r] [TBgen] stage_checklist ends (316.78s used)
+2026-10-11 14:58:50.0 | INFO     | [vector100r] [TBgen] stage_5 ends (30.73s used)
+2026-10-11 14:58:50.0 | INFO     | [vector100r] 
+2026-10-11 14:58:50.0 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 15:01:28.7 | INFO     | [vector100r] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (158.65s used)
+2026-10-11 15:01:28.7 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 15:04:00.0 | INFO     | [vector100r] [TBsim] stage_4 ends (151.37s used)
+2026-10-11 15:05:31.5 | INFO     | [vector100r] [TBsim] stage_checklist ends (91.47s used)
+2026-10-11 15:05:31.5 | INFO     | [vector100r] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (242.85s used)
+2026-10-11 15:05:31.5 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-11 15:06:15.9 | INFO     | [vector100r] [TBsim] verilog iter - 3/3, total - 3/6: verilog DEBUG finished (44.4s used)
+2026-10-11 15:06:15.9 | INFO     | [vector100r] [TBsim] iverilog compilation : failed! exceeded max debug iteration (3)
+2026-10-11 15:06:16.0 | ERROR    | [vector100r] error when running TBsim, current pipeline iter: 8, will REBOOT. error message: TBsim: iverilog failed, python simulation is not allowed. | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 15:06:18.4 | INFO     | [vector100r] [TBgen] stage_0 ends (2.41s used)
+2026-10-11 15:06:27.0 | INFO     | [vector100r] [TBgen] stage_1 ends (8.59s used)
+2026-10-11 15:06:40.2 | INFO     | [vector100r] [TBgen] stage_2 ends (13.27s used)
+2026-10-11 15:07:10.8 | INFO     | [vector100r] [TBgen] stage_3 ends (30.60s used)
+2026-10-11 15:09:45.4 | INFO     | [vector100r] [TBgen] stage_4 ends (154.54s used)
+2026-10-11 15:17:48.8 | INFO     | [vector100r] [TBgen] stage_checklist ends (483.37s used)
+2026-10-11 15:18:29.5 | INFO     | [vector100r] [TBgen] stage_5 ends (40.73s used)
+2026-10-11 15:18:29.5 | INFO     | [vector100r] 
+2026-10-11 15:18:29.5 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 15:21:05.1 | INFO     | [vector100r] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (155.61s used)
+2026-10-11 15:21:05.1 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 15:23:42.2 | INFO     | [vector100r] [TBsim] stage_4 ends (157.08s used)
+2026-10-11 15:31:46.4 | INFO     | [vector100r] [TBsim] stage_checklist ends (484.20s used)
+2026-10-11 15:31:46.4 | INFO     | [vector100r] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (641.29s used)
+2026-10-11 15:31:46.4 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-11 15:34:25.7 | INFO     | [vector100r] [TBsim] verilog iter - 3/3, total - 3/6: verilog DEBUG finished (159.29s used)
+2026-10-11 15:34:25.7 | INFO     | [vector100r] [TBsim] iverilog compilation : failed! exceeded max debug iteration (3)
+2026-10-11 15:34:25.7 | ERROR    | [vector100r] error when running TBsim, current pipeline iter: 9, will REBOOT. error message: TBsim: iverilog failed, python simulation is not allowed. | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 15:34:28.6 | INFO     | [vector100r] [TBgen] stage_0 ends (2.85s used)
+2026-10-11 15:34:33.9 | INFO     | [vector100r] [TBgen] stage_1 ends (5.36s used)
+2026-10-11 15:34:48.8 | INFO     | [vector100r] [TBgen] stage_2 ends (14.90s used)
+2026-10-11 15:35:33.8 | INFO     | [vector100r] [TBgen] stage_3 ends (45.01s used)
+2026-10-11 15:38:04.2 | INFO     | [vector100r] [TBgen] stage_4 ends (150.42s used)
+2026-10-11 15:45:59.2 | INFO     | [vector100r] [TBgen] stage_checklist ends (475.00s used)
+2026-10-11 15:46:29.9 | INFO     | [vector100r] [TBgen] stage_5 ends (30.69s used)
+2026-10-11 15:46:29.9 | INFO     | [vector100r] 
+2026-10-11 15:46:29.9 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 15:49:05.0 | INFO     | [vector100r] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (155.1s used)
+2026-10-11 15:49:05.0 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 15:51:39.0 | INFO     | [vector100r] [TBsim] stage_4 ends (153.92s used)
+2026-10-11 15:59:35.0 | INFO     | [vector100r] [TBsim] stage_checklist ends (476.00s used)
+2026-10-11 15:59:35.0 | INFO     | [vector100r] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (629.93s used)
+2026-10-11 15:59:35.0 | INFO     | [vector100r] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-11 16:02:13.9 | INFO     | [vector100r] [TBsim] verilog iter - 3/3, total - 3/6: verilog DEBUG finished (158.98s used)
+2026-10-11 16:02:13.9 | INFO     | [vector100r] [TBsim] iverilog compilation : failed! exceeded max debug iteration (3)
+2026-10-11 16:02:13.9 | ERROR    | [vector100r] error when running TBsim, current pipeline iter: 10, will go to NEXT STAGE. error message: TBsim: iverilog failed, python simulation is not allowed. | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 16:02:14.0 | INFO     | [vector100r] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-11 16:02:14.0 | POSITIVE | [vector100r] [TBeval] Eval 1: Golden RTL checking passed!
+2026-10-11 16:02:14.0 | INFO     | [vector100r] [TBeval] Eval 2: Golden TB checking on RTL mutants
+2026-10-11 16:02:14.4 | SUCCESS  | [vector100r] [TBeval] Eval 2: Golden TB checking on RTL mutants perfectly passed!
+2026-10-11 16:02:14.4 | INFO     | [vector100r] 
+2026-10-11 16:02:14.4 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 1
+Eval1 : 1
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 1
+
+passed TB by functional corrector: 0
+
+#### tokens and cost:
+average prompt tokens: 337834
+average completion tokens: 325853
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 4151.94s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             1 |     1 |
+Eval2    |                0 |             1 |     1 |
+
+#### Eval2 ratio:
+vector100r: 10/10
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

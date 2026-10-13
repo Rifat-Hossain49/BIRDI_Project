@@ -1,0 +1,106 @@
+{
+  "note": "Record audit, not the final scored comparison; failures and missing fields are kept as-is. Loose Eval2 omits the preserved m2014_q3 exception.",
+  "expected_tasks": 156,
+  "recorded_tasks": 156,
+  "all_tasks_recorded": true,
+  "missing_tasks": [],
+  "unexpected_tasks": [],
+  "duplicate_first_records": [],
+  "unreadable_records": [],
+  "preservation": [
+    {
+      "archive": "first_records_before_desktop.zip",
+      "records_checked": 140,
+      "changed_or_missing": []
+    },
+    {
+      "archive": "original_first_records.zip",
+      "records_checked": 138,
+      "changed_or_missing": []
+    }
+  ],
+  "all_records": {
+    "records": 156,
+    "Eval0_pass_true": 154,
+    "Eval1_pass_true": 142,
+    "Eval2_pass_strict_true": 82,
+    "loose_eval2_pass_true": 110,
+    "missing_Eval1_pass": [
+      "bugs_mux2",
+      "lfsr32",
+      "review2015_fancytimer"
+    ],
+    "missing_Eval2_fields": [
+      "always_case2",
+      "bugs_mux2",
+      "circuit10",
+      "circuit8",
+      "ece241_2013_q4",
+      "ece241_2014_q3",
+      "edgedetect2",
+      "lfsr32",
+      "lfsr5",
+      "m2014_q3",
+      "m2014_q6b",
+      "review2015_fancytimer",
+      "review2015_shiftcount",
+      "rule110"
+    ]
+  },
+  "desktop_recorded": {
+    "records": 16,
+    "Eval0_pass_true": 15,
+    "Eval1_pass_true": 13,
+    "Eval2_pass_strict_true": 2,
+    "loose_eval2_pass_true": 3,
+    "missing_Eval1_pass": [
+      "review2015_fancytimer"
+    ],
+    "missing_Eval2_fields": [
+      "circuit10",
+      "lfsr5",
+      "review2015_fancytimer"
+    ]
+  },
+  "by_circuit_type": {
+    "CMB": {
+      "records": 82,
+      "Eval0_pass_true": 82,
+      "Eval1_pass_true": 76,
+      "Eval2_pass_strict_true": 68,
+      "loose_eval2_pass_true": 72,
+      "missing_Eval1_pass": [
+        "bugs_mux2"
+      ],
+      "missing_Eval2_fields": [
+        "always_case2",
+        "bugs_mux2",
+        "ece241_2014_q3",
+        "lfsr5",
+        "m2014_q3",
+        "m2014_q6b"
+      ]
+    },
+    "SEQ": {
+      "records": 74,
+      "Eval0_pass_true": 72,
+      "Eval1_pass_true": 66,
+      "Eval2_pass_strict_true": 14,
+      "loose_eval2_pass_true": 38,
+      "missing_Eval1_pass": [
+        "lfsr32",
+        "review2015_fancytimer"
+      ],
+      "missing_Eval2_fields": [
+        "circuit10",
+        "circuit8",
+        "ece241_2013_q4",
+        "edgedetect2",
+        "lfsr32",
+        "review2015_fancytimer",
+        "review2015_shiftcount",
+        "rule110"
+      ]
+    }
+  }
+}

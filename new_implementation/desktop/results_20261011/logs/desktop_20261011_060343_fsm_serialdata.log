@@ -1,0 +1,143 @@
+2026-10-11 09:25:46.5 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 09:25:46.5 | INFO     | 
+2026-10-11 09:25:46.5 | INFO     | ######################### task 1/1 [fsm_serialdata] #########################
+RESUME task=fsm_serialdata next_iteration=6 eval_ready=False
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_4 ends (0.01s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 09:25:46.7 | INFO     | [fsm_serialdata] [TBgen] stage_4b ends (0.02s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBgen] stage_5 ends (0.02s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] 
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (0.01s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] stage_4 ends (0.01s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] stage_checklist ends (0.00s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] stage_4b ends (0.02s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (0.03s used)
+2026-10-11 09:25:46.8 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-11 09:28:18.2 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 3/3, total - 3/6: verilog DEBUG finished (151.38s used)
+2026-10-11 09:28:18.2 | INFO     | [fsm_serialdata] [TBsim] iverilog compilation : failed! exceeded max debug iteration (3)
+2026-10-11 09:28:18.2 | ERROR    | [fsm_serialdata] error when running TBsim, current pipeline iter: 7, will REBOOT. error message: TBsim: iverilog failed, python simulation is not allowed. | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 09:28:29.7 | INFO     | [fsm_serialdata] [TBgen] stage_0 ends (11.48s used)
+2026-10-11 09:28:37.7 | INFO     | [fsm_serialdata] [TBgen] stage_1 ends (7.94s used)
+2026-10-11 09:28:52.9 | INFO     | [fsm_serialdata] [TBgen] stage_2 ends (15.21s used)
+2026-10-11 09:29:47.9 | INFO     | [fsm_serialdata] [TBgen] stage_3 ends (55.07s used)
+2026-10-11 09:32:00.1 | INFO     | [fsm_serialdata] [TBgen] stage_4 ends (132.18s used)
+2026-10-11 09:32:00.1 | INFO     | [fsm_serialdata] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 09:34:38.3 | INFO     | [fsm_serialdata] [TBgen] stage_4b ends (158.19s used)
+2026-10-11 09:35:52.0 | INFO     | [fsm_serialdata] [TBgen] stage_5 ends (73.65s used)
+2026-10-11 09:35:52.0 | INFO     | [fsm_serialdata] 
+2026-10-11 09:35:52.0 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 09:38:31.7 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (159.72s used)
+2026-10-11 09:38:31.7 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 09:39:50.7 | INFO     | [fsm_serialdata] [TBsim] stage_4 ends (79.04s used)
+2026-10-11 09:39:50.7 | INFO     | [fsm_serialdata] [TBsim] stage_checklist ends (0.00s used)
+2026-10-11 09:42:04.7 | INFO     | [fsm_serialdata] [TBsim] stage_4b ends (133.95s used)
+2026-10-11 09:42:04.7 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (213.0s used)
+2026-10-11 09:42:04.7 | INFO     | [fsm_serialdata] [TBsim] iverilog compilation : passed!
+2026-10-11 09:42:04.8 | INFO     | [fsm_serialdata] [TBsim] python simulation : passed!
+2026-10-11 09:42:04.8 | INFO     | [fsm_serialdata] [TBsim] TBsim finished : True!
+2026-10-11 09:42:04.8 | INFO     | [fsm_serialdata] 
+2026-10-11 09:42:04.8 | INFO     | [fsm_serialdata] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 09:42:06.6 | INFO     | [fsm_serialdata] [TBcheck] [discriminator] RTL(s) [4, 11, 18] have syntax error during discrimination
+2026-10-11 09:42:06.7 | NEGATIVE | [fsm_serialdata] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 5], scenario pass ratio: 0/5
+2026-10-11 09:42:06.7 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 09:43:47.6 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 09:43:47.6 | INFO     | [fsm_serialdata] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 09:43:49.3 | NEGATIVE | [fsm_serialdata] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 3 5], scenario pass ratio: 0/5
+2026-10-11 09:43:49.3 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 09:47:06.6 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 09:47:06.6 | INFO     | [fsm_serialdata] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 09:47:08.4 | NEGATIVE | [fsm_serialdata] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 3 5], scenario pass ratio: 0/5
+2026-10-11 09:47:08.4 | INFO     | [fsm_serialdata] [TBcheck] wrong scenarios not decreased for 1 times (3 = 3), continue the correction
+2026-10-11 09:47:08.4 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 09:49:41.2 | INFO     | [fsm_serialdata] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 09:49:41.2 | INFO     | [fsm_serialdata] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 09:49:42.9 | NEGATIVE | [fsm_serialdata] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 4 5], scenario pass ratio: 0/5
+2026-10-11 09:49:42.9 | INFO     | [fsm_serialdata] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 09:49:43.1 | INFO     | [fsm_serialdata] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.09, 0.0, 0.0], scenario mask - [False, False, False, False, False]
+2026-10-11 09:49:43.1 | INFO     | [fsm_serialdata] 
+2026-10-11 09:49:43.1 | INFO     | [fsm_serialdata] multibench info updated: iter_id - 8, valid_ratio - 0.00; total ratio / min required - 0.38/0.80
+2026-10-11 09:50:00.9 | INFO     | [fsm_serialdata] [TBgen] stage_0 ends (17.77s used)
+2026-10-11 09:50:10.9 | INFO     | [fsm_serialdata] [TBgen] stage_1 ends (9.97s used)
+2026-10-11 09:50:31.2 | INFO     | [fsm_serialdata] [TBgen] stage_2 ends (20.33s used)
+2026-10-11 09:52:39.5 | INFO     | [fsm_serialdata] [TBgen] stage_3 ends (128.31s used)
+2026-10-11 09:54:34.1 | INFO     | [fsm_serialdata] [TBgen] stage_4 ends (114.60s used)
+2026-10-11 09:54:34.1 | INFO     | [fsm_serialdata] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 09:57:11.5 | INFO     | [fsm_serialdata] [TBgen] stage_4b ends (157.40s used)
+2026-10-11 09:58:09.1 | INFO     | [fsm_serialdata] [TBgen] stage_5 ends (57.61s used)
+2026-10-11 09:58:09.1 | INFO     | [fsm_serialdata] 
+2026-10-11 09:58:09.1 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 10:00:49.0 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (159.88s used)
+2026-10-11 10:00:49.0 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 10:02:49.0 | INFO     | [fsm_serialdata] [TBsim] stage_4 ends (119.95s used)
+2026-10-11 10:02:49.0 | INFO     | [fsm_serialdata] [TBsim] stage_checklist ends (0.00s used)
+2026-10-11 10:06:04.4 | ERROR    | [fsm_serialdata] error when running TBsim, current pipeline iter: 9, will REBOOT. error message: Function call timed out after 30 seconds | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 10:06:18.3 | INFO     | [fsm_serialdata] [TBgen] stage_0 ends (13.82s used)
+2026-10-11 10:06:26.8 | INFO     | [fsm_serialdata] [TBgen] stage_1 ends (8.53s used)
+2026-10-11 10:06:49.1 | INFO     | [fsm_serialdata] [TBgen] stage_2 ends (22.32s used)
+2026-10-11 10:07:53.8 | INFO     | [fsm_serialdata] [TBgen] stage_3 ends (64.71s used)
+2026-10-11 10:10:05.6 | INFO     | [fsm_serialdata] [TBgen] stage_4 ends (131.80s used)
+2026-10-11 10:10:05.6 | INFO     | [fsm_serialdata] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 10:12:47.2 | INFO     | [fsm_serialdata] [TBgen] stage_4b ends (161.61s used)
+2026-10-11 10:13:26.4 | INFO     | [fsm_serialdata] [TBgen] stage_5 ends (39.13s used)
+2026-10-11 10:13:26.4 | INFO     | [fsm_serialdata] 
+2026-10-11 10:13:26.4 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 10:16:15.1 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (168.69s used)
+2026-10-11 10:16:15.1 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-11 10:18:47.4 | INFO     | [fsm_serialdata] [TBsim] stage_4 ends (152.33s used)
+2026-10-11 10:18:47.4 | INFO     | [fsm_serialdata] [TBsim] stage_checklist ends (0.00s used)
+2026-10-11 10:21:27.4 | INFO     | [fsm_serialdata] [TBsim] stage_4b ends (160.02s used)
+2026-10-11 10:21:27.4 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (312.35s used)
+2026-10-11 10:21:27.4 | INFO     | [fsm_serialdata] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 3)
+2026-10-11 10:24:15.4 | INFO     | [fsm_serialdata] [TBsim] verilog iter - 3/3, total - 3/6: verilog DEBUG finished (167.97s used)
+2026-10-11 10:24:15.4 | INFO     | [fsm_serialdata] [TBsim] iverilog compilation : failed! exceeded max debug iteration (3)
+2026-10-11 10:24:15.4 | ERROR    | [fsm_serialdata] error when running TBsim, current pipeline iter: 10, will go to NEXT STAGE. error message: TBsim: iverilog failed, python simulation is not allowed. | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-11 10:24:15.4 | INFO     | [fsm_serialdata] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-11 10:24:15.5 | POSITIVE | [fsm_serialdata] [TBeval] Eval 1: Golden RTL checking passed!
+2026-10-11 10:24:15.5 | INFO     | [fsm_serialdata] [TBeval] Eval 2: Golden TB checking on RTL mutants
+2026-10-11 10:24:17.1 | FAILED   | [fsm_serialdata] [TBeval] Eval 2: Golden TB checking on RTL mutants finished (1/10)!
+2026-10-11 10:24:17.1 | INFO     | [fsm_serialdata] 
+2026-10-11 10:24:17.1 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 0
+Eval1 : 1
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 0
+
+passed TB by functional corrector: 0
+
+#### tokens and cost:
+average prompt tokens: 335264
+average completion tokens: 308114
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 3510.44s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             1 |     1 |
+Eval2    |                0 |             0 |     0 |
+
+#### Eval2 ratio:
+fsm_serialdata: 1/10
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

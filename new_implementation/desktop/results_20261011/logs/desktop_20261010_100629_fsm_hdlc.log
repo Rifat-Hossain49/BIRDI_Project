@@ -1,0 +1,40 @@
+2026-10-10 13:49:55.6 | INFO     | all configurations are loaded, starting the main process...
+2026-10-10 13:49:55.6 | INFO     | 
+2026-10-10 13:49:55.6 | INFO     | ######################### task 1/1 [fsm_hdlc] #########################
+RESUME task=fsm_hdlc next_iteration=1 eval_ready=False
+2026-10-10 13:49:55.7 | INFO     | [fsm_hdlc] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 13:49:55.7 | INFO     | [fsm_hdlc] [TBgen] stage_1 ends (0.02s used)
+2026-10-10 13:49:55.7 | INFO     | [fsm_hdlc] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBgen] stage_3 ends (0.02s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBgen] stage_4b ends (0.02s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBgen] stage_5 ends (0.01s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] 
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (0.02s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBsim] stage_4 ends (0.01s used)
+2026-10-10 13:49:55.8 | INFO     | [fsm_hdlc] [TBsim] stage_checklist ends (0.00s used)
+2026-10-10 13:49:55.9 | INFO     | [fsm_hdlc] [TBsim] stage_4b ends (0.02s used)
+2026-10-10 13:49:55.9 | INFO     | [fsm_hdlc] [TBsim] verilog iter - 2/3, total - 2/6: verilog REBOOT finished (0.04s used)
+2026-10-10 13:49:55.9 | INFO     | [fsm_hdlc] [TBsim] iverilog compilation : passed!
+2026-10-10 13:49:56.0 | INFO     | [fsm_hdlc] [TBsim] python simulation : passed!
+2026-10-10 13:49:56.0 | INFO     | [fsm_hdlc] [TBsim] TBsim finished : True!
+2026-10-10 13:49:56.0 | INFO     | [fsm_hdlc] 
+2026-10-10 13:49:56.0 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 13:49:56.1 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20] have syntax error during discrimination
+2026-10-10 13:49:56.2 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] too few RTL passed the syntax check (1/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:49:56.4 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] 19 naive rtls generated
+2026-10-10 13:49:56.4 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:49:57.2 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] RTL(s) [4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 19, 20] have syntax error during discrimination
+2026-10-10 13:49:57.3 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:55:34.9 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 13:55:34.9 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:55:35.9 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] RTL(s) [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20] have syntax error during discrimination
+2026-10-10 13:55:36.0 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 14:07:36.7 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 14:07:36.7 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 14:07:36.7 | INFO     | [fsm_hdlc] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 14:07:36.7 | NEGATIVE | [fsm_hdlc] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 4 5 6 7 8], scenario pass ratio: 1/10
+2026-10-10 14:07:36.7 | INFO     | [fsm_hdlc] [TBcheck] [corrector] naive corrector mode begins

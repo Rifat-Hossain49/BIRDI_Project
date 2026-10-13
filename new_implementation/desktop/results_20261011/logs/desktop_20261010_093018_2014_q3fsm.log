@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/kaggle/working/ConfiBench/main.py", line 57, in <module>
+    main(config_path)
+  File "/kaggle/working/ConfiBench/main.py", line 22, in main
+    my_config = Config(custom_cfg_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/config/config.py", line 234, in __init__
+    self.load_config(custom_config_path)
+  File "/kaggle/working/ConfiBench/config/config.py", line 268, in load_config
+    config.save.root = add_root_path_to_config(config)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/config/config.py", line 345, in add_root_path_to_config
+    os.makedirs(save_dir)
+  File "<frozen os>", line 225, in makedirs
+FileExistsError: [Errno 17] File exists: 'saves/ConfiBench_qwen/Desktop_20261010_100117'

@@ -1,0 +1,62 @@
+2026-10-11 06:03:11.3 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 06:03:11.3 | INFO     | 
+2026-10-11 06:03:11.3 | INFO     | ######################### task 1/1 [vector100r] #########################
+RESUME task=vector100r next_iteration=7 eval_ready=False
+2026-10-11 06:03:11.4 | INFO     | [vector100r] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 06:03:11.4 | INFO     | [vector100r] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 06:03:11.4 | INFO     | [vector100r] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 06:03:11.4 | INFO     | [vector100r] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 06:03:11.4 | INFO     | [vector100r] [TBgen] stage_4 ends (0.02s used)
+Traceback (most recent call last):
+  File "/kaggle/working/ConfiBench/main.py", line 57, in <module>
+    main(config_path)
+  File "/kaggle/working/ConfiBench/main.py", line 32, in main
+    al.run_autoline()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 33, in run_autoline
+    autoline()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 63, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 55, in run
+    run_info_single = one_task.run()
+                      ^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 165, in run
+    self.run_stages()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 319, in run_stages
+    self.run_stages_core()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 353, in run_stages_core
+    self.run_TBgen(f'{i + 1}_1_TBgen')
+  File "/kaggle/working/ConfiBench/loader_saver.py", line 402, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 179, in run_TBgen
+    self.TBgen()
+  File "/kaggle/working/ConfiBench/prompt_scripts/base_script.py", line 312, in __call__
+    self.run(*args, **kwargs)
+  File "/kaggle/working/ConfiBench/prompt_scripts/base_script.py", line 206, in run
+    self.make_and_run_stages()
+  File "/kaggle/working/ConfiBench/prompt_scripts/script_pychecker.py", line 42, in make_and_run_stages
+    self.make_and_run_stages_CMB()
+  File "/kaggle/working/ConfiBench/prompt_scripts/script_pychecker.py", line 52, in make_and_run_stages_CMB
+    self.stage_operation(self.stagecheck)
+  File "/kaggle/working/ConfiBench/prompt_scripts/base_script.py", line 252, in stage_operation
+    stage()
+  File "/kaggle/working/ConfiBench/prompt_scripts/base_script.py", line 77, in __call__
+    self.run(*args, **kwargs)
+  File "/kaggle/working/ConfiBench/prompt_scripts/script_pychecker.py", line 308, in run
+    self.call_gpt()
+  File "/kaggle/working/ConfiBench/prompt_scripts/base_script.py", line 100, in call_gpt
+    self.response, self.gptinfo = llm_call(input_messages=gpt_messages, model=self.gpt_model, api_key_path=self.api_key_path, system_message=self.system_message, **other_kwargs)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/LLM_call.py", line 87, in llm_call
+    output = qwen_call(input_messages, model, system_message, temperature, json_mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/LLM_call.py", line 187, in qwen_call
+    return scoped_call({"model": model, "messages": messages, "kwargs": kwargs}, provide)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/confibench_resume.py", line 331, in scoped_call
+    return _active.call(scope, request, provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/confibench_resume.py", line 127, in call
+    raise BudgetStop(f'Fresh-call budget exhausted at {scope} #{number}; checkpoint retained')
+confibench_resume.BudgetStop: Fresh-call budget exhausted at 7:TBgen:stage:stage_checklist:8_1_TBgen #1; checkpoint retained

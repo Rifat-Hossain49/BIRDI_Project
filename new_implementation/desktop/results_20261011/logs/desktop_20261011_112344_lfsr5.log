@@ -1,0 +1,336 @@
+2026-10-11 11:49:25.1 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 11:49:25.1 | INFO     | 
+2026-10-11 11:49:25.1 | INFO     | ######################### task 1/1 [lfsr5] #########################
+RESUME task=lfsr5 next_iteration=2 eval_ready=False
+2026-10-11 11:49:25.2 | INFO     | [lfsr5] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 11:49:25.2 | INFO     | [lfsr5] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_4 ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_4b ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBgen] stage_5 ends (0.01s used)
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] 
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] 
+2026-10-11 11:49:25.3 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 11:49:25.5 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 11:49:25.5 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 11:49:25.7 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 11:49:25.7 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 11:49:25.9 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 12, 13, 16, 18, 19] have syntax error during discrimination
+2026-10-11 11:49:25.9 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6], scenario pass ratio: 0/6
+2026-10-11 11:49:25.9 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 2:TBcheck:correct:correct_1 #1; candidate retained, not replayed
+2026-10-11 11:51:54.2 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 11:51:54.2 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 11:51:54.4 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6], scenario pass ratio: 0/6
+2026-10-11 11:51:54.4 | INFO     | [lfsr5] [TBcheck] wrong scenarios not decreased for 1 times (6 = 6), continue the correction
+2026-10-11 11:51:54.4 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 11:52:46.4 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 11:52:46.4 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 11:52:46.6 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6], scenario pass ratio: 0/6
+2026-10-11 11:52:46.6 | INFO     | [lfsr5] [TBcheck] wrong scenarios not decreased for 2 times (6 = 6), I give up, quiting the funccheck stage...
+2026-10-11 11:52:46.6 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 11:52:46.9 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, False, False, False, False, False]
+2026-10-11 11:52:46.9 | INFO     | [lfsr5] 
+2026-10-11 11:52:46.9 | INFO     | [lfsr5] multibench info updated: iter_id - 3, valid_ratio - 0.00; total ratio / min required - 0.00/0.80
+2026-10-11 11:54:16.7 | INFO     | [lfsr5] [TBgen] stage_0 ends (89.72s used)
+2026-10-11 11:54:23.6 | INFO     | [lfsr5] [TBgen] stage_1 ends (6.89s used)
+2026-10-11 11:54:41.7 | INFO     | [lfsr5] [TBgen] stage_2 ends (18.16s used)
+2026-10-11 11:57:14.9 | INFO     | [lfsr5] [TBgen] stage_3 ends (153.23s used)
+2026-10-11 11:58:00.9 | INFO     | [lfsr5] [TBgen] stage_4 ends (45.94s used)
+2026-10-11 11:58:00.9 | INFO     | [lfsr5] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 11:59:12.3 | INFO     | [lfsr5] [TBgen] stage_4b ends (71.43s used)
+2026-10-11 12:00:30.1 | INFO     | [lfsr5] [TBgen] stage_5 ends (77.81s used)
+2026-10-11 12:00:30.1 | INFO     | [lfsr5] 
+2026-10-11 12:00:30.1 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 12:00:30.2 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 12:00:30.2 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 12:00:30.2 | INFO     | [lfsr5] 
+2026-10-11 12:00:30.2 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 12:00:30.4 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 12:00:30.4 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 12:24:15.2 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 12:24:15.2 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 12:24:15.4 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 11, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 12:24:15.4 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 3  4  7  8  9 10], scenario pass ratio: 1/10
+2026-10-11 12:24:15.4 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 12:29:43.8 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 12:29:43.8 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 12:29:44.0 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] have syntax error during discrimination
+2026-10-11 12:29:44.0 | NEGATIVE | [lfsr5] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 12:29:44.0 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 12:32:52.0 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 12:32:52.0 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 12:32:52.2 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 3  4  7  8  9 10], scenario pass ratio: 1/10
+2026-10-11 12:32:52.2 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 12:38:16.1 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 12:38:16.1 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 12:38:16.3 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] have syntax error during discrimination
+2026-10-11 12:38:16.3 | NEGATIVE | [lfsr5] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-11 12:38:16.3 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 12:38:16.3 | INFO     | [lfsr5] 
+2026-10-11 12:40:56.7 | INFO     | [lfsr5] [TBgen] stage_0 ends (160.37s used)
+2026-10-11 12:41:05.7 | INFO     | [lfsr5] [TBgen] stage_1 ends (8.99s used)
+2026-10-11 12:41:18.5 | INFO     | [lfsr5] [TBgen] stage_2 ends (12.76s used)
+2026-10-11 12:43:53.3 | INFO     | [lfsr5] [TBgen] stage_3 ends (154.88s used)
+2026-10-11 12:44:48.2 | INFO     | [lfsr5] [TBgen] stage_4 ends (54.86s used)
+2026-10-11 12:45:47.9 | INFO     | [lfsr5] [TBgen] stage_checklist ends (59.72s used)
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] [TBgen] stage_5 ends (27.79s used)
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] 
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] 
+2026-10-11 12:46:15.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 12:46:16.0 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 12:46:16.0 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 13:04:16.4 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 13:04:16.4 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 13:04:16.6 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 11, 14, 16, 19, 20] have syntax error during discrimination
+2026-10-11 13:04:16.7 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 13:04:16.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 13:09:41.9 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 13:09:41.9 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 13:09:42.2 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] have syntax error during discrimination
+2026-10-11 13:09:42.2 | NEGATIVE | [lfsr5] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 13:09:42.2 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 13:12:24.2 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 13:12:24.2 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 13:12:24.5 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 13:12:24.5 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 13:13:09.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 13:13:09.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 13:13:10.0 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 13:13:10.0 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 13:13:10.0 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, False, False, False, False, False, False]
+2026-10-11 13:13:10.0 | INFO     | [lfsr5] 
+2026-10-11 13:13:10.0 | INFO     | [lfsr5] multibench info updated: iter_id - 5, valid_ratio - 0.00; total ratio / min required - 0.00/0.80
+2026-10-11 13:14:29.3 | INFO     | [lfsr5] [TBgen] stage_0 ends (79.30s used)
+2026-10-11 13:14:40.8 | INFO     | [lfsr5] [TBgen] stage_1 ends (11.52s used)
+2026-10-11 13:14:48.0 | INFO     | [lfsr5] [TBgen] stage_2 ends (7.16s used)
+2026-10-11 13:17:26.6 | INFO     | [lfsr5] [TBgen] stage_3 ends (158.66s used)
+2026-10-11 13:17:43.2 | INFO     | [lfsr5] [TBgen] stage_4 ends (16.56s used)
+2026-10-11 13:17:43.2 | INFO     | [lfsr5] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 13:18:09.0 | INFO     | [lfsr5] [TBgen] stage_4b ends (25.78s used)
+2026-10-11 13:18:31.4 | INFO     | [lfsr5] [TBgen] stage_5 ends (22.46s used)
+2026-10-11 13:18:31.4 | INFO     | [lfsr5] 
+2026-10-11 13:18:31.5 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 13:18:31.6 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 13:18:31.6 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 13:18:31.6 | INFO     | [lfsr5] 
+2026-10-11 13:18:31.6 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 13:18:32.5 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 13:18:32.5 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 13:40:21.5 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 13:40:21.5 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 13:40:22.5 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 18, 19, 20] have syntax error during discrimination
+2026-10-11 13:40:22.6 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 5], scenario pass ratio: 0/5
+2026-10-11 13:40:22.6 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 13:42:00.6 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 13:42:00.6 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 13:42:01.6 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 5], scenario pass ratio: 0/5
+2026-10-11 13:42:01.6 | INFO     | [lfsr5] [TBcheck] wrong scenarios not decreased for 1 times (3 = 3), continue the correction
+2026-10-11 13:42:01.6 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 13:45:16.1 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 13:45:16.1 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 13:45:17.1 | POSITIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB passed, wrong scenarios: [2 3 5], scenario pass ratio: 0/5
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] [TBcheck] Testbench passed the funccheck after correction
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [pass]
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.3, 0.0, 0.0, 0.3, 0.0], scenario mask - [False, False, False, False, False]
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] 
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] multibench info updated: iter_id - 6, valid_ratio - 0.00; total ratio / min required - 0.00/0.80
+2026-10-11 13:45:17.1 | INFO     | [lfsr5] min ratio (0.80) not satisfied, will reboot and collect more testbenches
+2026-10-11 13:47:53.5 | INFO     | [lfsr5] [TBgen] stage_0 ends (156.34s used)
+2026-10-11 13:48:00.4 | INFO     | [lfsr5] [TBgen] stage_1 ends (6.95s used)
+2026-10-11 13:48:12.5 | INFO     | [lfsr5] [TBgen] stage_2 ends (12.10s used)
+2026-10-11 13:50:48.6 | INFO     | [lfsr5] [TBgen] stage_3 ends (156.03s used)
+2026-10-11 13:51:12.3 | INFO     | [lfsr5] [TBgen] stage_4 ends (23.74s used)
+2026-10-11 13:51:12.3 | INFO     | [lfsr5] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 13:51:45.5 | INFO     | [lfsr5] [TBgen] stage_4b ends (33.23s used)
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] [TBgen] stage_5 ends (24.28s used)
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] 
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] 
+2026-10-11 13:52:09.8 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 13:52:10.0 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 13:52:10.1 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 14:05:40.7 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 14:05:40.7 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 14:05:40.9 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [11, 12, 13, 16, 17, 19, 20] have syntax error during discrimination
+2026-10-11 14:05:40.9 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 14:05:40.9 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 14:06:37.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 14:06:37.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 14:06:38.0 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 5 6 7], scenario pass ratio: 0/7
+2026-10-11 14:06:38.0 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 14:07:43.1 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 14:07:43.1 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 14:07:43.4 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 14:07:43.4 | NEGATIVE | [lfsr5] [TBcheck] wrong scenarios increased (7 > 5), I give up, quiting the funccheck stage...
+2026-10-11 14:07:43.4 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 14:07:43.4 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, False, False, False, False, False, False]
+2026-10-11 14:07:43.4 | INFO     | [lfsr5] 
+2026-10-11 14:07:43.4 | INFO     | [lfsr5] multibench info updated: iter_id - 7, valid_ratio - 0.00; total ratio / min required - 0.00/0.80
+2026-10-11 14:08:21.4 | INFO     | [lfsr5] [TBgen] stage_0 ends (37.93s used)
+2026-10-11 14:08:30.1 | INFO     | [lfsr5] [TBgen] stage_1 ends (8.74s used)
+2026-10-11 14:08:38.8 | INFO     | [lfsr5] [TBgen] stage_2 ends (8.70s used)
+2026-10-11 14:11:16.0 | INFO     | [lfsr5] [TBgen] stage_3 ends (157.24s used)
+2026-10-11 14:11:39.4 | INFO     | [lfsr5] [TBgen] stage_4 ends (23.39s used)
+2026-10-11 14:11:39.4 | INFO     | [lfsr5] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 14:12:05.2 | INFO     | [lfsr5] [TBgen] stage_4b ends (25.80s used)
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] [TBgen] stage_5 ends (99.47s used)
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] 
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] 
+2026-10-11 14:13:44.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 14:13:44.9 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 14:13:45.0 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 14:34:23.6 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 14:34:23.6 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 14:34:23.8 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-11 14:34:23.8 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 4 5], scenario pass ratio: 0/5
+2026-10-11 14:34:23.8 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 14:39:49.8 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 14:39:49.8 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 14:39:49.9 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] have syntax error during discrimination
+2026-10-11 14:39:49.9 | NEGATIVE | [lfsr5] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 14:39:49.9 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 14:42:54.3 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 14:42:54.3 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 14:42:54.5 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 4 5], scenario pass ratio: 0/5
+2026-10-11 14:42:54.5 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 14:44:51.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 14:44:51.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 14:44:52.0 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [2 3 4 5], scenario pass ratio: 0/5
+2026-10-11 14:44:52.0 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 14:44:52.0 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.42, 0.0, 0.0, 0.0, 0.0], scenario mask - [True, False, False, False, False]
+2026-10-11 14:44:52.0 | INFO     | [lfsr5] 
+2026-10-11 14:44:52.0 | INFO     | [lfsr5] multibench info updated: iter_id - 8, valid_ratio - 0.20; total ratio / min required - 0.20/0.80
+2026-10-11 14:47:32.0 | INFO     | [lfsr5] [TBgen] stage_0 ends (160.04s used)
+2026-10-11 14:47:40.0 | INFO     | [lfsr5] [TBgen] stage_1 ends (8.03s used)
+2026-10-11 14:47:52.2 | INFO     | [lfsr5] [TBgen] stage_2 ends (12.19s used)
+2026-10-11 14:50:32.4 | INFO     | [lfsr5] [TBgen] stage_3 ends (160.22s used)
+2026-10-11 14:51:27.8 | INFO     | [lfsr5] [TBgen] stage_4 ends (55.40s used)
+2026-10-11 14:51:29.8 | INFO     | [lfsr5] [TBgen] stage_checklist ends (1.92s used)
+2026-10-11 14:52:11.8 | INFO     | [lfsr5] [TBgen] stage_5 ends (42.09s used)
+2026-10-11 14:52:11.8 | INFO     | [lfsr5] 
+2026-10-11 14:52:11.9 | INFO     | [lfsr5] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (64.41s used)
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] 
+2026-10-11 14:53:16.3 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 14:53:16.5 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 14:53:16.5 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 15:09:05.0 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 15:09:05.0 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 15:09:05.2 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [11, 13, 14, 18, 20] have syntax error during discrimination
+2026-10-11 15:09:05.3 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 0/5
+2026-10-11 15:09:05.3 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 15:14:31.6 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 15:14:31.6 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 15:14:31.8 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] have syntax error during discrimination
+2026-10-11 15:14:31.8 | NEGATIVE | [lfsr5] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 15:14:31.8 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 15:17:41.2 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 15:17:41.2 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 15:17:41.5 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 3], scenario pass ratio: 0/5
+2026-10-11 15:17:41.5 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 15:18:42.5 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 15:18:42.5 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 15:18:42.8 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1], scenario pass ratio: 0/5
+2026-10-11 15:18:42.8 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 15:18:42.8 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.18, 0.18, 0.18, 0.18], scenario mask - [False, False, False, False, False]
+2026-10-11 15:18:42.8 | INFO     | [lfsr5] 
+2026-10-11 15:18:42.8 | INFO     | [lfsr5] multibench info updated: iter_id - 9, valid_ratio - 0.00; total ratio / min required - 0.20/0.80
+2026-10-11 15:21:20.1 | INFO     | [lfsr5] [TBgen] stage_0 ends (157.30s used)
+2026-10-11 15:21:27.7 | INFO     | [lfsr5] [TBgen] stage_1 ends (7.55s used)
+2026-10-11 15:21:37.7 | INFO     | [lfsr5] [TBgen] stage_2 ends (10.05s used)
+2026-10-11 15:23:15.0 | INFO     | [lfsr5] [TBgen] stage_3 ends (97.25s used)
+2026-10-11 15:24:00.6 | INFO     | [lfsr5] [TBgen] stage_4 ends (45.60s used)
+2026-10-11 15:24:52.9 | INFO     | [lfsr5] [TBgen] stage_checklist ends (52.33s used)
+2026-10-11 15:25:19.2 | INFO     | [lfsr5] [TBgen] stage_5 ends (26.35s used)
+2026-10-11 15:25:19.2 | INFO     | [lfsr5] 
+2026-10-11 15:25:19.3 | INFO     | [lfsr5] [TBsim] iverilog compilation : passed!
+2026-10-11 15:25:19.3 | INFO     | [lfsr5] [TBsim] python simulation : passed!
+2026-10-11 15:25:19.3 | INFO     | [lfsr5] [TBsim] TBsim finished : True!
+2026-10-11 15:25:19.3 | INFO     | [lfsr5] 
+2026-10-11 15:25:19.3 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 15:25:19.5 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [4, 7, 9, 11, 13, 14, 15, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 15:25:19.5 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 15:47:57.6 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 15:47:57.6 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 15:47:57.7 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 15:47:57.8 | INFO     | [lfsr5] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-11 16:08:54.6 | INFO     | [lfsr5] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-11 16:08:54.6 | INFO     | [lfsr5] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-11 16:08:54.8 | INFO     | [lfsr5] [TBcheck] [discriminator] RTL(s) [10, 12, 13, 14, 15, 16, 17, 18, 19] have syntax error during discrimination
+2026-10-11 16:08:54.8 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 16:08:54.8 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 16:09:38.5 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 16:09:38.5 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 16:09:38.7 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 16:09:38.7 | INFO     | [lfsr5] [TBcheck] wrong scenarios not decreased for 1 times (7 = 7), continue the correction
+2026-10-11 16:09:38.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 16:10:26.7 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 16:10:26.7 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 16:10:26.9 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 16:10:26.9 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 16:11:30.6 | INFO     | [lfsr5] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 16:11:30.6 | INFO     | [lfsr5] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 16:11:30.8 | NEGATIVE | [lfsr5] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-11 16:11:30.8 | INFO     | [lfsr5] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 16:11:30.8 | INFO     | [lfsr5] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.8, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, True, False, False, False, False, False]
+2026-10-11 16:11:30.8 | INFO     | [lfsr5] 
+2026-10-11 16:11:30.8 | INFO     | [lfsr5] multibench info updated: iter_id - 10, valid_ratio - 0.14; total ratio / min required - 0.34/0.80
+2026-10-11 16:11:30.8 | INFO     | [lfsr5] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-11 16:11:31.1 | FAILED   | [lfsr5] [TBeval] Eval 1: Golden RTL checking failed!
+2026-10-11 16:11:31.1 | INFO     | [lfsr5] [TBeval] [lfsr5] Eval 2/2b is skipped because Eval 1 failed
+2026-10-11 16:11:31.1 | INFO     | [lfsr5] 
+2026-10-11 16:11:31.1 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 0
+Eval1 : 0
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 0
+
+passed TB by functional corrector: 0
+
+#### tokens and cost:
+average prompt tokens: 537911
+average completion tokens: 921706
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 15725.86s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             0 |     0 |
+Eval2    |                0 |             0 |     0 |
+
+#### Eval2 ratio:
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

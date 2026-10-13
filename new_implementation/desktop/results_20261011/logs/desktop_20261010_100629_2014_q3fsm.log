@@ -1,0 +1,114 @@
+2026-10-10 10:06:41.4 | INFO     | all configurations are loaded, starting the main process...
+2026-10-10 10:06:41.4 | INFO     | 
+2026-10-10 10:06:41.4 | INFO     | ######################### task 1/1 [2014_q3fsm] #########################
+RESUME task=2014_q3fsm next_iteration=4 eval_ready=False
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_1 ends (0.01s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_3 ends (0.01s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_4b ends (0.02s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBgen] stage_5 ends (0.01s used)
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] 
+2026-10-10 10:06:41.6 | INFO     | [2014_q3fsm] [TBsim] iverilog simulation failed! Debuging... (debug_iter = 1)
+2026-10-10 10:06:41.7 | INFO     | [2014_q3fsm] [TBsim] verilog iter - 1/3, total - 1/6: verilog DEBUG finished (0.02s used)
+2026-10-10 10:06:41.7 | INFO     | [2014_q3fsm] [TBsim] iverilog simulation failed! Rebooting... (debug_iter = 2)
+2026-10-10 10:06:41.7 | INFO     | [2014_q3fsm] [TBsim] stage_4 ends (0.02s used)
+2026-10-10 10:06:41.7 | INFO     | [2014_q3fsm] [TBsim] stage_checklist ends (0.00s used)
+2026-10-10 10:09:52.1 | ERROR    | [2014_q3fsm] error when running TBsim, current pipeline iter: 5, will REBOOT. error message: Function call timed out after 30 seconds | location: autoline/TB_autoline.py, func: run_stages_core, line: 358 | caller: location: autoline/TB_autoline.py, func: run_stages, line: 319
+2026-10-10 10:10:05.3 | INFO     | [2014_q3fsm] [TBgen] stage_0 ends (13.13s used)
+2026-10-10 10:10:19.3 | INFO     | [2014_q3fsm] [TBgen] stage_1 ends (14.07s used)
+2026-10-10 10:10:30.3 | INFO     | [2014_q3fsm] [TBgen] stage_2 ends (10.97s used)
+2026-10-10 10:11:30.3 | INFO     | [2014_q3fsm] [TBgen] stage_3 ends (59.94s used)
+2026-10-10 10:12:20.2 | INFO     | [2014_q3fsm] [TBgen] stage_4 ends (49.89s used)
+2026-10-10 10:12:20.2 | INFO     | [2014_q3fsm] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 10:13:51.2 | INFO     | [2014_q3fsm] [TBgen] stage_4b ends (91.04s used)
+2026-10-10 10:14:39.7 | INFO     | [2014_q3fsm] [TBgen] stage_5 ends (48.55s used)
+2026-10-10 10:14:39.7 | INFO     | [2014_q3fsm] 
+2026-10-10 10:14:39.8 | INFO     | [2014_q3fsm] [TBsim] iverilog compilation : passed!
+2026-10-10 10:14:39.8 | INFO     | [2014_q3fsm] [TBsim] python simulation : passed!
+2026-10-10 10:14:39.8 | INFO     | [2014_q3fsm] [TBsim] TBsim finished : True!
+2026-10-10 10:14:39.8 | INFO     | [2014_q3fsm] 
+2026-10-10 10:14:39.8 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 10:14:40.0 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] RTL(s) [2, 3, 5, 9, 11, 12, 16, 17, 20] have syntax error during discrimination
+2026-10-10 10:14:40.1 | NEGATIVE | [2014_q3fsm] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 4  5 10], scenario pass ratio: 1/12
+2026-10-10 10:14:40.1 | INFO     | [2014_q3fsm] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 10:15:45.3 | INFO     | [2014_q3fsm] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 10:15:45.3 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 10:15:45.5 | NEGATIVE | [2014_q3fsm] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 4  5 10], scenario pass ratio: 1/12
+2026-10-10 10:15:45.5 | INFO     | [2014_q3fsm] [TBcheck] wrong scenarios not decreased for 1 times (3 = 3), continue the correction
+2026-10-10 10:15:45.5 | INFO     | [2014_q3fsm] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 10:16:32.4 | INFO     | [2014_q3fsm] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 10:16:32.4 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 10:16:32.6 | NEGATIVE | [2014_q3fsm] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 4  5 10], scenario pass ratio: 1/12
+2026-10-10 10:16:32.6 | INFO     | [2014_q3fsm] [TBcheck] wrong scenarios not decreased for 2 times (3 = 3), I give up, quiting the funccheck stage...
+2026-10-10 10:16:32.6 | INFO     | [2014_q3fsm] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 10:16:33.1 | INFO     | [2014_q3fsm] [TBcheck] scenario mask updated: scenario confidence - [1.0, 0.9, 0.9, 0.0, 0.0, 0.8, 0.11, 0.8, 0.8, 0.0, 0.27, 0.9], scenario mask - [True, True, True, False, False, True, False, True, True, False, False, True]
+2026-10-10 10:16:33.1 | INFO     | [2014_q3fsm] 
+2026-10-10 10:16:33.1 | INFO     | [2014_q3fsm] multibench info updated: iter_id - 6, valid_ratio - 0.58; total ratio / min required - 0.58/0.80
+2026-10-10 10:17:53.1 | INFO     | [2014_q3fsm] [TBgen] stage_0 ends (80.05s used)
+2026-10-10 10:18:09.6 | INFO     | [2014_q3fsm] [TBgen] stage_1 ends (16.48s used)
+2026-10-10 10:18:20.5 | INFO     | [2014_q3fsm] [TBgen] stage_2 ends (10.88s used)
+2026-10-10 10:19:06.4 | INFO     | [2014_q3fsm] [TBgen] stage_3 ends (45.86s used)
+2026-10-10 10:19:49.1 | INFO     | [2014_q3fsm] [TBgen] stage_4 ends (42.70s used)
+2026-10-10 10:19:49.1 | INFO     | [2014_q3fsm] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 10:21:17.6 | INFO     | [2014_q3fsm] [TBgen] stage_4b ends (88.55s used)
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] [TBgen] stage_5 ends (23.69s used)
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] 
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] [TBsim] iverilog compilation : passed!
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] [TBsim] python simulation : passed!
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] [TBsim] TBsim finished : True!
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] 
+2026-10-10 10:21:41.3 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] [TBcheck] [discriminator] RTL(s) [2, 3, 5, 9, 11, 12, 16, 17, 20] have syntax error during discrimination
+2026-10-10 10:21:41.6 | POSITIVE | [2014_q3fsm] [TBcheck] [discriminator] TB_discriminating finished, TB passed, wrong scenarios: [7], scenario pass ratio: 2/7
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] [TBcheck] Testbench passed the funccheck
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] [TBcheck] self funccheck finished. Next Action: [pass]
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] [TBcheck] scenario mask updated: scenario confidence - [0.93, 0.93, 0.13, 1.0, 1.0, 0.13, 0.0], scenario mask - [True, True, False, True, True, False, False]
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] 
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] multibench info updated: iter_id - 7, valid_ratio - 0.57; total ratio / min required - 1.15/0.80
+2026-10-10 10:21:41.6 | INFO     | [2014_q3fsm] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-10 10:21:41.7 | POSITIVE | [2014_q3fsm] [TBeval] Eval 1: Golden RTL checking passed!
+2026-10-10 10:21:41.7 | INFO     | [2014_q3fsm] [TBeval] Eval 2: Golden TB checking on RTL mutants
+2026-10-10 10:21:42.1 | SUCCESS  | [2014_q3fsm] [TBeval] Eval 2: Golden TB checking on RTL mutants perfectly passed!
+2026-10-10 10:21:42.1 | INFO     | [2014_q3fsm] 
+2026-10-10 10:21:42.1 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 1
+Eval1 : 1
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 1
+
+passed TB by functional corrector: 0
+
+#### tokens and cost:
+average prompt tokens: 198039
+average completion tokens: 142786
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 900.62s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             1 |     1 |
+Eval2    |                0 |             1 |     1 |
+
+#### Eval2 ratio:
+2014_q3fsm: 10/10
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

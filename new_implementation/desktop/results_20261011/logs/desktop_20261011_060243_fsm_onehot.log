@@ -1,0 +1,71 @@
+2026-10-11 06:02:50.4 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 06:02:50.4 | INFO     | 
+2026-10-11 06:02:50.4 | INFO     | ######################### task 1/1 [fsm_onehot] #########################
+RESUME task=fsm_onehot next_iteration=5 eval_ready=False
+2026-10-11 06:02:50.5 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (0.02s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (0.02s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (0.01s used)
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] 
+2026-10-11 06:02:50.6 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 06:02:50.8 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 06:02:50.8 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 06:02:50.8 | INFO     | [fsm_onehot] 
+2026-10-11 06:02:50.8 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 06:02:52.4 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20], scenario pass ratio: 0/20
+2026-10-11 06:02:52.4 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 06:02:52.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 06:02:52.5 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 06:02:54.0 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 06:02:54.0 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_2 #0; candidate retained, not replayed
+Traceback (most recent call last):
+  File "/kaggle/working/ConfiBench/main.py", line 57, in <module>
+    main(config_path)
+  File "/kaggle/working/ConfiBench/main.py", line 32, in main
+    al.run_autoline()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 33, in run_autoline
+    autoline()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 63, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 55, in run
+    run_info_single = one_task.run()
+                      ^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 165, in run
+    self.run_stages()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 319, in run_stages
+    self.run_stages_core()
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 355, in run_stages_core
+    self.run_TBcheck(f'{i + 1}_3_TBcheck')
+  File "/kaggle/working/ConfiBench/loader_saver.py", line 402, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB_autoline.py", line 235, in run_TBcheck
+    self.TBcheck.run()
+  File "/kaggle/working/ConfiBench/autoline/TB3_funccheck.py", line 155, in run
+    self.correct_TB()
+  File "/kaggle/working/ConfiBench/loader_saver.py", line 402, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB3_funccheck.py", line 255, in correct_TB
+    self.TB_code_v, self.TB_code_py = self.corrector.correct(self.description, self.wrong_col_index, self.TB_code_v, self.main_model, self.TB_code_py, self.working_dir)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/autoline/TB3_funccheck.py", line 707, in correct
+    answer = llm.llm_call(prompt, llm_model)[0]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/LLM_call.py", line 87, in llm_call
+    output = qwen_call(input_messages, model, system_message, temperature, json_mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/LLM_call.py", line 187, in qwen_call
+    return scoped_call({"model": model, "messages": messages, "kwargs": kwargs}, provide)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/confibench_resume.py", line 331, in scoped_call
+    return _active.call(scope, request, provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/ConfiBench/confibench_resume.py", line 127, in call
+    raise BudgetStop(f'Fresh-call budget exhausted at {scope} #{number}; checkpoint retained')
+confibench_resume.BudgetStop: Fresh-call budget exhausted at 5:TBcheck:correct:correct_2 #0; checkpoint retained

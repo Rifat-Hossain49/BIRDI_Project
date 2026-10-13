@@ -1,0 +1,296 @@
+2026-10-10 12:30:27.7 | INFO     | all configurations are loaded, starting the main process...
+2026-10-10 12:30:27.7 | INFO     | 
+2026-10-10 12:30:27.7 | INFO     | ######################### task 1/1 [countbcd] #########################
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_1 ends (0.01s used)
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_3 ends (0.01s used)
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 12:30:27.8 | INFO     | [countbcd] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 12:30:27.9 | INFO     | [countbcd] [TBgen] stage_4b ends (0.02s used)
+2026-10-10 12:30:27.9 | INFO     | [countbcd] [TBgen] stage_5 ends (0.01s used)
+2026-10-10 12:30:27.9 | INFO     | [countbcd] 
+2026-10-10 12:30:28.0 | INFO     | [countbcd] [TBsim] iverilog compilation : passed!
+2026-10-10 12:30:28.1 | INFO     | [countbcd] [TBsim] python simulation : passed!
+2026-10-10 12:30:28.1 | INFO     | [countbcd] [TBsim] TBsim finished : True!
+2026-10-10 12:30:28.1 | INFO     | [countbcd] 
+2026-10-10 12:30:28.1 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 12:30:28.6 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 12:30:28.7 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (2/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:30:28.9 | INFO     | [countbcd] [TBcheck] [discriminator] 18 naive rtls generated
+2026-10-10 12:30:28.9 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:30:29.7 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:30:29.8 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (3/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:30:59.5 | INFO     | [countbcd] [TBcheck] [discriminator] 17 naive rtls generated
+2026-10-10 12:30:59.5 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:31:00.3 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:31:00.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (3/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:34:00.9 | INFO     | [countbcd] [TBcheck] [discriminator] 17 naive rtls generated
+2026-10-10 12:34:00.9 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:34:00.9 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 12:34:00.9 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-10 12:34:00.9 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 12:34:01.0 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 12:34:01.0 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 12:34:02.6 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [4, 5, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:34:02.7 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:36:21.3 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 12:36:21.3 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:36:22.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:36:23.0 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:38:37.5 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 12:38:37.5 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:38:39.0 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:38:39.1 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 12:41:03.0 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] wrong scenarios not decreased for 1 times (7 = 7), continue the correction
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 12:41:03.0 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 12:41:04.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 12:41:04.9 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:43:21.5 | INFO     | [countbcd] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 12:43:21.5 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:43:23.3 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:43:23.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:45:27.3 | INFO     | [countbcd] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 12:45:27.4 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:45:29.1 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:45:29.2 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:47:45.7 | INFO     | [countbcd] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 12:47:45.7 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:47:45.7 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 12:47:45.7 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 6 7], scenario pass ratio: 0/7
+2026-10-10 12:47:45.7 | INFO     | [countbcd] [TBcheck] wrong scenarios not decreased for 2 times (7 = 7), I give up, quiting the funccheck stage...
+2026-10-10 12:47:45.7 | INFO     | [countbcd] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 12:47:46.0 | INFO     | [countbcd] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [False, False, False, False, False, False, False]
+2026-10-10 12:47:46.0 | INFO     | [countbcd] 
+2026-10-10 12:47:46.0 | INFO     | [countbcd] multibench info updated: iter_id - 1, valid_ratio - 0.00; total ratio / min required - 0.00/0.80
+2026-10-10 12:47:46.0 | INFO     | [countbcd] [TBgen] stage_0 ends (0.03s used)
+2026-10-10 12:47:46.0 | INFO     | [countbcd] [TBgen] stage_1 ends (0.01s used)
+2026-10-10 12:47:46.0 | INFO     | [countbcd] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 12:47:46.0 | INFO     | [countbcd] [TBgen] stage_3 ends (0.01s used)
+2026-10-10 12:47:46.1 | INFO     | [countbcd] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 12:47:46.1 | INFO     | [countbcd] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 12:47:46.1 | INFO     | [countbcd] [TBgen] stage_4b ends (0.02s used)
+2026-10-10 12:47:46.1 | INFO     | [countbcd] [TBgen] stage_5 ends (0.01s used)
+2026-10-10 12:47:46.1 | INFO     | [countbcd] 
+2026-10-10 12:47:46.1 | INFO     | [countbcd] [TBsim] iverilog compilation : passed!
+2026-10-10 12:47:46.4 | INFO     | [countbcd] [TBsim] python simulation : passed!
+2026-10-10 12:47:46.4 | INFO     | [countbcd] [TBsim] TBsim finished : True!
+2026-10-10 12:47:46.4 | INFO     | [countbcd] 
+2026-10-10 12:47:46.4 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 12:47:47.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 12:47:47.3 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (2/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:51:09.7 | INFO     | [countbcd] [TBcheck] [discriminator] 18 naive rtls generated
+2026-10-10 12:51:09.8 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:51:11.4 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [3, 4, 5, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:51:11.5 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (5/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:53:51.7 | INFO     | [countbcd] [TBcheck] [discriminator] 15 naive rtls generated
+2026-10-10 12:53:51.7 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:53:53.4 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:53:53.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (5/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:56:20.2 | INFO     | [countbcd] [TBcheck] [discriminator] 15 naive rtls generated
+2026-10-10 12:56:20.2 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:56:20.2 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 12:56:20.2 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  3  4  5  6  7  8  9 10 11 12 13 14 15], scenario pass ratio: 1/15
+2026-10-10 12:56:20.2 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 12:56:20.3 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 12:56:20.3 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 12:56:20.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:56:20.9 | NEGATIVE | [countbcd] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-10 12:56:20.9 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 12:56:20.9 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 12:56:20.9 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 12:56:23.1 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 12:56:23.2 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 12:58:38.1 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 12:58:38.2 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 12:58:40.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 12:58:40.9 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (8/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:00:46.2 | INFO     | [countbcd] [TBcheck] [discriminator] 12 naive rtls generated
+2026-10-10 13:00:46.2 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:00:49.7 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:00:49.8 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:02:50.5 | INFO     | [countbcd] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 13:02:50.6 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:02:50.6 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:02:50.6 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  3  4  5  6  7  8  9 10 11 12 13 14 15], scenario pass ratio: 1/15
+2026-10-10 13:02:50.6 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:02:50.6 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:02:50.6 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-10 13:02:53.6 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:02:53.7 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:04:51.1 | INFO     | [countbcd] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 13:04:51.1 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:04:54.0 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:04:54.1 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:06:55.5 | INFO     | [countbcd] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 13:06:55.5 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:06:58.5 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:06:58.6 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:08:56.4 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  3  4  5  6  7  8  9 10 11 12 13 14 15], scenario pass ratio: 1/15
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBcheck] scenario mask updated: scenario confidence - [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [True, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+2026-10-10 13:08:56.4 | INFO     | [countbcd] 
+2026-10-10 13:08:56.4 | INFO     | [countbcd] multibench info updated: iter_id - 2, valid_ratio - 0.07; total ratio / min required - 0.07/0.80
+2026-10-10 13:08:56.4 | INFO     | [countbcd] [TBgen] stage_0 ends (0.02s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_1 ends (0.02s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_2 ends (0.01s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_3 ends (0.01s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_4 ends (0.01s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_4b ends (0.02s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] [TBgen] stage_5 ends (0.01s used)
+2026-10-10 13:08:56.5 | INFO     | [countbcd] 
+2026-10-10 13:08:56.6 | INFO     | [countbcd] [TBsim] iverilog compilation : passed!
+2026-10-10 13:08:56.6 | INFO     | [countbcd] [TBsim] python simulation : passed!
+2026-10-10 13:08:56.6 | INFO     | [countbcd] [TBsim] TBsim finished : True!
+2026-10-10 13:08:56.6 | INFO     | [countbcd] 
+2026-10-10 13:08:56.6 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 13:08:56.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 13:08:56.9 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (2/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:12:08.8 | INFO     | [countbcd] [TBcheck] [discriminator] 18 naive rtls generated
+2026-10-10 13:12:08.8 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:12:09.1 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:12:09.2 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (3/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:15:14.2 | INFO     | [countbcd] [TBcheck] [discriminator] 17 naive rtls generated
+2026-10-10 13:15:14.2 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:15:14.5 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:15:14.7 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:18:15.2 | INFO     | [countbcd] [TBcheck] [discriminator] 16 naive rtls generated
+2026-10-10 13:18:15.2 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:18:15.2 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:18:15.2 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 8], scenario pass ratio: 4/10
+2026-10-10 13:18:15.2 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:18:15.3 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:18:15.3 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 13:18:15.5 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:18:15.5 | NEGATIVE | [countbcd] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-10 13:18:15.5 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:20:25.9 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:20:25.9 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 13:20:26.3 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:20:26.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:23:15.3 | INFO     | [countbcd] [TBcheck] [discriminator] 16 naive rtls generated
+2026-10-10 13:23:15.3 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:23:15.7 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:23:15.8 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:26:08.7 | INFO     | [countbcd] [TBcheck] [discriminator] 16 naive rtls generated
+2026-10-10 13:26:08.7 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:26:09.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 13:26:09.3 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:28:33.0 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 13:28:33.0 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:28:33.0 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:28:33.0 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 8], scenario pass ratio: 1/10
+2026-10-10 13:28:33.0 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:29:40.0 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:29:40.0 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-10 13:29:40.5 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:29:40.6 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (6/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:32:10.6 | INFO     | [countbcd] [TBcheck] [discriminator] 14 naive rtls generated
+2026-10-10 13:32:10.6 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:32:11.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 13:32:11.3 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:34:15.9 | INFO     | [countbcd] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 13:34:15.9 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:34:16.5 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:34:16.5 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (7/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:36:15.0 | INFO     | [countbcd] [TBcheck] [discriminator] 13 naive rtls generated
+2026-10-10 13:36:15.0 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:36:15.0 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:36:15.0 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [1 2 3 4 5 8], scenario pass ratio: 1/10
+2026-10-10 13:36:15.0 | INFO     | [countbcd] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 13:36:15.0 | INFO     | [countbcd] [TBcheck] scenario mask updated: scenario confidence - [0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.85, 0.0, 0.85, 0.85], scenario mask - [False, False, False, False, False, True, True, False, True, True]
+2026-10-10 13:36:15.0 | INFO     | [countbcd] 
+2026-10-10 13:36:15.0 | INFO     | [countbcd] multibench info updated: iter_id - 3, valid_ratio - 0.40; total ratio / min required - 0.47/0.80
+2026-10-10 13:36:24.7 | INFO     | [countbcd] [TBgen] stage_0 ends (9.67s used)
+2026-10-10 13:36:32.1 | INFO     | [countbcd] [TBgen] stage_1 ends (7.37s used)
+2026-10-10 13:36:44.9 | INFO     | [countbcd] [TBgen] stage_2 ends (12.80s used)
+2026-10-10 13:37:14.6 | INFO     | [countbcd] [TBgen] stage_3 ends (29.67s used)
+2026-10-10 13:38:02.1 | INFO     | [countbcd] [TBgen] stage_4 ends (47.50s used)
+2026-10-10 13:38:02.1 | INFO     | [countbcd] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 13:39:10.3 | INFO     | [countbcd] [TBgen] stage_4b ends (68.25s used)
+2026-10-10 13:40:58.7 | INFO     | [countbcd] [TBgen] stage_5 ends (108.38s used)
+2026-10-10 13:40:58.7 | INFO     | [countbcd] 
+2026-10-10 13:40:58.8 | INFO     | [countbcd] [TBsim] iverilog compilation : passed!
+2026-10-10 13:40:59.0 | INFO     | [countbcd] [TBsim] python simulation : passed!
+2026-10-10 13:40:59.0 | INFO     | [countbcd] [TBsim] TBsim finished : True!
+2026-10-10 13:40:59.0 | INFO     | [countbcd] 
+2026-10-10 13:40:59.0 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 13:41:00.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 13:41:00.3 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (2/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:43:22.8 | INFO     | [countbcd] [TBcheck] [discriminator] 18 naive rtls generated
+2026-10-10 13:43:22.8 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:43:23.7 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:43:23.8 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (3/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:45:40.0 | INFO     | [countbcd] [TBcheck] [discriminator] 17 naive rtls generated
+2026-10-10 13:45:40.1 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:45:41.0 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:45:41.0 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (3/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:47:54.8 | INFO     | [countbcd] [TBcheck] [discriminator] 17 naive rtls generated
+2026-10-10 13:47:54.9 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:47:54.9 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:47:54.9 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  3  4  5  6  7  8  9 10], scenario pass ratio: 1/10
+2026-10-10 13:47:54.9 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:48:43.1 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:48:43.1 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-10 13:48:44.3 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:48:44.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:51:05.7 | INFO     | [countbcd] [TBcheck] [discriminator] 16 naive rtls generated
+2026-10-10 13:51:05.7 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:51:06.9 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:51:06.9 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (4/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:54:09.9 | INFO     | [countbcd] [TBcheck] [discriminator] 16 naive rtls generated
+2026-10-10 13:54:09.9 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:54:11.3 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 13:54:11.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (5/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 13:56:45.4 | INFO     | [countbcd] [TBcheck] [discriminator] 15 naive rtls generated
+2026-10-10 13:56:45.4 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 13:56:45.4 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 13:56:45.4 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  4  5  6  7  8  9 10], scenario pass ratio: 1/10
+2026-10-10 13:56:45.4 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode begins
+2026-10-10 13:58:39.7 | INFO     | [countbcd] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-10 13:58:39.7 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-10 13:58:42.2 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 20] have syntax error during discrimination
+2026-10-10 13:58:42.2 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (8/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 14:00:52.1 | INFO     | [countbcd] [TBcheck] [discriminator] 12 naive rtls generated
+2026-10-10 14:00:52.1 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 14:00:54.4 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 14:00:54.5 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (8/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 14:02:57.8 | INFO     | [countbcd] [TBcheck] [discriminator] 12 naive rtls generated
+2026-10-10 14:02:57.8 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 14:03:00.4 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-10 14:03:00.4 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (9/20), I will generate more and recheck. This is not TB's fault.
+2026-10-10 14:04:53.4 | INFO     | [countbcd] [TBcheck] [discriminator] 11 naive rtls generated
+2026-10-10 14:04:53.4 | INFO     | [countbcd] [TBcheck] [discriminator] re-discriminate the testbench with updated RTL list
+2026-10-10 14:04:53.4 | INFO     | [countbcd] [TBcheck] [discriminator] no re-discrimination since the max iteration reached
+2026-10-10 14:04:53.4 | NEGATIVE | [countbcd] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 2  3  4  5  6  7  8  9 10], scenario pass ratio: 1/10
+2026-10-10 14:04:53.4 | NEGATIVE | [countbcd] [TBcheck] wrong scenarios increased (9 > 8), I give up, quiting the funccheck stage...
+2026-10-10 14:04:53.4 | INFO     | [countbcd] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-10 14:04:53.4 | INFO     | [countbcd] [TBcheck] scenario mask updated: scenario confidence - [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], scenario mask - [True, False, False, False, False, False, False, False, False, False]
+2026-10-10 14:04:53.4 | INFO     | [countbcd] 
+2026-10-10 14:04:53.4 | INFO     | [countbcd] multibench info updated: iter_id - 4, valid_ratio - 0.10; total ratio / min required - 0.57/0.80
+2026-10-10 14:05:04.1 | INFO     | [countbcd] [TBgen] stage_0 ends (10.70s used)
+2026-10-10 14:05:16.1 | INFO     | [countbcd] [TBgen] stage_1 ends (11.99s used)
+2026-10-10 14:05:34.2 | INFO     | [countbcd] [TBgen] stage_2 ends (18.06s used)
+2026-10-10 14:06:02.2 | INFO     | [countbcd] [TBgen] stage_3 ends (28.00s used)
+2026-10-10 14:07:29.3 | INFO     | [countbcd] [TBgen] stage_4 ends (87.10s used)
+2026-10-10 14:07:29.3 | INFO     | [countbcd] [TBgen] stage_checklist ends (0.00s used)
+2026-10-10 14:09:26.0 | INFO     | [countbcd] [TBgen] stage_4b ends (116.73s used)
+2026-10-10 14:09:57.6 | INFO     | [countbcd] [TBgen] stage_5 ends (31.62s used)
+2026-10-10 14:09:57.6 | INFO     | [countbcd] 
+2026-10-10 14:09:57.7 | INFO     | [countbcd] [TBsim] iverilog compilation : passed!
+2026-10-10 14:09:58.0 | INFO     | [countbcd] [TBsim] python simulation : passed!
+2026-10-10 14:09:58.0 | INFO     | [countbcd] [TBsim] TBsim finished : True!
+2026-10-10 14:09:58.0 | INFO     | [countbcd] 
+2026-10-10 14:09:58.0 | INFO     | [countbcd] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-10 14:09:59.0 | INFO     | [countbcd] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20] have syntax error during discrimination
+2026-10-10 14:09:59.1 | INFO     | [countbcd] [TBcheck] [discriminator] too few RTL passed the syntax check (2/20), I will generate more and recheck. This is not TB's fault.

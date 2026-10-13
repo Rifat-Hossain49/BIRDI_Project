@@ -1,0 +1,192 @@
+2026-10-11 07:35:46.0 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 07:35:46.0 | INFO     | 
+2026-10-11 07:35:46.0 | INFO     | ######################### task 1/1 [fsm_onehot] #########################
+RESUME task=fsm_onehot next_iteration=5 eval_ready=False
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (0.01s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (0.02s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (0.01s used)
+2026-10-11 07:35:46.2 | INFO     | [fsm_onehot] 
+2026-10-11 07:35:46.3 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 07:35:46.4 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 07:35:46.4 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 07:35:46.4 | INFO     | [fsm_onehot] 
+2026-10-11 07:35:46.4 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 07:35:48.5 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20], scenario pass ratio: 0/20
+2026-10-11 07:35:48.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 07:35:48.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 07:35:48.5 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 07:35:50.5 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 07:35:50.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_2 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_2 #1; candidate retained, not replayed
+2026-10-11 07:41:09.4 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 07:41:09.4 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 07:41:09.7 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 07:41:09.7 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 07:41:09.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_3 #0; candidate retained, not replayed
+LEGACY_CACHE_MISS: 5:TBcheck:correct:correct_3 #1; candidate retained, not replayed
+2026-10-11 07:46:35.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 07:46:35.5 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 07:46:35.8 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 07:46:35.8 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-11 07:46:35.8 | INFO     | [fsm_onehot] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 07:46:35.8 | INFO     | [fsm_onehot] 
+2026-10-11 07:46:35.8 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 07:46:35.9 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 07:46:35.9 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 07:46:35.9 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (0.02s used)
+2026-10-11 07:46:35.9 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (0.02s used)
+2026-10-11 07:47:30.7 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (54.77s used)
+2026-10-11 07:48:02.2 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (31.57s used)
+2026-10-11 07:48:02.2 | INFO     | [fsm_onehot] 
+2026-10-11 07:48:02.3 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 07:48:02.3 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 07:48:02.3 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 07:48:02.3 | INFO     | [fsm_onehot] 
+2026-10-11 07:48:02.3 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 07:48:02.7 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 07:48:02.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 07:51:19.9 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 07:51:19.9 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 07:51:20.3 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 07:51:20.3 | INFO     | [fsm_onehot] [TBcheck] wrong scenarios not decreased for 1 times (2 = 2), continue the correction
+2026-10-11 07:51:20.3 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 07:56:39.2 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 07:56:39.2 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 07:56:39.5 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 07:56:39.5 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 07:56:39.5 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:00:23.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:00:23.7 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.3 discrimination
+2026-10-11 08:00:24.1 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 08:00:24.1 | INFO     | [fsm_onehot] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 08:00:24.4 | INFO     | [fsm_onehot] [TBcheck] scenario mask updated: scenario confidence - [1.0, 1.0, 1.0, 0.96, 1.0, 0.96, 1.0, 0.96, 1.0, 0.96, 0.44, 1.0, 0.36, 0.85, 0.85, 0.85, 0.85, 0.85, 0.0, 0.0], scenario mask - [True, True, True, True, True, True, True, True, True, True, False, True, False, True, True, True, True, True, False, False]
+2026-10-11 08:00:24.4 | INFO     | [fsm_onehot] 
+2026-10-11 08:00:24.4 | INFO     | [fsm_onehot] multibench info updated: iter_id - 7, valid_ratio - 0.80; total ratio / min required - 0.80/0.80
+2026-10-11 08:00:38.8 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (14.47s used)
+2026-10-11 08:00:55.0 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (16.16s used)
+2026-10-11 08:01:13.9 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (18.94s used)
+2026-10-11 08:01:45.2 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (31.22s used)
+2026-10-11 08:02:33.7 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (48.58s used)
+2026-10-11 08:03:25.2 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (51.42s used)
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (39.75s used)
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] 
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] 
+2026-10-11 08:04:04.9 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 08:04:05.4 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 08:04:05.4 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:09:28.0 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:09:28.0 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 08:09:28.3 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:09:28.3 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 08:09:28.3 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:14:53.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:14:53.7 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 08:14:54.0 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:14:54.0 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-11 08:14:54.0 | INFO     | [fsm_onehot] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 08:14:54.0 | INFO     | [fsm_onehot] 
+2026-10-11 08:15:11.9 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (17.85s used)
+2026-10-11 08:15:26.1 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (14.22s used)
+2026-10-11 08:15:46.8 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (20.71s used)
+2026-10-11 08:16:17.7 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (30.88s used)
+2026-10-11 08:17:08.6 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (50.90s used)
+2026-10-11 08:18:00.8 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (52.21s used)
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (32.52s used)
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] 
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] 
+2026-10-11 08:18:33.3 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 08:18:33.7 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 08:18:33.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:23:54.2 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:23:54.2 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 08:23:54.6 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:23:54.6 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 08:23:54.6 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:29:21.7 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:29:21.7 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 08:29:22.0 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:29:22.0 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-11 08:29:22.0 | INFO     | [fsm_onehot] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 08:29:22.0 | INFO     | [fsm_onehot] 
+2026-10-11 08:29:46.6 | INFO     | [fsm_onehot] [TBgen] stage_0 ends (24.55s used)
+2026-10-11 08:30:03.1 | INFO     | [fsm_onehot] [TBgen] stage_1 ends (16.56s used)
+2026-10-11 08:30:23.0 | INFO     | [fsm_onehot] [TBgen] stage_2 ends (19.88s used)
+2026-10-11 08:30:48.6 | INFO     | [fsm_onehot] [TBgen] stage_3 ends (25.65s used)
+2026-10-11 08:31:43.9 | INFO     | [fsm_onehot] [TBgen] stage_4 ends (55.31s used)
+2026-10-11 08:32:42.0 | INFO     | [fsm_onehot] [TBgen] stage_checklist ends (58.09s used)
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] [TBgen] stage_5 ends (42.49s used)
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] 
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] [TBsim] iverilog compilation : passed!
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] [TBsim] python simulation : passed!
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] [TBsim] TBsim finished : True!
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] 
+2026-10-11 08:33:24.5 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.0 discrimination
+2026-10-11 08:33:25.0 | NEGATIVE | [fsm_onehot] [TBcheck] [discriminator] TB_discriminating finished, TB failed, wrong scenarios: [19 20], scenario pass ratio: 7/20
+2026-10-11 08:33:25.0 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:38:47.3 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:38:47.3 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.1 discrimination
+2026-10-11 08:38:47.6 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:38:47.6 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I still have tolerance for that (tolerance=1). roll back and retry the self correction.
+2026-10-11 08:38:47.6 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode begins
+2026-10-11 08:44:10.1 | INFO     | [fsm_onehot] [TBcheck] [corrector] naive corrector mode ends; conversation and codes saved
+2026-10-11 08:44:10.1 | INFO     | [fsm_onehot] [TBcheck] [discriminator] Discriminating the testbench, NO.2 discrimination
+2026-10-11 08:44:10.4 | INFO     | [fsm_onehot] [TBcheck] [discriminator] RTL(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] have syntax error during discrimination
+2026-10-11 08:44:10.4 | NEGATIVE | [fsm_onehot] [TBcheck] Testbench has syntax error after correction, I don't have tolerance. I give up. Reboot the whole autoline process
+2026-10-11 08:44:10.4 | INFO     | [fsm_onehot] [TBcheck] self funccheck finished. Next Action: [reboot]
+2026-10-11 08:44:10.4 | INFO     | [fsm_onehot] 
+2026-10-11 08:44:10.5 | INFO     | [fsm_onehot] [TBeval] Eval 1: Golden RTL checking begins
+2026-10-11 08:44:10.5 | POSITIVE | [fsm_onehot] [TBeval] Eval 1: Golden RTL checking passed!
+2026-10-11 08:44:10.5 | INFO     | [fsm_onehot] [TBeval] Eval 2: Golden TB checking on RTL mutants
+2026-10-11 08:44:11.3 | SUCCESS  | [fsm_onehot] [TBeval] Eval 2: Golden TB checking on RTL mutants finished (8/10)!
+2026-10-11 08:44:11.3 | INFO     | [fsm_onehot] 
+2026-10-11 08:44:11.3 | INFO     | 
+########## Analyze of Chatbench_RunInfo ##########
+
+#### pass numbers:
+Eval2 : 1
+Eval1 : 1
+Eval0 : 1
+total : 1 (Failed: 0)
+passed TB by autoline reboot action (from TB3_check): 1
+
+passed TB by functional corrector: 1
+
+#### tokens and cost:
+average prompt tokens: 427895
+average completion tokens: 299831
+total cost: 0.0000
+average cost: 0.0000
+
+#### time:
+average time: 4105.16s
+
+#### debug info table:
+FUNCTIONAL debug info table:
+(debugged here means functional debugging)
+         | un-func-debugged | func-debugged | total |
+failed   |                0 |             0 |     0 |
+Eval0    |                0 |             1 |     1 |
+Eval1    |                0 |             1 |     1 |
+Eval2    |                0 |             1 |     1 |
+
+#### Eval2 ratio:
+fsm_onehot: 8/10
+
+loose Eval2 pass metric applied: 0.8
+
+
+Done!
+
+

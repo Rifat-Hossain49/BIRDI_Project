@@ -1,0 +1,11 @@
+2026-10-11 11:22:01.1 | INFO     | all configurations are loaded, starting the main process...
+2026-10-11 11:22:01.1 | INFO     | 
+2026-10-11 11:22:01.1 | INFO     | ######################### task 1/1 [lemmings4] #########################
+RESUME task=lemmings4 next_iteration=6 eval_ready=False
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_0 ends (0.02s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_1 ends (0.01s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_2 ends (0.01s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_3 ends (0.01s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_4 ends (0.01s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_checklist ends (0.00s used)
+2026-10-11 11:22:01.3 | INFO     | [lemmings4] [TBgen] stage_4b ends (0.02s used)
